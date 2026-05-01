@@ -273,6 +273,8 @@ workspace/
 │   ├── sources/             # One summary per ingested source
 │   ├── comparisons/         # Side-by-side analyses
 │   └── analyses/            # Deep dives, syntheses
+├── Clippings/               # Web Clipper articles (via Obsidian)
+│   └── *.md                 # Auto-saved by Web Clipper
 ├── raw/                     # IMMUTABLE — human curates, you only read
 │   ├── articles/            # Web articles (markdown via Obsidian Clipper)
 │   ├── papers/              # Research papers, reports
@@ -370,3 +372,10 @@ Auto-push runs every 5 minutes via cron as a safety net, but prefer explicit com
 5. **Keep pages focused** — one entity/concept per page, link to related pages
 6. **Cite sources** — every claim should trace back to a source page
 7. **Flag contradictions** — when sources disagree, note it explicitly
+
+### Source Folders
+The LLM should check ALL of these for new content to ingest:
+- `Clippings/` — Web articles saved via Obsidian Web Clipper (primary input)
+- `raw/articles/` — Manually placed articles
+- `raw/papers/` — Research papers
+- `raw/notes/` — Personal notes
