@@ -1,0 +1,21 @@
+{
+  "version": 1,
+  "skills": {
+    "self-improving": {
+      "version": "1.2.16",
+      "installedAt": 1776954104523
+    },
+    "proactivity": {
+      "version": "1.0.1",
+      "installedAt": 1776954364665
+    },
+    "daily-news-brief": {
+      "version": "1.0.1",
+      "installedAt": 1776955213220
+    },
+    "multi-search-engine": {
+      "version": "2.1.3",
+      "installedAt": 1777035078092
+    }
+  }
+}
