@@ -24,3 +24,10 @@ grep "query" wiki/log.md
 - Created index.md, log.md, overview.md
 - Categories: entities, concepts, sources, comparisons, analyses
 - Raw source directories: articles, papers, notes, assets
+
+## [2026-05-02] ingest | OpenAI Launches o3-pro
+- Source: `raw/articles/openai-o3-pro-launch.md`
+- Pages created: 3 (source summary, OpenAI entity, reasoning-models concept)
+- Pages updated: 1 (index.md)
+- Key entities: OpenAI, Anthropic, Google DeepMind
+- Key concepts: reasoning-models, chain-of-thought
