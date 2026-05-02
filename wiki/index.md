@@ -54,6 +54,7 @@ This is the master index of the LLM Wiki. It catalogs every page in the wiki wit
 - [[openclaw_news]] — OpenClaw news summary (May 2, 2026): security crisis, v4.29, creator predictions
 - [[openai_news]] — OpenAI news summary: Musk trial, Pentagon deals, GPT-5.5-Cyber (May 2026)
 - [[arsenal_news]] — Arsenal news: Julian Alvarez transfer, Fulham match (May 2, 2026)
+- [[agentic_ai_news]] — Agentic AI news: Gartner Hype Cycle 2026, Google Cloud Next, Oracle vision (May 2026)
 
 ## 🔀 Comparisons
 *No comparisons yet.*
