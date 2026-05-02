@@ -2,7 +2,13 @@
   "description": "Tracks which source files have been ingested into the wiki. Do NOT manually edit.",
   "processed": [
     "raw/articles/openai-o3-pro-launch.md",
-    "Clippings/Building the 11 Layers of a Production-Grade MCP Server + Agentic System.md"
+    "Clippings/Building the 11 Layers of a Production-Grade MCP Server + Agentic System.md",
+    "raw/articles/hermes-agent-self-improving-ai-agent.md",
+    "Clippings/Building Local AI Agents A Practical Guide to Models, Memory, and Orchestration.md",
+    "Clippings/DeepSeek AI 2026 R1, V3 & Local AI Hub.md",
+    "Clippings/DeepSeek V4 Preview Release  DeepSeek API Docs.md",
+    "Clippings/I Tried 100 Claude Skills. These Are The Best.md",
+    "output/2026-05-01-trending-briefing.md"
   ],
-  "last_checked": "2026-05-02T07:40:00Z"
+  "last_checked": "2026-05-02T09:29:00Z"
 }
