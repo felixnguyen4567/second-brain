@@ -11,10 +11,14 @@
             "id": "6ec1d72a2507f594",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "markdown",
+              "state": {
+                "file": "wiki/entities/Ollama.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Ollama"
             }
           }
         ]
@@ -176,9 +180,11 @@
             "type": "leaf",
             "state": {
               "type": "file-properties",
-              "state": {},
+              "state": {
+                "file": "wiki/entities/Ollama.md"
+              },
               "icon": "lucide-info",
-              "title": "File properties"
+              "title": "File properties for Ollama"
             }
           }
         ],
@@ -202,34 +208,34 @@
   },
   "active": "6ec1d72a2507f594",
   "lastOpenFiles": [
-    "raw/articles/hermes-agent-self-improving-ai-agent.md",
-    "wiki/openai_news.md",
-    "wiki/entities/pentagon-ai-deals.md",
-    "wiki/entities/musk-v-altman-trial.md",
-    "package.json",
-    "package-lock.json",
-    "Clippings/Building the 11 Layers of a Production-Grade MCP Server + Agentic System.md",
-    "Clippings/Building Local AI Agents A Practical Guide to Models, Memory, and Orchestration.md",
-    "Clippings/NousResearchhermes-agent The agent that grows with you.md",
-    "wiki/sources/trending-briefing-2026-05-01.md",
-    "wiki/sources/local-ai-agents-guide.md",
-    "wiki/sources/hermes-agent-self-improving-ai-agent.md",
-    "wiki/sources/deepseek-v4-preview.md",
-    "wiki/sources/deepseek-ai-2026-guide.md",
-    "wiki/entities/hermes-agent.md",
-    "wiki/entities/The-PyCoach.md",
-    "wiki/entities/Ollama.md",
-    "wiki/entities/DeepSeek.md",
     "wiki/entities/Aashi-Dutt.md",
+    "wiki/entities/Anthropic.md",
     "wiki/concepts/skills-system.md",
-    "wiki/concepts/self-improving-ai-agent.md",
-    "wiki/concepts/memory-architecture.md",
+    "wiki/concepts/reasoning-models.md",
     "wiki/concepts/Mixture-of-Experts.md",
+    "wiki/concepts/memory-architecture.md",
     "wiki/concepts/Local-AI.md",
     "wiki/concepts/DeepSeek-V4.md",
-    "wiki/concepts/Agentic-AI.md",
     "wiki/concepts/AI-Skills.md",
     "wiki/concepts/AI-Agents.md",
+    "wiki/concepts/Agentic-AI.md",
+    "wiki/concepts/self-improving-ai-agent.md",
+    "wiki/entities/OpenAI.md",
+    "wiki/entities/Ollama.md",
+    "wiki/entities/musk-v-altman-trial.md",
+    "wiki/entities/hermes-agent.md",
+    "wiki/entities/MCP.md",
+    "skills/trending-news-briefing/SKILL.md",
+    "skills/proactivity/heartbeat-rules.md",
+    "skills/proactivity/execution.md",
+    "skills/proactivity/boundaries.md",
+    "skills/daily-news-brief/history/2026-03-04.md",
+    "wiki/openclaw_news.md",
+    "wiki/entities/openclaw.md",
+    "raw/articles/hermes-agent-self-improving-ai-agent.md",
+    "wiki/openai_news.md",
+    "package.json",
+    "package-lock.json",
     "Untitled 1.canvas",
     "Untitled.canvas",
     "wiki/processed.json",
