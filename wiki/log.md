@@ -32,7 +32,15 @@ grep "query" wiki/log.md
 - Key entities: OpenAI, Anthropic, Google DeepMind
 - Key concepts: reasoning-models, chain-of-thought
 
-## [2026-05-02] ingest | Hermes Agent Documentation & GitHub
+## [2026-05-02] ingest | Daily Briefing May 2, 2026
+- Source: `output/daily_briefing_2026-05-02.md`
+- Pages created: 5 (1 source + 1 entity update + 3 concepts + 1 entity)
+- Pages updated: index.md, log.md, processed.json, pentagon-ai-deals.md
+- Key entities: Pentagon AI Deals (updated), Eric Schmidt (new)
+- Key concepts: S&P-500 (new), War-Powers-Resolution (new)
+- Key sources: daily-briefing-2026-05-02 (new source page)
+- Note: daily_briefing_2026-05-02.md is distinct from trending-news-briefing-2026-05-02.md (same day, different compilation)
+
 - Sources:
   1. `Clippings/Hermes Agent Documentation | Hermes Agent.md` → [[sources/hermes-agent-documentation]]
   2. `Clippings/NousResearch/hermes-agent: The agent that grows with you.md` → [[sources/nousresearch-hermes-agent-github]]
