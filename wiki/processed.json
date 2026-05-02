@@ -1,0 +1,7 @@
+{
+  "description": "Tracks which source files have been ingested into the wiki. Do NOT manually edit.",
+  "processed": [
+    "raw/articles/openai-o3-pro-launch.md"
+  ],
+  "last_checked": "2026-05-02T07:00:00Z"
+}
