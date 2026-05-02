@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Clippings/Building Local AI Agents A Practical Guide to Models, Memory, and Orchestration.md",
+                "file": "wiki/entities/Fareed Khan.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Building Local AI Agents A Practical Guide to Models, Memory, and Orchestration"
+              "title": "Fareed Khan"
             }
           }
         ]
@@ -174,9 +174,21 @@
               "icon": "git-pull-request",
               "title": "Source Control"
             }
+          },
+          {
+            "id": "c82fa4cbbe121123",
+            "type": "leaf",
+            "state": {
+              "type": "file-properties",
+              "state": {
+                "file": "wiki/entities/Fareed Khan.md"
+              },
+              "icon": "lucide-info",
+              "title": "File properties for Fareed Khan"
+            }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       }
     ],
     "direction": "horizontal",
@@ -196,10 +208,19 @@
   },
   "active": "6ec1d72a2507f594",
   "lastOpenFiles": [
+    "wiki/entities/MCP.md",
+    "wiki/entities/OpenAI.md",
+    "wiki/entities/The PyCoach.md",
+    "wiki/sources/claude-skills-best.md",
+    "wiki/sources/openai-o3-pro-launch.md",
     "wiki/sources/production-grade-mcp-server.md",
+    "wiki/entities/Anthropic.md",
+    "wiki/entities/Claude.md",
     "Clippings/Building Local AI Agents A Practical Guide to Models, Memory, and Orchestration.md",
-    "Clippings/I Tried 100 Claude Skills. These Are The Best.md",
     "Clippings/Building the 11 Layers of a Production-Grade MCP Server + Agentic System.md",
+    "Clippings/I Tried 100 Claude Skills. These Are The Best.md",
+    "Clippings/DeepSeek V4 Preview Release  DeepSeek API Docs.md",
+    "Clippings/DeepSeek AI 2026 R1, V3 & Local AI Hub.md",
     "output/2026-04-24-trending-briefing.md",
     "2026-05-02.md",
     "Untitled 1.canvas",
@@ -217,17 +238,8 @@
     "TOOLS.md",
     "USER.md",
     "Clippings",
-    "wiki/entities/OpenAI.md",
-    "wiki/overview.md",
-    "wiki/log.md",
-    "wiki/index.md",
-    "output/trending-news-2026-05-01.md",
-    "output/trending-news-2026-04-30.md",
-    "wiki/sources/openai-o3-pro-launch.md",
     "wiki/sources",
     "wiki/entities",
-    "wiki/concepts",
-    "output/2026-04-23-trending-briefing.md",
-    "skills/daily-news-brief/latest-brief.md"
+    "wiki/concepts"
   ]
 }
