@@ -13,8 +13,10 @@ This is the master index of the LLM Wiki. It catalogs every page in the wiki wit
 
 ## 🏷️ Entities
 
-- [[entities/OpenAI]] — Leading AI lab, creator of GPT and o-series models
-- [[entities/Anthropic]] — AI safety company behind Claude, Claude Code, Skills platform
+- [[entities/OpenAI]] — Leading AI lab, creator of GPT and o-series models; now a defense contractor
+- [[entities/Anthropic]] — AI safety company behind Claude, Claude Code, Skills platform; barred from Pentagon
+- [[entities/Musk v. Altman Trial]] — Elon Musk vs Sam Altman court case over OpenAI's nonprofit mission (Apr 2026)
+- [[entities/Pentagon AI Deals]] — 7 AI companies sign classified AI deals with Pentagon (May 2026)
 - [[entities/Claude]] — Anthropic's flagship AI assistant with extensible Skills
 - [[entities/Hermes Agent]] — Nous Research's self-improving AI agent (Apr 2026)
 - [[entities/DeepSeek]] — Chinese AI lab with V4 (1.6T/49B), 1M context, 10-50x cheaper
