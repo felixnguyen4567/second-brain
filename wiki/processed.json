@@ -2,7 +2,8 @@
   "description": "Tracks which source files have been ingested into the wiki. Do NOT manually edit.",
   "processed": [
     "raw/articles/openai-o3-pro-launch.md",
-    "Clippings/Building the 11 Layers of a Production-Grade MCP Server + Agentic System.md"
+    "Clippings/Building the 11 Layers of a Production-Grade MCP Server + Agentic System.md",
+    "raw/articles/hermes-agent-self-improving-ai-agent.md"
   ],
-  "last_checked": "2026-05-02T07:40:00Z"
+  "last_checked": "2026-05-02T08:46:00Z"
 }
