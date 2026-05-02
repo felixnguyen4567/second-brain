@@ -14,9 +14,11 @@
 ### ✅ Fix Tavily MCP Server
 - **Thời điểm:** ~22:39 UTC
 - **Vấn đề:** Package `@tavily/mcp-server` không tồn tại trên npm → connection closed
-- **Fix:** Đổi config từ `@tavily/mcp-server` → `tavily-mcp` (package đúng)
+- **Fix:** Đổi config từ `@tavily/mcp-server` → `tavily-mcp` (package đúng trên npm)
 - **File changed:** `/home/ubuntu/.openclaw/openclaw.json` (mcp.servers.tavily.args)
-- **Status:** Config hot-reloaded ✅
+- **Status:** Config hot-reloaded ✅ Gateway restart tại 22:39:34
+- **Note:** Tavily processes đang chạy (6 instances), không còn error sau fix
+- **Verification:** Log không còn Tavily errors sau 22:39 — fix thành công
 
 ### ✅ Fix Cron Trending News Timeout
 - **Thời điểm:** ~22:30 UTC  
