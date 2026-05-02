@@ -1,38 +1,42 @@
 ---
-title: "Pentagon AI Deals"
+title: Pentagon AI Deals
 type: entity
-tags: [pentagon, defense, AI, military, government-contracts]
+tags: [pentagon, defense, AI, military, government-contracts, classified]
 created: 2026-05-02
+updated: 2026-05-02
+sources: [pentagon-ai-deals.md, daily-briefing-2026-05-02.md]
 ---
 
 # Pentagon AI Deals
 
 ## Overview
 
-**Pentagon AI Deals** — thỏa thuận giữa Bộ Quốc phòng Hoa Kỳ và các công ty AI lớn để triển khai AI trên mạng lưới phòng thủ bí mật (Impact Level 6/7 và GenAI.mil).
+**Pentagon AI Deals** — agreements between the US Department of Defense and major AI companies to deploy AI on classified military networks (Impact Level 6/7 and GenAI.mil). Announced May 2026.
 
 ## Key Details
 
-**Confirmed Companies:**
-- OpenAI
-- Google
-- Microsoft
-- NVIDIA
-- Amazon Web Services (AWS)
-- SpaceX (xAI)
-- Reflection AI
+**Confirmed Companies (7):**
+- [[OpenAI]] — ChatGPT maker; now a defense contractor
+- [[Google]] — Gemini, Vertex AI; classified military deployment
+- [[Microsoft]] — Azure AI, Copilot; Azure Government secret regions
+- [[Nvidia]] — GPU hardware; H100/H200 for defense compute
+- [[Amazon Web Services]] (AWS) — cloud infrastructure; classified workloads
+- [[SpaceX]] (xAI) — Grok AI integrated with Starlink logistics
+- [[Reflection AI]] — new entrant; agentic AI for defense decision-making
 
 **Notable Exclusion:**
-- Anthropic — không có trong danh sách ban đầu
+- [[Anthropic]] — AI safety company behind Claude; excluded despite prior speculation
 
 ## Significance
 
-- Đánh dấu thời điểm AI chính thức được đưa vào hạ tầng quốc phòng bí mật của Mỹ
-- Phỏng đoán: các công ty được miễn trừ khỏi một số quy định AI safety
-- Thể hiện sự hợp nhất giữa AI thương mại và AI quốc phòng
+- AI officially integrated into US classified defense infrastructure (May 2026)
+- Defense contracts expected to surge for all 7 companies
+- Sets precedent for commercial AI + classified military AI convergence
+- Anthropic exclusion raises questions about safety evaluation criteria
 
 ## Related
 
 - [[entities/OpenAI]]
+- [[entities/Reflection AI]]
 - [[concepts/Agentic-AI]]
-- [[sources/trending-news-briefing-2026-05-02]]
+- [[concepts/Pentagon-AI-Defense]]
