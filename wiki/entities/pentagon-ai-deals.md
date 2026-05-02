@@ -1,43 +1,38 @@
 ---
 title: "Pentagon AI Deals"
-type: event
-date: "2026-05-01"
-tags: [openai, pentagon, defense, classified-ai, anthropic]
-related_sources: []
+type: entity
+tags: [pentagon, defense, AI, military, government-contracts]
 created: 2026-05-02
 ---
 
-# Pentagon AI Deals (May 2026)
+# Pentagon AI Deals
 
 ## Overview
 
-Pentagon ký hợp đồng với 7 công ty AI cho phép sử dụng AI trong môi trường classified.
+**Pentagon AI Deals** — thỏa thuận giữa Bộ Quốc phòng Hoa Kỳ và các công ty AI lớn để triển khai AI trên mạng lưới phòng thủ bí mật (Impact Level 6/7 và GenAI.mil).
 
-## Companies with Deals
+## Key Details
 
-1. **OpenAI** — lần đầu được phép xử lý classified materials
-2. **Google**
-3. **Microsoft**
-4. **Amazon**
-5. **Nvidia**
-6. **xAI** (Elon Musk)
-7. **Reflection** (startup)
+**Confirmed Companies:**
+- OpenAI
+- Google
+- Microsoft
+- NVIDIA
+- Amazon Web Services (AWS)
+- SpaceX (xAI)
+- Reflection AI
 
-## Excluded: Anthropic
-
-- Đã có deal $200M để xử lý classified materials
-- Từ chối bỏ "red lines" về mass surveillance và autonomous weapons
-- Bị cấm khỏi chính phủ liên bang (supply-chain risk designation)
-- Đã kiện và thắng temporary injunction
+**Notable Exclusion:**
+- Anthropic — không có trong danh sách ban đầu
 
 ## Significance
 
-- OpenAI chính thức trở thành defense contractor
-- Mục tiêu: "establishing the United States military as an AI-first fighting force"
-- AI industry đang phân cực giữa defense-focused và ethics-focused companies
+- Đánh dấu thời điểm AI chính thức được đưa vào hạ tầng quốc phòng bí mật của Mỹ
+- Phỏng đoán: các công ty được miễn trừ khỏi một số quy định AI safety
+- Thể hiện sự hợp nhất giữa AI thương mại và AI quốc phòng
 
 ## Related
 
-- [[OpenAI]]
-- [[Anthropic]] (bị loại)
-- [[GPT-5.5-Cyber]]
+- [[entities/OpenAI]]
+- [[concepts/Agentic-AI]]
+- [[sources/trending-news-briefing-2026-05-02]]

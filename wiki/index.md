@@ -51,6 +51,7 @@ This is the master index of the LLM Wiki. It catalogs every page in the wiki wit
 - [[sources/deepseek-ai-2026-guide]] — DeepSeek AI comprehensive guide (DeepSeek Fan Site, Apr 2026)
 - [[sources/local-ai-agents-guide]] — "Building Local AI Agents" by Aashi Dutt (Apr 2026)
 - [[sources/trending-briefing-2026-05-01]] — Daily news briefing (20 items, 4 categories)
+- [[sources/trending-news-briefing-2026-05-02]] — Daily news briefing (20+ items, World/Tech/AI/Investment)
 
 ## 📰 News Digests
 
@@ -67,4 +68,4 @@ This is the master index of the LLM Wiki. It catalogs every page in the wiki wit
 
 ---
 
-**Total pages:** 28 | **Total sources:** 7 | **Last updated:** 2026-05-02
+**Total pages:** 30 | **Total sources:** 9 | **Last updated:** 2026-05-02
