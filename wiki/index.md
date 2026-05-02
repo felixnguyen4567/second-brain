@@ -24,6 +24,7 @@ This is the master index of the LLM Wiki. It catalogs every page in the wiki wit
 - [[entities/Ollama]] — Local inference server, OpenAI-compatible API on localhost
 - [[entities/Aashi Dutt]] — Author of local AI agents guide
 - [[entities/The PyCoach]] — AI educator, author of Claude Skills guide
+- [[entities/Arsenal FC]] — Premier League football club, manager Mikel Arteta
 
 ## 💡 Concepts
 
@@ -52,6 +53,7 @@ This is the master index of the LLM Wiki. It catalogs every page in the wiki wit
 
 - [[openclaw_news]] — OpenClaw news summary (May 2, 2026): security crisis, v4.29, creator predictions
 - [[openai_news]] — OpenAI news summary: Musk trial, Pentagon deals, GPT-5.5-Cyber (May 2026)
+- [[arsenal_news]] — Arsenal news: Julian Alvarez transfer, Fulham match (May 2, 2026)
 
 ## 🔀 Comparisons
 *No comparisons yet.*
