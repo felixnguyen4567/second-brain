@@ -1,8 +1,8 @@
 ---
 title: Wiki Index
 updated: 2026-05-02
-page_count: 25
-source_count: 6
+page_count: 28
+source_count: 7
 ---
 
 # 📚 Wiki Index
@@ -17,6 +17,7 @@ This is the master index of the LLM Wiki. It catalogs every page in the wiki wit
 - [[entities/Anthropic]] — AI safety company behind Claude, Claude Code, Skills platform; barred from Pentagon
 - [[entities/Musk v. Altman Trial]] — Elon Musk vs Sam Altman court case over OpenAI's nonprofit mission (Apr 2026)
 - [[entities/Pentagon AI Deals]] — 7 AI companies sign classified AI deals with Pentagon (May 2026)
+- [[entities/OpenClaw]] — Personal AI agent framework (nickname "Lobster") — the system July runs on
 - [[entities/Claude]] — Anthropic's flagship AI assistant with extensible Skills
 - [[entities/Hermes Agent]] — Nous Research's self-improving AI agent (Apr 2026)
 - [[entities/DeepSeek]] — Chinese AI lab with V4 (1.6T/49B), 1M context, 10-50x cheaper
@@ -47,6 +48,11 @@ This is the master index of the LLM Wiki. It catalogs every page in the wiki wit
 - [[sources/local-ai-agents-guide]] — "Building Local AI Agents" by Aashi Dutt (Apr 2026)
 - [[sources/trending-briefing-2026-05-01]] — Daily news briefing (20 items, 4 categories)
 
+## 📰 News Digests
+
+- [[openclaw_news]] — OpenClaw news summary (May 2, 2026): security crisis, v4.29, creator predictions
+- [[openai_news]] — OpenAI news summary: Musk trial, Pentagon deals, GPT-5.5-Cyber (May 2026)
+
 ## 🔀 Comparisons
 *No comparisons yet.*
 
@@ -55,4 +61,4 @@ This is the master index of the LLM Wiki. It catalogs every page in the wiki wit
 
 ---
 
-**Total pages:** 25 | **Total sources:** 6 | **Last updated:** 2026-05-02
+**Total pages:** 28 | **Total sources:** 7 | **Last updated:** 2026-05-02
