@@ -32,7 +32,16 @@ grep "query" wiki/log.md
 - Key entities: OpenAI, Anthropic, Google DeepMind
 - Key concepts: reasoning-models, chain-of-thought
 
-## [2026-05-02] ingest | 5 Sources Auto-Ingested
+## [2026-05-02] ingest | Hermes Agent Documentation & GitHub
+- Sources:
+  1. `Clippings/Hermes Agent Documentation | Hermes Agent.md` → [[sources/hermes-agent-documentation]]
+  2. `Clippings/NousResearch/hermes-agent: The agent that grows with you.md` → [[sources/nousresearch-hermes-agent-github]]
+- Pages created: 6 total
+  - Sources: hermes-agent-documentation, nousresearch-hermes-agent-github
+  - Entities: Hermes-Agent (updated), Nous-Research (new)
+  - Concepts: AI-Skills (updated)
+- Pages updated: index.md, log.md, processed.json
+- Key cross-references: Hermes-Agent → Nous-Research, OpenClaw; AI-Agents → AI-Skills
 - Sources:
   1. `Clippings/Building Local AI Agents A Practical Guide...md` → [[sources/local-ai-agents-guide]]
   2. `Clippings/DeepSeek AI 2026 R1, V3 & Local AI Hub.md` → [[sources/deepseek-ai-2026-guide]]

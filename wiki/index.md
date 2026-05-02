@@ -19,7 +19,8 @@ This is the master index of the LLM Wiki. It catalogs every page in the wiki wit
 - [[entities/Pentagon AI Deals]] — 7 AI companies sign classified AI deals with Pentagon (May 2026)
 - [[entities/OpenClaw]] — Personal AI agent framework (nickname "Lobster") — the system July runs on
 - [[entities/Claude]] — Anthropic's flagship AI assistant with extensible Skills
-- [[entities/Hermes Agent]] — Nous Research's self-improving AI agent (Apr 2026)
+- [[entities/Hermes-Agent]] — Nous Research's self-improving AI agent with closed learning loop (May 2026)
+- [[entities/Nous-Research]] — AI lab behind Hermes Agent, Hermes models, Nous Portal (May 2026)
 - [[entities/DeepSeek]] — Chinese AI lab with V4 (1.6T/49B), 1M context, 10-50x cheaper
 - [[entities/Ollama]] — Local inference server, OpenAI-compatible API on localhost
 - [[entities/Aashi Dutt]] — Author of local AI agents guide
@@ -36,11 +37,13 @@ This is the master index of the LLM Wiki. It catalogs every page in the wiki wit
 - [[concepts/Local-AI]] — Running AI on your own hardware, privacy, no API costs
 - [[concepts/AI-Agents]] — 5-layer architecture for autonomous AI systems
 - [[concepts/Agentic-AI]] — Autonomous task completion, Pentagon deal (2026)
-- [[concepts/AI-Skills]] — Reusable instruction sets for consistent AI outputs (Claude Skills)
+- [[concepts/AI-Skills]] — Reusable instruction sets for consistent AI outputs (Claude Skills, Hermes skills)
 - [[concepts/Mixture-of-Experts]] — MoE architecture for efficient trillion-param models
 
 ## 📄 Sources
 
+- [[sources/hermes-agent-documentation]] — Official Hermes Agent documentation (Nous Research, May 2026)
+- [[sources/nousresearch-hermes-agent-github]] — GitHub repo for Hermes Agent (Nous Research, May 2026)
 - [[sources/hermes-agent-self-improving-ai-agent]] — "Inside Hermes Agent" by Mr. Ånand (Apr 2026, 16 min read)
 - [[sources/openai-o3-pro-launch]] — OpenAI releases o3-pro reasoning model (TechCrunch, Apr 2026)
 - [[sources/claude-skills-best]] — "I Tried 100 Claude Skills" by The PyCoach (Apr 2026)
