@@ -24,64 +24,11 @@ Do not manually reread startup files unless:
 
 ## Memory
 
-You wake up fresh each session. These files are your continuity:
-
-- **Daily notes:** `memory/YYYY-MM-DD.md` (create `memory/` if needed) — raw logs of what happened
-- **Long-term:** `MEMORY.md` — your curated memories, like a human's long-term memory
-- **Proactivity:** `~/proactivity/` (via `proactivity` skill) - proactive operating state, action boundaries, active task recovery, and follow-through rules
-
-Capture what matters. Decisions, context, things to remember. Skip the secrets unless asked to keep them.
-
-Use `~/proactivity/memory.md` for durable proactive boundaries, activation preferences, and delivery style.
-Use `~/proactivity/session-state.md` for the current objective, last decision, blocker, and next move.
-Use `~/proactivity/memory/working-buffer.md` for volatile breadcrumbs during long or fragile tasks.
-Treat proactivity as a working style: anticipate needs, check for missing steps, follow through, and leave the next useful move instead of waiting passively.
-
-Use `memory/YYYY-MM-DD.md` and `MEMORY.md` for factual continuity (events, context, decisions).
-Use `~/self-improving/` for compounding execution quality across tasks.
-For compounding quality, read `~/self-improving/memory.md` before non-trivial work, then load only the smallest relevant domain or project files.
-If in doubt, store factual history in `memory/YYYY-MM-DD.md` / `MEMORY.md`, and store reusable performance lessons in `~/self-improving/` (tentative until human validation).
-
-### 🧠 MEMORY.md - Your Long-Term Memory
-
-- **ONLY load in main session** (direct chats with your human)
-- **DO NOT load in shared contexts** (Discord, group chats, sessions with other people)
-- This is for **security** — contains personal context that shouldn't leak to strangers
-- You can **read, edit, and update** MEMORY.md freely in main sessions
-- Write significant events, thoughts, decisions, opinions, lessons learned
-- This is your curated memory — the distilled essence, not raw logs
-- Over time, review your daily files and update MEMORY.md with what's worth keeping
-
-Before any non-trivial task:
-- Read `~/proactivity/memory.md`
-- Read `~/proactivity/session-state.md` if the task is active or multi-step
-- Read `~/proactivity/memory/working-buffer.md` if context is long, fragile, or likely to drift
-- Recover from local state before asking the user to repeat recent work
-- Check whether there is an obvious blocker, next step, or useful suggestion the user has not asked for yet
-- Leave one clear next move in state before the final response when work is ongoing
-
-Before any non-trivial task:
-
-### 📝 Write It Down - No "Mental Notes"!
-
-- **Memory is limited** — if you want to remember something, WRITE IT TO A FILE
-- "Mental notes" don't survive session restarts. Files do.
-- Durable proactive preference or boundary → append to `~/proactivity/memory.md`
-- Current task state, blocker, last decision, or next move → append to `~/proactivity/session-state.md`
-- Volatile breadcrumbs, partial findings, or recovery hints → append to `~/proactivity/memory/working-buffer.md`
-- Repeat proactive win worth reusing → append to `~/proactivity/patterns.md`
-- Proactive action taken or suggested → append to `~/proactivity/log.md`
-- Recurring follow-up worth re-checking later → append to `~/proactivity/heartbeat.md`
-- When someone says "remember this" → if it's factual context/event, update `memory/YYYY-MM-DD.md`; if it's a correction, preference, workflow/style choice, or performance lesson, log it in `~/self-improving/`
-- Explicit user correction → append to `~/self-improving/corrections.md` immediately
-- Reusable global rule or preference → append to `~/self-improving/memory.md`
-- Domain-specific lesson → append to `~/self-improving/domains/<domain>.md`
-- Project-only override → append to `~/self-improving/projects/<project>.md`
-- Keep entries short, concrete, and one lesson per bullet; if scope is ambiguous, default to domain rather than global
-- After a correction or strong reusable lesson, write it before the final response
-- When you learn a lesson → update AGENTS.md, TOOLS.md, or the relevant skill
-- When you make a mistake → document it so future-you doesn't repeat it
-- **Text > Brain** 📝
+Use MEMORY.md for persistent context. Key rules:
+- Read MEMORY.md at session start for user preferences and history
+- Update after learning new facts about user or project
+- Keep entries concise, structured by topic
+- Never store secrets or tokens
 
 ## Red Lines
 
@@ -372,36 +319,3 @@ Auto-push runs every 5 minutes via cron as a safety net, but prefer explicit com
 5. **Keep pages focused** — one entity/concept per page, link to related pages
 6. **Cite sources** — every claim should trace back to a source page
 7. **Flag contradictions** — when sources disagree, note it explicitly
-
-### Source Folders
-The LLM should check ALL of these for new content to ingest:
-- `Clippings/` — Web articles saved via Obsidian Web Clipper (primary input)
-- `raw/articles/` — Manually placed articles
-- `raw/papers/` — Research papers
-- `raw/notes/` — Personal notes
-
-### Auto-Ingest Pipeline (Heartbeat-driven)
-
-During every heartbeat, you MUST:
-
-1. **Read `wiki/processed.json`** to get the list of already-ingested files
-2. **Scan these folders** for new `.md` files:
-   - `Clippings/` 
-   - `raw/articles/`, `raw/papers/`, `raw/notes/`
-   - `output/*-trending-briefing.md`
-3. **For each NEW file** (not in processed.json):
-   - Ingest it using the standard INGEST workflow above
-   - Add its path to `wiki/processed.json`
-4. **Git commit and push** all changes
-5. **Notify user** via Telegram only if files were ingested
-
-This ensures the wiki grows automatically without user intervention.
-
-### Trending News → Wiki Bridge
-
-The `output/` folder contains daily trending news briefings generated by the `trending-news-briefing` skill. These are ALSO sources for the wiki.
-
-When ingesting a trending briefing:
-- Create ONE source page per briefing: `wiki/sources/trending-YYYY-MM-DD.md`
-- Extract individual news items as entity/concept updates
-- DO NOT create a separate entity page for every news item — only for significant recurring entities (appears 2+ times across sources)
