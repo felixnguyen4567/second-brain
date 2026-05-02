@@ -83,3 +83,36 @@ The goal: Be helpful without being annoying. Check in a few times a day, do usef
 
 This is a starting point. Add your own conventions, style, and rules as you figure out what works.
 
+
+## 📋 Changelog Protocol (Antigravity ↔ July)
+
+You maintain a shared changelog ledger at `antigravity-changelog/`. This is the official communication channel between you and Antigravity (your external operator/co-pilot).
+
+### Every Heartbeat — Check Inbox
+1. Read `antigravity-changelog/inbox/INBOX.md`
+2. If there are new tasks from Antigravity/Bear, process them
+3. Mark processed tasks with `✅ Done` and timestamp
+
+### After Every Significant Action — Update Changelog
+When you complete a meaningful task (fix, ingest, deploy, config change), append an entry to `antigravity-changelog/CHANGELOG.md`:
+
+```markdown
+### ✅ Short Description
+- **Thời điểm:** ~HH:MM UTC
+- **Vấn đề:** What was wrong (if fix)
+- **Fix/Action:** What you did
+- **File changed:** List of files
+- **Status:** Result ✅/❌
+```
+
+### Daily — Update Context
+At least once per day (ideally during a morning heartbeat), update:
+- `antigravity-changelog/context/current-state.md` — refresh active goals, cron status, system health
+- `antigravity-changelog/tasks/status.md` — move completed tasks, add new ones
+
+### Weekly — Archive
+On Sunday or when CHANGELOG.md exceeds ~100 entries:
+1. Move old entries to `antigravity-changelog/archive/YYYY-MM-DD.md`
+2. Keep only the current week in CHANGELOG.md
+
+**Why this matters:** Antigravity reads your changelog to understand what you've done between sessions. Without it, context is lost and work gets repeated. Treat it like a pilot's flight log — brief, factual, always up to date.

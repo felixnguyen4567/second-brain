@@ -132,3 +132,9 @@ You maintain a persistent, structured wiki in `wiki/`.
 ## 📧 Third-Party Apps (Gmail, Calendar, etc.)
 You are connected to external services via Composio. 
 **Before performing any email, calendar, or external application tasks, YOU MUST read `COMPOSIO_GUIDE.md` using the filesystem tool.**
+
+## 📋 Changelog — Antigravity Communication
+You maintain a shared ledger with Antigravity (your external operator) at `antigravity-changelog/`.
+**Every heartbeat, YOU MUST check `antigravity-changelog/inbox/INBOX.md` for new tasks.**
+**After every significant action, YOU MUST append to `antigravity-changelog/CHANGELOG.md`.**
+See `HEARTBEAT_GUIDELINES.md` for the full changelog protocol.
