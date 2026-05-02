@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Clippings/Building the 11 Layers of a Production-Grade MCP Server + Agentic System.md",
+                "file": "raw/articles/openai-o3-pro-launch.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Building the 11 Layers of a Production-Grade MCP Server + Agentic System"
+              "title": "openai-o3-pro-launch"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Clippings/Building the 11 Layers of a Production-Grade MCP Server + Agentic System.md",
+                "file": "raw/articles/openai-o3-pro-launch.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Building the 11 Layers of a Production-Grade MCP Server + Agentic System"
+              "title": "Backlinks for openai-o3-pro-launch"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Clippings/Building the 11 Layers of a Production-Grade MCP Server + Agentic System.md",
+                "file": "raw/articles/openai-o3-pro-launch.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Building the 11 Layers of a Production-Grade MCP Server + Agentic System"
+              "title": "Outgoing links from openai-o3-pro-launch"
             }
           },
           {
@@ -156,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Clippings/Building the 11 Layers of a Production-Grade MCP Server + Agentic System.md",
+                "file": "raw/articles/openai-o3-pro-launch.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Building the 11 Layers of a Production-Grade MCP Server + Agentic System"
+              "title": "Outline of openai-o3-pro-launch"
             }
           }
         ]
@@ -184,14 +184,22 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "6ec1d72a2507f594",
+  "active": "a3f7b9e47597c2e6",
   "lastOpenFiles": [
-    "MEMORY.md",
+    "wiki/processed.json",
+    "output/2026-05-01-trending-briefing.md",
+    "Clippings/I Tried 100 Claude Skills. These Are The Best.md",
     "Clippings/Building the 11 Layers of a Production-Grade MCP Server + Agentic System.md",
-    "Clippings",
-    "IDENTITY.md",
-    "HEARTBEAT.md",
     "wiki/concepts/reasoning-models.md",
+    "COMPOSIO_GUIDE.md",
+    "HEARTBEAT.md",
+    "IDENTITY.md",
+    "MEMORY.md",
+    "SOUL.md",
+    "TOOLS.md",
+    "USER.md",
+    "AGENTS.md",
+    "Clippings",
     "wiki/entities/OpenAI.md",
     "wiki/overview.md",
     "wiki/log.md",
