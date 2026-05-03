@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "wiki/entities/Ollama.md",
+                "file": "antigravity-changelog/README.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Ollama"
+              "title": "README"
             }
           }
         ]
@@ -181,10 +181,10 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "wiki/entities/Ollama.md"
+                "file": "antigravity-changelog/README.md"
               },
               "icon": "lucide-info",
-              "title": "File properties for Ollama"
+              "title": "File properties for README"
             }
           }
         ],
@@ -208,6 +208,16 @@
   },
   "active": "6ec1d72a2507f594",
   "lastOpenFiles": [
+    "antigravity-changelog/CHANGELOG.md",
+    "antigravity-changelog/ANTIGRAVITY_REPORT.md",
+    "antigravity-changelog/tasks/status.md",
+    "antigravity-changelog/inbox/INBOX.md",
+    "antigravity-changelog/context/current-state.md",
+    "raw/articles/openai-o3-pro-launch.md",
+    "raw/articles/hermes-agent-self-improving-ai-agent.md",
+    "wiki/arsenal_news.md",
+    "wiki/entities/Ollama.md",
+    "INBOX.md",
     "output/2026-05-03-social.md",
     "output/2026-05-03-journal.md",
     "output/2026-05-03-ai-news.md",
@@ -222,26 +232,16 @@
     "wiki/entities/Eric-Schmidt.md",
     "wiki/concepts/War-Powers-Resolution.md",
     "wiki/concepts/S&P-500.md",
-    "antigravity-changelog/ANTIGRAVITY_REPORT.md",
     "wiki/sources/trending-news-briefing-2026-05-02.md",
     "wiki/sources/nousresearch-hermes-agent-github.md",
     "wiki/sources/hermes-agent-documentation.md",
     "wiki/entities/Nous-Research.md",
     "wiki/entities/Hermes-Agent.md",
     "output/trending-news-briefing-2026-05-02.md",
-    "antigravity-changelog/tasks/status.md",
-    "antigravity-changelog/inbox/INBOX.md",
-    "antigravity-changelog/context/current-state.md",
     "antigravity-changelog/tasks",
     "antigravity-changelog/inbox",
     "antigravity-changelog/context",
-    "antigravity-changelog/README.md",
-    "antigravity-changelog/CHANGELOG.md",
     "antigravity-changelog",
-    "wiki/entities/arsenal-fc.md",
-    "wiki/arsenal_news.md",
-    "wiki/agentic_ai_news.md",
-    "output/daily_briefing_2026-05-02.md",
     "package.json",
     "package-lock.json",
     "Untitled 1.canvas",
