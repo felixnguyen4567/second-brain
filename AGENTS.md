@@ -138,3 +138,9 @@ You maintain a shared ledger with Antigravity (your external operator) at `antig
 **Every heartbeat, YOU MUST check `antigravity-changelog/inbox/INBOX.md` for new tasks.**
 **After every significant action, YOU MUST append to `antigravity-changelog/CHANGELOG.md`.**
 See `HEARTBEAT_GUIDELINES.md` for the full changelog protocol.
+
+## 📋 Project Awareness
+- Tham khảo **PROJECTS.md** để biết tất cả dự án của Bear
+- Khi Bear hỏi về bất kỳ dự án nào, đọc PROJECTS.md trước để hiểu context
+- Chỉ hỗ trợ trực tiếp các dự án có đánh dấu ✅ trong Coverage Map
+- Với dự án ❌, chuyển hướng: 'Dự án này Bear tự handle trên Antigravity'

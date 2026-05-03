@@ -9,6 +9,49 @@
 
 ---
 
+## 2026-05-03
+
+### ✅ Update trending-news-briefing Skill — Phase 5 Wiki Auto-Ingest
+- **Thời điểm:** ~00:22 UTC (May 3)
+- **Action:** Thêm Phase 5 vào SKILL.md — auto-ingest to wiki sau mỗi lần generate bản tin
+- **Step 5a-5e:** Create source page → update processed.json → update index.md → git push → report Telegram
+- **Skill updated:** `skills/trending-news-briefing/SKILL.md`
+- **Status:** ✅ Skill enhanced, future briefings sẽ tự động save vào wiki
+
+### ✅ Save Trending News May 3 to Wiki
+- **Thời điểm:** ~00:22 UTC (May 3)
+- **Nguồn:** Generated on-demand (manual run)
+- **Đã ingest:**
+  - `wiki/sources/trending-news-briefing-2026-05-03.md` (24 items, Iran/Nvidia/S&P)
+  - Updated `processed.json` và `wiki/index.md`
+- **Auto-pushed to GitHub:** ✅
+- **Wiki page count:** 31 pages
+
+### ✅ Set July Avatar
+- **Thời điểm:** ~00:25 UTC (May 3)
+- **Action:** Bear gửi 2 hình làm avatar cho July
+- **Files saved:**
+  - `avatars/july-avatar.jpg` (primary)
+  - `avatars/july-avatar-alt.jpg` (alternate)
+- **IDENTITY.md updated:** ✅
+- **Status:** July giờ có khuôn mặt thật! 📸
+
+### ✅ System Status Report — Gateway & Cron Verified
+- **Thời điểm:** ~00:48 UTC (May 3)
+- **Kiểm tra:** Disk 56%, Memory OK, Gateway running, Tavily MCP running
+- **Cron status:** 4 jobs — 3 OK, 1 secondary email có timeout issue
+- **Gateway binding:** 127.0.0.1:18789 (loopback — secure)
+- **Timezone verified:** UTC+9:30 = ACST Darwin ✅
+
+### ✅ Verify Timezone — All Correct
+- **Thời điểm:** ~01:04 UTC (May 3)
+- **Bear confirm:** Darwin clock = 10:33 AM
+- **System check:** UTC = 01:04 AM → ACST = 10:34 AM ✅
+- **Cron schedules:** Tất cả đúng `Australia/Darwin` timezone
+- **Next runs:** 07:00-07:30 ACST May 4 (khoảng 20h nữa)
+
+---
+
 ## 2026-05-02
 
 ### ✅ Fix Tavily MCP Server
