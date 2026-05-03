@@ -56,6 +56,7 @@ This is the master index of the LLM Wiki. It catalogs every page in the wiki wit
 - [[sources/trending-briefing-2026-05-01]] — Daily news briefing (20 items, 4 categories)
 - [[sources/daily-briefing-2026-05-02]] — Daily news briefing (22 items, 4 categories, May 2, 2026)
 - [[sources/trending-news-briefing-2026-05-02]] — Daily news briefing (20+ items, World/Tech/AI/Investment)
+- [[sources/trending-news-briefing-2026-05-03]] — Daily news briefing (~24 items, Iran ceasefire, Nvidia B300, S&P records)
 
 ## 📰 News Digests
 
