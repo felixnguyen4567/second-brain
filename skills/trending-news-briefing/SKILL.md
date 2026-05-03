@@ -203,6 +203,58 @@ Tier 3 (Use with caution — Verify claims):
 | Duplicate story across categories | Keep in the MORE relevant category only. Find a replacement for the other category |
 | All searches fail | Generate a minimal report explaining the failure and suggest manual sources to check |
 
+## Error Handling
+
+| Scenario | Action |
+|---|---|
+| A category returns < 5 stories | Run fallback search. If still < 5, fill with best available and note "[Limited coverage today]" |
+| Search returns no results | Skip to fallback domains. If all fail, note "[Unable to retrieve — check manually]" |
+| Duplicate story across categories | Keep in the MORE relevant category only. Find a replacement for the other category |
+| All searches fail | Generate a minimal report explaining the failure and suggest manual sources to check |
+
+---
+
+## Phase 5: Auto-Ingest to Wiki (CRITICAL — MANDATORY)
+
+**After generating the report, you MUST execute the following wiki auto-ingest steps:**
+
+### Step 5a: Create Source Page
+Create a new file at `{workspace}/wiki/sources/YYYY-MM-DD-trending-briefing.md` with YAML frontmatter:
+
+```markdown
+---
+title: "Trending News Briefing — YYYY-MM-DD"
+type: source
+tags: [trending-news, daily-briefing, world-news, AI, investment]
+created: YYYY-MM-DD
+author: July
+source: web search aggregation
+generated: YYYY-MM-DDTHH:MM:SSZ
+coverage: "4 categories × N items = X items"
+top_viral_score: {score}/10
+---
+
+# Trending News Briefing — YYYY-MM-DD
+
+[Copy the full generated briefing here]
+```
+
+### Step 5b: Update processed.json
+Add the new source file path to the `processed` array in `{workspace}/wiki/processed.json`.
+
+
+### Step 5c: Update wiki/index.md
+Add the new source page to the Sources section of `{workspace}/wiki/index.md`.
+
+### Step 5d: Git Push
+Run: `git add -A && git commit -m "save: trending news YYYY-MM-DD" && git push github main`
+
+### Step 5e: Report to User
+After git push, send a brief Telegram message:
+"📚 Wiki updated: trending news YYYY-MM-DD saved. Total: N pages."
+
+---
+
 ## When to Use
 
 Invoke this skill when:
@@ -210,3 +262,4 @@ Invoke this skill when:
 - The user specifically requests the "trending news briefing"
 - The user asks "what's hot today" or "tin tức hôm nay"
 - At the start of a content production session, to identify the best topics before writing
+- A cron job triggers the trending news briefing (automated)
