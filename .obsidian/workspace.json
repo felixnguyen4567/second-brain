@@ -208,6 +208,9 @@
   },
   "active": "6ec1d72a2507f594",
   "lastOpenFiles": [
+    "skills/content-pipeline/SKILL.md",
+    "skills/content-pipeline",
+    "wiki/sources/trending-news-briefing-2026-05-03.md",
     "wiki/sources/daily-briefing-2026-05-02.md",
     "wiki/entities/Eric-Schmidt.md",
     "wiki/concepts/War-Powers-Resolution.md",
@@ -236,15 +239,12 @@
     "wiki/entities/Anthropic.md",
     "wiki/concepts/skills-system.md",
     "wiki/concepts/reasoning-models.md",
-    "wiki/concepts/Mixture-of-Experts.md",
-    "wiki/concepts/memory-architecture.md",
     "package.json",
     "package-lock.json",
     "Untitled 1.canvas",
     "Untitled.canvas",
     "wiki/processed.json",
     "Clippings",
-    "wiki/sources",
-    "wiki/entities"
+    "wiki/sources"
   ]
 }
