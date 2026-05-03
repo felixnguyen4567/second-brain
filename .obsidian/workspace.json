@@ -208,6 +208,9 @@
   },
   "active": "6ec1d72a2507f594",
   "lastOpenFiles": [
+    "avatars/july-avatar.jpg",
+    "avatars/july-avatar-alt.jpg",
+    "avatars",
     "skills/content-pipeline/SKILL.md",
     "skills/content-pipeline",
     "wiki/sources/trending-news-briefing-2026-05-03.md",
@@ -238,13 +241,11 @@
     "wiki/entities/Aashi-Dutt.md",
     "wiki/entities/Anthropic.md",
     "wiki/concepts/skills-system.md",
-    "wiki/concepts/reasoning-models.md",
     "package.json",
     "package-lock.json",
     "Untitled 1.canvas",
     "Untitled.canvas",
     "wiki/processed.json",
-    "Clippings",
-    "wiki/sources"
+    "Clippings"
   ]
 }
