@@ -1,8 +1,8 @@
 ---
 title: Wiki Index
-updated: 2026-05-02
-page_count: 33
-source_count: 10
+updated: 2026-05-03
+page_count: 42
+source_count: 11
 ---
 
 # 📚 Wiki Index
@@ -16,7 +16,10 @@ This is the master index of the LLM Wiki. It catalogs every page in the wiki wit
 - [[entities/OpenAI]] — Leading AI lab, creator of GPT and o-series models; now a defense contractor
 - [[entities/Anthropic]] — AI safety company behind Claude, Claude Code, Skills platform; barred from Pentagon
 - [[entities/Musk v. Altman Trial]] — Elon Musk vs Sam Altman court case over OpenAI's nonprofit mission (Apr 2026)
-- [[entities/Eric-Schmidt]] — Former Google CEO, now VC, publicly backed agentic AI startups (May 2026)
+- [[entities/Jay-Alammar]] — Visual LLM educator, author of Hands-On Large Language Models
+- [[entities/Chip-Huyen]] — Author of AI Engineering and Designing ML Systems (Stanford)
+- [[entities/Sebastian-Raschka]] — Author of Build LLM/Rasoning Model from Scratch (PhD)
+- [[entities/Rush-Shahani]] — Author of Building Reliable AI Systems
 - [[entities/Pentagon AI Deals]] — 7 AI companies sign classified AI deals with Pentagon (May 2026)
 - [[entities/OpenClaw]] — Personal AI agent framework (nickname "Lobster") — the system July runs on
 - [[entities/Claude]] — Anthropic's flagship AI assistant with extensible Skills
@@ -37,7 +40,9 @@ This is the master index of the LLM Wiki. It catalogs every page in the wiki wit
 - [[concepts/DeepSeek-V4]] — DeepSeek flagship with 1.6T/49B params, 1M context, Engram, mHC, DSA
 - [[concepts/Local-AI]] — Running AI on your own hardware, privacy, no API costs
 - [[concepts/AI-Agents]] — 5-layer architecture for autonomous AI systems
-- [[concepts/Agentic-AI]] — Autonomous task completion, Pentagon deal (2026)
+- [[concepts/llm-engineering]] — Building LLM apps with foundation models (RAG, evals, deployment)
+- [[concepts/llm-evaluation]] — Testing non-deterministic LLM/agent systems
+- [[concepts/ai-agent-architecture]] — Agentic AI systems that act, use tools, run workflows
 - [[concepts/AI-Skills]] — Reusable instruction sets for consistent AI outputs (Claude Skills, Hermes skills)
 - [[concepts/Mixture-of-Experts]] — MoE architecture for efficient trillion-param models
 - [[concepts/S&P-500]] — S&P 500 at record 7,209, +14% Q1 earnings, AI trade fueling rally (May 2026)
@@ -56,6 +61,7 @@ This is the master index of the LLM Wiki. It catalogs every page in the wiki wit
 - [[sources/trending-briefing-2026-05-01]] — Daily news briefing (20 items, 4 categories)
 - [[sources/daily-briefing-2026-05-02]] — Daily news briefing (22 items, 4 categories, May 2, 2026)
 - [[sources/trending-news-briefing-2026-05-02]] — Daily news briefing (20+ items, World/Tech/AI/Investment)
+- [[sources/12-ai-books-2026-anubhav]] — Engineer-first reading guide: 12 AI books for agents, RAG, evals (Anubhav, Apr 2026)
 - [[sources/trending-news-briefing-2026-05-03]] — Daily news briefing (~24 items, Iran ceasefire, Nvidia B300, S&P records)
 
 ## 📰 News Digests

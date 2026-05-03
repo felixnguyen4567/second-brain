@@ -61,3 +61,13 @@ grep "query" wiki/log.md
 - Concepts: DeepSeek-V4, Local-AI, AI-Agents, Agentic-AI, AI-Skills, Mixture-of-Experts
 - Updated: index.md, log.md, processed.json
 - Key cross-references: OpenClaw linked from DeepSeek-V4, local-ai-agents-guide, AI-Agents
+
+## [2026-05-03] ingest | 12 AI Books Worth Reading in 2026
+- Source: `wiki/sources/12-ai-books-2026-anubhav.md`
+- Pages created: 9 total
+  - Source: 12-ai-books-2026-anubhav
+  - Entities: Jay-Alammar, Chip-Huyen, Sebastian-Raschka, Rush-Shahani
+  - Concepts: llm-engineering, llm-evaluation, ai-agent-architecture
+- Pages updated: index.md, processed.json
+- Key books covered: Hands-On LLMs (Alammar), AI Engineering (Chip Huyen), Building Reliable AI Systems (Shahani), LLM Engineer's Handbook, Build LLM from Scratch (Raschka), Build Reasoning Model from Scratch (Raschka), AI Agents in Action
+- Fast track: Hands-On LLMs → AI Engineering → Build LLM from Scratch
