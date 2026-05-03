@@ -1,8 +1,8 @@
 ---
 title: Wiki Index
 updated: 2026-05-03
-page_count: 42
-source_count: 11
+page_count: 47
+source_count: 13
 ---
 
 # 📚 Wiki Index
@@ -29,7 +29,8 @@ This is the master index of the LLM Wiki. It catalogs every page in the wiki wit
 - [[entities/Ollama]] — Local inference server, OpenAI-compatible API on localhost
 - [[entities/Aashi Dutt]] — Author of local AI agents guide
 - [[entities/The PyCoach]] — AI educator, author of Claude Skills guide
-- [[entities/Arsenal FC]] — Premier League football club, manager Mikel Arteta
+- [[entities/Stanford-HAI]] — Stanford Human-Centered AI Institute, publishes annual AI Index Report (2026)
+- [[entities/Alice-Springs]] — Violence following Indigenous girl death (May 1, 2026)
 
 ## 💡 Concepts
 
@@ -40,6 +41,8 @@ This is the master index of the LLM Wiki. It catalogs every page in the wiki wit
 - [[concepts/DeepSeek-V4]] — DeepSeek flagship with 1.6T/49B params, 1M context, Engram, mHC, DSA
 - [[concepts/Local-AI]] — Running AI on your own hardware, privacy, no API costs
 - [[concepts/AI-Agents]] — 5-layer architecture for autonomous AI systems
+- [[concepts/ai-capability-preparedness-gap]] — Stanford theme: AI outpacing societal preparedness
+- [[concepts/enterprise-ai-trust]] — Harvard study: AI lying to executives, enterprise adoption friction
 - [[concepts/llm-engineering]] — Building LLM apps with foundation models (RAG, evals, deployment)
 - [[concepts/llm-evaluation]] — Testing non-deterministic LLM/agent systems
 - [[concepts/ai-agent-architecture]] — Agentic AI systems that act, use tools, run workflows
@@ -62,7 +65,8 @@ This is the master index of the LLM Wiki. It catalogs every page in the wiki wit
 - [[sources/daily-briefing-2026-05-02]] — Daily news briefing (22 items, 4 categories, May 2, 2026)
 - [[sources/trending-news-briefing-2026-05-02]] — Daily news briefing (20+ items, World/Tech/AI/Investment)
 - [[sources/12-ai-books-2026-anubhav]] — Engineer-first reading guide: 12 AI books for agents, RAG, evals (Anubhav, Apr 2026)
-- [[sources/trending-news-briefing-2026-05-03]] — Daily news briefing (~24 items, Iran ceasefire, Nvidia B300, S&P records)
+- [[sources/trending-news-2026-04-30]] — April 30 briefing: Iran War Day 61 ($25B cost), GPT-5.5 release, QCOM +15%
+- [[sources/trending-news-2026-05-01]] — May 1 briefing: Iran Day 62, Stanford AI Index, Alice Springs, Harvard AI trust study
 
 ## 📰 News Digests
 

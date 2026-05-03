@@ -71,3 +71,13 @@ grep "query" wiki/log.md
 - Pages updated: index.md, processed.json
 - Key books covered: Hands-On LLMs (Alammar), AI Engineering (Chip Huyen), Building Reliable AI Systems (Shahani), LLM Engineer's Handbook, Build LLM from Scratch (Raschka), Build Reasoning Model from Scratch (Raschka), AI Agents in Action
 - Fast track: Hands-On LLMs → AI Engineering → Build LLM from Scratch
+
+## [2026-05-03] ingest | Trending News Briefings Apr 30 & May 1
+- Sources: `output/trending-news-2026-04-30.md`, `output/trending-news-2026-05-01.md`
+- Pages created: 7 total
+  - Sources: trending-news-2026-04-30, trending-news-2026-05-01
+  - Entities: Stanford-HAI, Alice-Springs
+  - Concepts: ai-capability-preparedness-gap, enterprise-ai-trust
+- Pages updated: index.md, processed.json
+- Key stories: Iran War Day 61-62, GPT-5.5 release, Stanford AI Index 2026, Harvard AI lying study, Alice Springs violence, S&P +10.4% April
+- Cognify Tech opportunity: Enterprise AI trust positioning from Harvard study
