@@ -1,8 +1,8 @@
 ---
 title: Wiki Index
 updated: 2026-05-03
-page_count: 47
-source_count: 13
+page_count: 53
+source_count: 19
 ---
 
 # 📚 Wiki Index
@@ -20,6 +20,8 @@ This is the master index of the LLM Wiki. It catalogs every page in the wiki wit
 - [[entities/Chip-Huyen]] — Author of AI Engineering and Designing ML Systems (Stanford)
 - [[entities/Sebastian-Raschka]] — Author of Build LLM/Rasoning Model from Scratch (PhD)
 - [[entities/Rush-Shahani]] — Author of Building Reliable AI Systems
+- [[entities/Qualcomm]] — Semiconductor giant pivoting to AI data center chips; +15–18% on April 30 on $20B buyback and hyperscaler adoption
+- [[entities/The PyCoach]] — AI educator, ranked 11 best Claude Skills (Medium, 50K+ subscribers)
 - [[entities/Pentagon AI Deals]] — 7 AI companies sign classified AI deals with Pentagon (May 2026)
 - [[entities/OpenClaw]] — Personal AI agent framework (nickname "Lobster") — the system July runs on
 - [[entities/Claude]] — Anthropic's flagship AI assistant with extensible Skills
@@ -49,6 +51,7 @@ This is the master index of the LLM Wiki. It catalogs every page in the wiki wit
 - [[concepts/AI-Skills]] — Reusable instruction sets for consistent AI outputs (Claude Skills, Hermes skills)
 - [[concepts/Mixture-of-Experts]] — MoE architecture for efficient trillion-param models
 - [[concepts/S&P-500]] — S&P 500 at record 7,209, +14% Q1 earnings, AI trade fueling rally (May 2026)
+- [[concepts/AI-Startup-Moat]] — Reliability compound error problem, moat creation for AI startups
 - [[concepts/War-Powers-Resolution]] — Constitutional crisis as Trump ends Iran war unilaterally (May 2026)
 
 ## 📄 Sources
@@ -58,6 +61,9 @@ This is the master index of the LLM Wiki. It catalogs every page in the wiki wit
 - [[sources/hermes-agent-self-improving-ai-agent]] — "Inside Hermes Agent" by Mr. Ånand (Apr 2026, 16 min read)
 - [[sources/openai-o3-pro-launch]] — OpenAI releases o3-pro reasoning model (TechCrunch, Apr 2026)
 - [[sources/claude-skills-best]] — "I Tried 100 Claude Skills" by The PyCoach (Apr 2026)
+- [[sources/pentagon-ai-deals-may-2026]] — Pentagon AI deals analysis: 7 companies on classified defense networks (May 2026)
+- [[sources/agentic-ai-opportunity-schmidt]] — Eric Schmidt agentic AI advice analysis for Cognify Tech (May 2026)
+- [[sources/social-media-pentagon-agentic-2026-05-03]] — Social media variants for Pentagon AI + Agentic AI pillar topic
 - [[sources/deepseek-v4-preview]] — DeepSeek V4 official API docs (Apr 24, 2026)
 - [[sources/deepseek-ai-2026-guide]] — DeepSeek AI comprehensive guide (DeepSeek Fan Site, Apr 2026)
 - [[sources/local-ai-agents-guide]] — "Building Local AI Agents" by Aashi Dutt (Apr 2026)
@@ -83,4 +89,4 @@ This is the master index of the LLM Wiki. It catalogs every page in the wiki wit
 
 ---
 
-**Total pages:** 30 | **Total sources:** 9 | **Last updated:** 2026-05-02
+**Total pages:** 36 | **Total sources:** 19 | **Last updated:** 2026-05-03

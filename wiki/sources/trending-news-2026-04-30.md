@@ -1,88 +1,36 @@
 ---
 title: "Trending News Briefing — April 30, 2026"
-type: source
+source: "output/trending-news-2026-04-30.md"
+author: "[Compiled by July]"
+published: 2026-04-30
 created: 2026-05-03
-updated: 2026-05-03
-sources: []
-tags: [news-briefing, geopolitics, ai, tech, markets, 2026-04-30]
+description: "20 news items across World, Technology, AI, Investment categories. Key stories: Iran War Day 61 ($25B cost), GPT-5.5 full retrain, Big Tech $650B+ AI capex, S&P 500 best month since 2020."
+tags: [news-briefing, geopolitics, ai, markets, april-2026]
+source_count: 20
+virality_top: [iran-war-9.5, gpt-55-9.2, big-tech-650b-9.0, qualcomm-8.8]
 ---
 
-# 📰 Trending News Briefing — April 30, 2026
+# Trending News Briefing — April 30, 2026
 
-**Compiled:** April 30, 2026 | 21:30 UTC  
-**Coverage:** 4 categories × 8 stories = 20 items  
-**Top Virality:** 9.5/10 (Iran War Day 61)
+## Summary
 
-## 🌍 World News Highlights
+April 30, 2026 news briefing with 20 items across 4 categories.
 
-### 🔴 Iran War: Day 61 — $25B Cost, Hegseth Testifies
-- Pentagon puts war cost at $25 billion
-- FY2027 budget request: $1.45T — largest in US history
-- Hegseth called Democrats/Republicans "defeatists" in 6-hour hearing
-- Naval blockade "working" per GOP officials
-- Peace talks stalled
+**Top World:** Iran War Day 61 ($25B Pentagon cost, Hegseth testifies), Comey 2nd indictment (threats), King Charles III US visit concluded.
 
-### ⚖️ Comey 2nd Indictment
-- Former FBI Director James Comey indicted for allegedly threatening Trump via social media post with seashells ("86 47")
-- Two-count indictment for making threats against the president
+**Top Technology:** GPT-5.5 full base model retrain (first since GPT-4.5), Big Tech $650–725B AI capex 2026, MIT-IBM quantum AI lab, NVIDIA Ising open-source quantum models.
 
-### 👑 King Charles III US Visit Concludes
-- Historic 4-day visit ended April 30
-- Met Trump at White House, visited NYC and Virginia
+**Top Markets:** S&P 500 +10.4% (best month since Nov 2020), Nasdaq best month since April 2020, Qualcomm +15–18% on data center entry and $20B buyback, ASX 200 down 6 consecutive sessions.
 
-## 💻 Technology Highlights
-
-### 🤖 GPT-5.5 Released — First Full Base Model Retrain
-- First full retrain from scratch since GPT-4.5 (not post-training iteration)
-- New architecture, new pretraining corpus, new objectives
-- Leads 13/16 benchmarks on Artificial Analysis Intelligence Index
-- Stronger agentic coding profile in Codex
-
-### 🏛️ Big Tech AI Spending: $650B+
-- Alphabet/Google: Raised 2026 capex guide to $180–190B
-- Meta: Raised guidance to $125–145B
-- Microsoft/Amazon: Massive infrastructure continuing
-- Google Cloud grew 63% YoY to $20.02B
-
-### 📡 Quantum Computing Milestone
-- IBM + MIT: New AI-quantum convergence research lab
-- NVIDIA: Launched "Ising" — open-source AI for quantum computers
-- 300+ global companies now adopting quantum computing
-
-## 📈 Investment Highlights
-
-### 📊 S&P 500: Best Month Since 2020 (+10.4%)
-- April S&P +10.4% — best month since November 2020
-- Nasdaq: Largest monthly gain since April 2020
-- Philadelphia Semiconductor Index +37% for the month
-- Historic oil supply shock + resilient earnings = market buoyancy
-
-### 📱 Qualcomm (QCOM): +15–18%
-- Data center chip market entry announced
-- $20B share buyback
-- Fiscal Q2 earnings/revenue beat
-- CEO called "bottom in China sales"
-
-### 🟢 ASX 200: 6 Straight Days Down
-- S&P/ASX 200 falling for 6 consecutive sessions
-- Dread of further profit warnings spreading
-
-## 🎯 Action Items for Bear
-
-1. **Geopolitics:** Iran war — monitor for ceasefire signals, oil volatility
-2. **AI:** GPT-5.5 release — Cognify Tech positioning opportunity
-3. **Markets:** Semiconductor rally strong but watch "weak building blocks" (Bloomberg)
-4. **Quantum:** Long-term cybersecurity theme — watch for enterprise adoption
+**Key Takeaways for Bear:** Iran geopolitical risk still elevated (oil volatile); GPT-5.5 validates AI capability acceleration; S&P 500 strong but rally built on narrow leadership; Qualcomm data center narrative could fuel further semi strength.
 
 ## Key Entities
-- [[entities/OpenAI]] — GPT-5.5 released
-- [[entities/Google]] — Cloud +63%, Pentagon deal
-- [[entities/Qualcomm]] — QCOM +15-18%, data center pivot
 
-## Key Concepts
-- [[concepts/S&P-500]] — April +10.4%, best month since 2020
-- [[concepts/agentic-ai-safety]] — Related to database deletion incidents
+- [[entities/Pentagon AI Deals]] — GPT-5.5 + defense AI context
+- [[concepts/Agentic-AI]] — GPT-5.5 agentic coding improvements
+- [[concepts/S&P-500]] — April 2026 performance
+- [[sources/trending-news-2026-04-30]]
 
-## Sources
-- Stanford HAI 2026 AI Index (mentioned)
-- GPT-5.5 benchmark data (Artificial Analysis)
+## Tags
+
+#news-briefing #geopolitics #ai #markets #april-2026

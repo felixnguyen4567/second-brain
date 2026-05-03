@@ -81,3 +81,12 @@ grep "query" wiki/log.md
 - Pages updated: index.md, processed.json
 - Key stories: Iran War Day 61-62, GPT-5.5 release, Stanford AI Index 2026, Harvard AI lying study, Alice Springs violence, S&P +10.4% April
 - Cognify Tech opportunity: Enterprise AI trust positioning from Harvard study
+
+## [2026-05-03] ingest | Pentagon AI Deals + Social Content + Claude Skills
+- Sources: 6 new (trending-news-2026-04-30, trending-news-2026-05-01, pentagon-ai-deals-may-2026, agentic-ai-opportunity-schmidt, social-media-pentagon-agentic-2026-05-03, claude-skills-best)
+- Entities: 3 new (Pentagon AI Deals, Qualcomm, The PyCoach updated)
+- Concepts: 1 new (AI-Startup-Moat)
+- Pages created: 10 total
+- Pages updated: index.md, processed.json
+- Key content: Pentagon operational AI deals (7 companies, IL6/7), Eric Schmidt agentic AI advice analysis, social media variants, Claude Skills ranked guide
+- For Cognify Tech: AI Startup Moat concept = reliability compound error + Darwin SME opportunity

@@ -1,40 +1,35 @@
 ---
-title: "The PyCoach"
+title: The PyCoach
 type: entity
+tags: [ai-educator, claude, content-creator, medium, productivity]
 created: 2026-05-02
-updated: 2026-05-02
-sources: [claude-skills-best]
-tags: [author, AI, tutorials, claude]
+updated: 2026-05-03
+sources: [claude-skills-best.md, trending-news-2026-05-01.md]
 ---
 
 # The PyCoach
 
-AI educator and content creator behind Artificial Corner. Author of "I Tried 100 Claude Skills. These Are The Best" (April 2026).
+## Overview
 
-## Published Work
+**The PyCoach** is an AI educator and content creator, author of the popular Medium article *"I Tried 100 Claude Skills. These Are The Best"* (April 30, 2026). Runs the Artificial Corner newsletter (50K+ subscribers) focused on mastering AI in 2026.
 
-- **I Tried 100 Claude Skills. These Are The Best** — Comprehensive guide testing and ranking 11 best Claude Skills across presentations, marketing, business operations, and frontend development categories.
+## Key Content
 
-## Content Focus
-- Claude AI tutorials and skill sharing
-- Free Claude course available (20+ lessons)
-- Newsletter: 50K+ subscribers
+- **Claude Skills guide:** Ranked 11 best Claude Skills across presentations, marketing, business operations, and no-code building
+- **Newsletter:** 50K+ subscribers, AI mastery content
+- **Free Claude course:** 20+ lessons on effectively using Claude
 
-## Best Claude Skills Covered
-1. Slide Deck Builder — Presentation structure + design
-2. Explainer Graphic — Visual concept explainers
-3. Branded Carousel Generator — Social content with brand styling
-4. Brand Applicator — Apply brand rules to documents
-5. Market Competitors — Competitive intelligence reports
-6. Workflow Visualizer — Interactive process maps
-7. Contract Reviewer — Key terms and red flags
-8. Decision Council — Multi-expert decision synthesis
-9. Quick Research — Structured topic briefs
-10. Frontend Design — Production-ready UI code
-11. Implement Design — Figma to code fidelity
+## Relevance to Cognify Tech
+
+- Claude Skills ecosystem = productivity use case for AI agents
+- Skills pipeline (prompt wrapper → brand-consistent output) = directly relevant to Cognify's SME automation positioning
 
 ## Related
-- [[sources/claude-skills-best]] — The article
-- [[entities/Claude]] — Claude AI
-- [[entities/Anthropic]] — Anthropic (Claude creator)
-- [[concepts/AI-Skills]] — Skills concept
+
+- [[entities/Claude]]
+- [[concepts/AI-Skills]]
+- [[concepts/llm-engineering]]
+
+## Tags
+
+#ai-educator #claude #content-creator #medium #productivity
