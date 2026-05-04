@@ -3,7 +3,7 @@
   "processed": [
     "raw/articles/openai-o3-pro-launch.md",
     "Clippings/Building the 11 Layers of a Production-Grade MCP Server + Agentic System.md",
-    "raw/articles/hermes-agent-self-improving-ai-agent.md",
+    "Clippings/Hermes Agent Documentation  Hermes Agent.md",
     "Clippings/Building Local AI Agents A Practical Guide to Models, Memory, and Orchestration.md",
     "Clippings/DeepSeek AI 2026 R1, V3 & Local AI Hub.md",
     "Clippings/DeepSeek V4 Preview Release  DeepSeek API Docs.md",
@@ -21,7 +21,8 @@
     "output/2026-05-03-journal.md",
     "output/2026-05-03-social.md",
     "Clippings/I Tried 100 Claude Skills. These Are The Best.md",
-    "Clippings/AI Agent Skills Explained Simply.md"
+    "Clippings/AI Agent Skills Explained Simply.md",
+    "wiki/sources/2026-05-04-trending-briefing.md"
   ],
-  "last_checked": "2026-05-04T14:57:00Z"
+  "last_checked": "2026-05-04T21:45:00Z"
 }
