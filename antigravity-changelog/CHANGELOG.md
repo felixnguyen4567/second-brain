@@ -251,3 +251,13 @@
 - **API Key:** Đã set từ environment `MINIMAX_API_KEY`
 - **Gateway:** Restarted to apply config
 - **Status:** ✅ TTS enabled — July có thể reply voice
+
+### ✅ Daily Content Pipeline — 2026-05-04
+- **Thời điểm:** 22:30 UTC (May 4) / 08:00 ACST (May 5)
+- **Story #1 (Virality 9/10):** OpenAI missed Q1/2026 revenue targets — Anthropic & Google closing gap
+- **Story #2 (Personal angle):** "Vừa nghĩ mình thắng, đối thủ đã bỏ xa" — AI race lesson
+- **Articles submitted:**
+  - AI_NEWS: `openai-misses-revenue-q1-2026` (ID: 345f4b50) — published:false
+  - JOURNAL: `khi-nguoi-thang-khong-phai-la-ke-dan-dau` (ID: 973ff184) — published:false
+- **Social variants:** Twitter thread (VI), Facebook (bilingual), Instagram caption, TikTok script, LinkedIn post
+- **Git commit:** `6cc71db` — pushed to main
