@@ -176,3 +176,15 @@
   - Type: JOURNAL, published: false
 - **Social variants:** `output/2026-05-03-social.md` (Twitter VI, Facebook bilingual, IG, TikTok, LinkedIn)
 - **Review at:** https://felixng.vercel.app/en/admin/posts
+
+### ✅ Daily Content Pipeline — May 3, 2026
+- **Thời điểm:** ~22:33 UTC
+- **Vấn đề:** Trending briefing May 3 có sẵn, cần tạo articles + submit
+- **Fix/Action:** 
+  - Chọn #1 viral story: Pentagon + 7 AI Firms classified deals (9.8/10) cho AI News article
+  - Personal angle: Eric Schmidt's agentic AI advice cho Journal article
+  - Submit draft AI_NEWS: "The Pentagon Just Quietly Reshaped the AI Industry Forever" → ID f3622316-41eb-4bf7-96fa-9c4594941f68
+  - Submit draft JOURNAL: "Why Eric Schmidt Is Right (And Why It Should Make You Nervous)" → ID a468485c-18bc-4b7b-97e0-01ab7cb6ef47
+  - Social media variants đã sẵn có tại output/2026-05-03-social.md
+- **File changed:** output/2026-05-03-ai-news.md, output/2026-05-03-journal.md, output/2026-05-03-social.md
+- **Status:** ✅ Both drafts submitted as unpublished (published:false)
