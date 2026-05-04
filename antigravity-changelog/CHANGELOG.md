@@ -220,3 +220,34 @@
   - Social media variants đã sẵn có tại output/2026-05-03-social.md
 - **File changed:** output/2026-05-03-ai-news.md, output/2026-05-03-journal.md, output/2026-05-03-social.md
 - **Status:** ✅ Both drafts submitted as unpublished (published:false)
+
+## 2026-05-04
+
+### 🔄 Research AI News — Last 24h (Voice Task)
+- **Thời điểm:** ~09:39 UTC
+- **Request (Bear):** "Researcher tìm kiếm cho anh tất cả các tin tức hot liên quan đến AI trong vòng 24h qua."
+- **Source:** Voice message → Telegram transcript
+- **Status:** 🔄 In progress
+
+### ✅ Research AI News — Last 24h
+- **Thời điểm:** ~09:39 UTC → completed ~09:50 UTC
+- **Request (Bear):** "Researcher tìm kiếm cho anh tất cả các tin tức hot liên quan đến AI trong vòng 24h qua."
+- **Source:** Voice message → Telegram transcript
+- **Tổng hợp:** 10 tin hot nhất (xem bên dưới)
+- **Status:** ✅ Hoàn thành
+
+### 📌 Test Voice Response — Bear yêu cầu July reply bằng voice
+- **Thời điểm:** ~09:43 UTC
+- **Tin nhắn:** "Phản hồi lại anh bằng voice để test."
+- **Kết quả:** ❌ Không thể thực hiện — hệ thống không có TTS engine installed
+- **Chi tiết:** Không tìm thấy `espeak`, `pico2wave`, `spd-say`, hay bất kỳ TTS nào trên server
+- **Giải pháp cần:** Cần install TTS engine hoặc dùng cloud TTS API
+- **Ghi chú:** Telegram transcript đã hoạt động → STT đã OK nhờ Telegram
+
+### ✅ Setup MiniMax TTS — Voice Reply Enabled
+- **Thời điểm:** ~09:58 UTC
+- **Action:** Configure `messages.tts` với MiniMax provider
+- **Config:** `auto: "always"`, provider: `minimax`, model: `speech-2.8-hd`, voice: `English_expressive_narrator`
+- **API Key:** Đã set từ environment `MINIMAX_API_KEY`
+- **Gateway:** Restarted to apply config
+- **Status:** ✅ TTS enabled — July có thể reply voice
