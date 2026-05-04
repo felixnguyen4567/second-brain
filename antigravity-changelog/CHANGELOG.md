@@ -231,3 +231,11 @@
 - **Source:** Voice message → Telegram transcript
 - **Tổng hợp:** 10 tin hot nhất (xem bên dưới)
 - **Status:** ✅ Hoàn thành
+
+### 📌 Test Voice Response — Bear yêu cầu July reply bằng voice
+- **Thời điểm:** ~09:43 UTC
+- **Tin nhắn:** "Phản hồi lại anh bằng voice để test."
+- **Kết quả:** ❌ Không thể thực hiện — hệ thống không có TTS engine installed
+- **Chi tiết:** Không tìm thấy `espeak`, `pico2wave`, `spd-say`, hay bất kỳ TTS nào trên server
+- **Giải pháp cần:** Cần install TTS engine hoặc dùng cloud TTS API
+- **Ghi chú:** Telegram transcript đã hoạt động → STT đã OK nhờ Telegram
