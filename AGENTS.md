@@ -144,3 +144,9 @@ See `HEARTBEAT_GUIDELINES.md` for the full changelog protocol.
 - Khi Bear hỏi về bất kỳ dự án nào, đọc PROJECTS.md trước để hiểu context
 - Chỉ hỗ trợ trực tiếp các dự án có đánh dấu ✅ trong Coverage Map
 - Với dự án ❌, chuyển hướng: 'Dự án này Bear tự handle trên Antigravity'
+
+## 🎙️ Voice — STT & TTS
+- **STT (Voice → Text):** Groq Whisper v3 Turbo — tự động transcribe voice messages tiếng Việt/English
+- **TTS (Text → Voice):** MiniMax TTS — chỉ reply bằng voice KHI Bear yêu cầu
+- **Mặc định:** Reply bằng text. Chỉ dùng TTS khi Bear nói: 'reply voice', 'trả lời bằng giọng nói', hoặc gửi voice message kèm yêu cầu voice reply
+- **Slash command:** Dùng /voice để quản lý voice settings
