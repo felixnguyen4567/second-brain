@@ -40,15 +40,17 @@
 - **Security audit result:** 1 CRITICAL (known skill child_process), 1 WARN (trusted_proxies N/A), 1 INFO OK
 - **Status:** SSH key-only, brute-force auto-ban active ✅
 
-### ✅ Voice Integration — MiniMax TTS Enabled
-- **Thời điểm:** ~06:30 UTC (May 4) / 16:00 ACST
-- **Config:** `messages.tts.enabled: true`, `messages.tts.provider: minimax`
-- **Provider:** MiniMax (dùng chung MINIMAX_API_KEY đã có)
-- **Capabilities enabled:**
-  - STT: MiniMax media understanding (voice message → text)
-  - TTS: MiniMax speech provider (text → voice reply)
-- **Gateway restarted:** PM2 PID 458670, online ✅
-- **Test:** Gửi voice message trong Telegram → agent sẽ reply bằng voice
+### ✅ Voice Integration — MiniMax TTS + STT Enabled
+- **Thời điểm:** ~06:30 UTC → 08:35 UTC (May 4)
+- **Config applied:**
+  - `messages.tts.enabled: true` + `messages.tts.provider: minimax` (TTS)
+  - `tools.media.audio.echoTranscript: true` (STT — fix: chưa có ở lần đầu)
+- **Provider:** MiniMax (dùng chung MINIMAX_API_KEY)
+- **Capabilities:**
+  - ✅ TTS: MiniMax speech provider (text → voice reply)
+  - ✅ STT: MiniMax media understanding (voice message → text transcript)
+- **Gateway restarted:** PM2 PID 478928, online ✅
+- **Test:** Gửi voice message trong Telegram → agent transcribe + reply
 
 ### ✅ OpenClaw Dashboard — Full System Evaluation
 - **Thời điểm:** ~09:18 UTC (May 3) / 18:48 ACST

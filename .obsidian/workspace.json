@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "output/2026-05-03-social.md",
+                "file": "Clippings/I Forced NotebookLM Into 6 Real Workflows — These Are The Results No One Talks About.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2026-05-03-social"
+              "title": "I Forced NotebookLM Into 6 Real Workflows — These Are The Results No One Talks About"
             }
           }
         ]
@@ -181,10 +181,10 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "output/2026-05-03-social.md"
+                "file": "Clippings/I Forced NotebookLM Into 6 Real Workflows — These Are The Results No One Talks About.md"
               },
               "icon": "lucide-info",
-              "title": "File properties for 2026-05-03-social"
+              "title": "File properties for I Forced NotebookLM Into 6 Real Workflows — These Are The Results No One Talks About"
             }
           }
         ],
@@ -208,9 +208,12 @@
   },
   "active": "6ec1d72a2507f594",
   "lastOpenFiles": [
+    "Clippings/If You Understand These 5 AI Terms, You’re Ahead of 90% of People.md",
+    "Clippings/I Forced NotebookLM Into 6 Real Workflows — These Are The Results No One Talks About.md",
+    "Clippings/Hermes Agent + Ollama FASTEST Way to Install Locally.md",
+    "output/2026-05-03-social.md",
     "output/trending-news-2026-05-03-v2.md",
     "output/2026-05-03-journal.md",
-    "output/2026-05-03-social.md",
     "2026-05-02.md",
     "AGENTS.md",
     "Clippings/NousResearchhermes-agent The agent that grows with you.md",
@@ -231,11 +234,8 @@
     "Clippings/Hermes Agent Documentation  Hermes Agent.md",
     "Clippings/DeepSeek V4 Preview Release  DeepSeek API Docs.md",
     "Clippings/DeepSeek AI 2026 R1, V3 & Local AI Hub.md",
-    "Clippings/Building the 11 Layers of a Production-Grade MCP Server + Agentic System.md",
-    "Clippings/Building Local AI Agents A Practical Guide to Models, Memory, and Orchestration.md",
     "avatars/july-avatar-alt.jpg",
     "avatars/july-avatar.jpg",
-    "antigravity-changelog/README.md",
     "avatars",
     "skills/content-pipeline",
     "antigravity-changelog/tasks",
