@@ -239,3 +239,11 @@
 - **Chi tiết:** Không tìm thấy `espeak`, `pico2wave`, `spd-say`, hay bất kỳ TTS nào trên server
 - **Giải pháp cần:** Cần install TTS engine hoặc dùng cloud TTS API
 - **Ghi chú:** Telegram transcript đã hoạt động → STT đã OK nhờ Telegram
+
+### ✅ Setup MiniMax TTS — Voice Reply Enabled
+- **Thời điểm:** ~09:58 UTC
+- **Action:** Configure `messages.tts` với MiniMax provider
+- **Config:** `auto: "always"`, provider: `minimax`, model: `speech-2.8-hd`, voice: `English_expressive_narrator`
+- **API Key:** Đã set từ environment `MINIMAX_API_KEY`
+- **Gateway:** Restarted to apply config
+- **Status:** ✅ TTS enabled — July có thể reply voice
