@@ -9,6 +9,62 @@
 
 ---
 
+## 2026-05-04
+
+### ✅ Fix Cron Job Failures — Model Timeout + Telegram Message Limit
+- **Thời điểm:** ~22:00 UTC (May 3) / 07:30 ACST (May 4)
+- **Vấn đề 1:** `Daily Trending News` + `Daily Email Check - Cognifytech` fail do model idle timeout
+  - Root cause: `minimax/MiniMax-M2.7` provider không có `timeoutSeconds` → default quá ngắn
+  - Error: `"The model did not produce a response before the model idle timeout"`
+- **Vấn đề 2:** Email Check trả về message >4096 chars → `GrammyError: message is too long`
+- **Fixes applied:**
+  - `openclaw.json`: Thêm `timeoutSeconds: 300` cho cả `minimax/MiniMax-M2.7` và `openai/minimax`
+  - Tất cả 5 cron jobs: Set explicit `--timeout-seconds` (180-300s)
+  - Email Check prompt: Thêm giới hạn "max 5 emails, under 3500 chars"
+  - PM2 restart để reload config
+- **Kết quả:** 5/5 cron jobs chạy thành công, deliver Telegram ✅
+
+### ✅ OpenClaw Dashboard — Full System Evaluation
+- **Thời điểm:** ~09:18 UTC (May 3) / 18:48 ACST
+- **Action:** Deep audit toàn bộ hệ thống Antigravity + OpenClaw
+- **Score:** 7.6/10 overall — UX 9/10, Security 5/10
+- **Key findings:**
+  - Cookie auth dễ bypass (plaintext `'authenticated'`)
+  - Shell injection risk trong `forceRunCron()`
+  - Zero TypeScript types, zero tests
+  - SSH connection pooling missing
+- **Artifact:** `system_evaluation.md` — full report with prioritized roadmap
+
+---
+
+## 2026-05-01 → 2026-05-03
+
+### ✅ OpenClaw Dashboard — Complete Implementation (Antigravity Project)
+- **Project:** `openclaw-dashboard/` — Next.js 16, Tailwind 4, node-ssh
+- **Git commit:** `05cad6f` — 16 files, 2,079 insertions
+- **Pages built:**
+  | Page | Features |
+  |:---|:---|
+  | System Overview | CPU/RAM/Disk metrics, PM2 status, SSH indicator, version badge |
+  | Task Inbox | Full CRUD, inline editing, keyboard shortcuts, multi-prefix parsing |
+  | Cron Monitor | View/force-run OpenClaw cron jobs |
+  | Live Feed | Real-time log viewer, pause/resume, export to .txt |
+  | Settings | Config editor (openclaw.json, plugins, .env, crontab) |
+  | Backup & Restore | Download full .openclaw backup as .tar.gz |
+  | Login | Password-protected with glassmorphism UI |
+- **Components:** Sidebar, DashboardLayout, CommandPalette (⌘K)
+- **Infrastructure:**
+  - `lib/ssh.ts`: `executeSSH()` + `executeSSHBatch()` for optimized EC2 connectivity
+  - `middleware.ts`: Cookie-based auth guard
+  - `actions.ts`: 15 server actions covering metrics, tasks, config, logs, auth
+- **Key fixes during development:**
+  - Plugin JSON key: `installs` → `plugins` (correct key in installs.json)
+  - Task prefix matching: hardcoded `TASK:` → regex for `TASK:|SYSTEM_TEST:|TODO:`
+  - SSH batch: 4 sequential calls → 1 batched call (40% latency reduction)
+- **Tech stack:** Next.js 16.2.4, React 19.2.4, Tailwind 4, Lucide React, Sonner, node-ssh
+
+---
+
 ## 2026-05-03
 
 ### ✅ Update trending-news-briefing Skill — Phase 5 Wiki Auto-Ingest

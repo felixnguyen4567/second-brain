@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Clippings/NousResearchhermes-agent The agent that grows with you.md",
+                "file": "output/2026-05-03-social.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "NousResearchhermes-agent The agent that grows with you"
+              "title": "2026-05-03-social"
             }
           }
         ]
@@ -181,10 +181,10 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Clippings/NousResearchhermes-agent The agent that grows with you.md"
+                "file": "output/2026-05-03-social.md"
               },
               "icon": "lucide-info",
-              "title": "File properties for NousResearchhermes-agent The agent that grows with you"
+              "title": "File properties for 2026-05-03-social"
             }
           }
         ],
@@ -208,6 +208,18 @@
   },
   "active": "6ec1d72a2507f594",
   "lastOpenFiles": [
+    "output/2026-05-03-journal.md",
+    "output/2026-05-03-social.md",
+    "2026-05-02.md",
+    "AGENTS.md",
+    "Clippings/NousResearchhermes-agent The agent that grows with you.md",
+    "wiki/sources/social-media-pentagon-agentic-2026-05-03.md",
+    "wiki/sources/pentagon-ai-deals-may-2026.md",
+    "wiki/sources/agentic-ai-opportunity-schmidt.md",
+    "wiki/entities/Qualcomm.md",
+    "wiki/entities/Pentagon-AI-Deals.md",
+    "wiki/concepts/AI-Startup-Moat.md",
+    "output/trending-news-2026-05-03.md",
     "wiki/sources/trending-news-2026-05-01.md",
     "wiki/sources/trending-news-2026-04-30.md",
     "wiki/entities/Stanford-HAI.md",
@@ -224,18 +236,6 @@
     "avatars/july-avatar.jpg",
     "antigravity-changelog/README.md",
     "wiki/sources/12-ai-books-2026-anubhav.md",
-    "wiki/entities/Sebastian-Raschka.md",
-    "wiki/entities/Rush-Shahani.md",
-    "wiki/entities/Jay-Alammar.md",
-    "wiki/entities/Chip-Huyen.md",
-    "wiki/concepts/llm-evaluation.md",
-    "wiki/concepts/llm-engineering.md",
-    "wiki/concepts/ai-agent-architecture.md",
-    "antigravity-changelog/CHANGELOG.md",
-    "antigravity-changelog/ANTIGRAVITY_REPORT.md",
-    "antigravity-changelog/tasks/status.md",
-    "antigravity-changelog/inbox/INBOX.md",
-    "antigravity-changelog/context/current-state.md",
     "avatars",
     "skills/content-pipeline",
     "antigravity-changelog/tasks",
