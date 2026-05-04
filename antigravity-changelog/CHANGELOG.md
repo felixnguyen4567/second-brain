@@ -24,6 +24,32 @@
   - PM2 restart để reload config
 - **Kết quả:** 5/5 cron jobs chạy thành công, deliver Telegram ✅
 
+### ✅ Sysadmin Tier 1 — Cleanup + Compile Cache
+- **Thời điểm:** ~06:20 UTC (May 4) / 15:50 ACST
+- **Action:** `openclaw doctor --fix` — archived 22 orphan transcript files (38 → 16 active)
+- **Compile cache:** `/var/tmp/openclaw-compile-cache/` created, added to `.bashrc` + PM2 env
+- **Impact:** Faster CLI, cleaner session state
+
+### ✅ Sysadmin Tier 2 — SSH Hardening + Security Audit
+- **Thời điểm:** ~06:21 UTC (May 4) / 15:51 ACST
+- **Brute-force detected:** SSH scans from `196.189.51.4` (Ethiopia), `118.194.235.105` (China)
+- **Fixes applied:**
+  - `PasswordAuthentication no` + `PermitRootLogin no` in sshd_config
+  - **fail2ban installed** — jail `sshd` active (maxretry: 3, bantime: 1h)
+  - sshd restarted
+- **Security audit result:** 1 CRITICAL (known skill child_process), 1 WARN (trusted_proxies N/A), 1 INFO OK
+- **Status:** SSH key-only, brute-force auto-ban active ✅
+
+### ✅ Voice Integration — MiniMax TTS Enabled
+- **Thời điểm:** ~06:30 UTC (May 4) / 16:00 ACST
+- **Config:** `messages.tts.enabled: true`, `messages.tts.provider: minimax`
+- **Provider:** MiniMax (dùng chung MINIMAX_API_KEY đã có)
+- **Capabilities enabled:**
+  - STT: MiniMax media understanding (voice message → text)
+  - TTS: MiniMax speech provider (text → voice reply)
+- **Gateway restarted:** PM2 PID 458670, online ✅
+- **Test:** Gửi voice message trong Telegram → agent sẽ reply bằng voice
+
 ### ✅ OpenClaw Dashboard — Full System Evaluation
 - **Thời điểm:** ~09:18 UTC (May 3) / 18:48 ACST
 - **Action:** Deep audit toàn bộ hệ thống Antigravity + OpenClaw
