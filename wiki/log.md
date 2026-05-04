@@ -90,3 +90,10 @@ grep "query" wiki/log.md
 - Pages updated: index.md, processed.json
 - Key content: Pentagon operational AI deals (7 companies, IL6/7), Eric Schmidt agentic AI advice analysis, social media variants, Claude Skills ranked guide
 - For Cognify Tech: AI Startup Moat concept = reliability compound error + Darwin SME opportunity
+
+## [2026-05-04] ingest | AI Agent Skills Explained Simply
+- Source: `Clippings/AI Agent Skills Explained Simply.md`
+- Pages created: 1 (source summary)
+- Pages updated: AI-Skills concept, index.md, processed.json, log.md
+- Key insight: Procedural vs factual knowledge, 3-tier progressive disclosure, open standard at agentskills.io
+- Subagent timeouts — ingested inline manually
