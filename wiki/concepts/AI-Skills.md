@@ -2,7 +2,7 @@
 title: "AI Skills"
 type: concept
 source: https://docs.anthropic.com/en/docs/claude-model-card
-related_sources: [claude-skills-best, hermes-agent-documentation]
+related_sources: [claude-skills-best, hermes-agent-documentation, ai-agent-skills-explained-simply]
 tags: [ai-skills, automation, reusable-knowledge, instruction-sets]
 related_concepts: [AI-Agents, Skills-System, Self-Improving-AI-Agent, Memory-Architecture]
 related_entities: [Anthropic, Hermes-Agent]
@@ -41,8 +41,9 @@ Các skills được chia sẻ qua open standards như [agentskills.io](https://
 - [[Memory-Architecture]] — Lưu trữ và truy xuất skills
 - [[AI-Agents]] — Agents sử dụng skills
 
-## References
+## Additional References
 
+- [AI Agent Skills Explained Simply (Tahir, 2026)](https://medium.com/@tahirbalarabe2/ai-agent-skills-explained-simply-4010f6d9db92) — Procedural knowledge vs facts distinction, progressive disclosure tiers
 - [Claude Skills](https://docs.anthropic.com/en/docs/claude-model-card) — Anthropic's Skills platform
 - [agentskills.io](https://agentskills.io/) — Open standard skills hub
 - [Hermes Skills System](https://hermes-agent.nousresearch.com/docs/user-guide/features/skills)

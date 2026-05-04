@@ -1,8 +1,8 @@
 ---
 title: Wiki Index
 updated: 2026-05-03
-page_count: 53
-source_count: 19
+page_count: 54
+source_count: 20
 ---
 
 # 📚 Wiki Index
@@ -58,6 +58,7 @@ This is the master index of the LLM Wiki. It catalogs every page in the wiki wit
 
 - [[sources/hermes-agent-documentation]] — Official Hermes Agent documentation (Nous Research, May 2026)
 - [[sources/nousresearch-hermes-agent-github]] — GitHub repo for Hermes Agent (Nous Research, May 2026)
+- [[sources/ai-agent-skills-explained-simply]] — Procedural vs factual knowledge, progressive disclosure, open standard (Tahir, Apr 2026)
 - [[sources/hermes-agent-self-improving-ai-agent]] — "Inside Hermes Agent" by Mr. Ånand (Apr 2026, 16 min read)
 - [[sources/openai-o3-pro-launch]] — OpenAI releases o3-pro reasoning model (TechCrunch, Apr 2026)
 - [[sources/claude-skills-best]] — "I Tried 100 Claude Skills" by The PyCoach (Apr 2026)
@@ -89,4 +90,4 @@ This is the master index of the LLM Wiki. It catalogs every page in the wiki wit
 
 ---
 
-**Total pages:** 36 | **Total sources:** 19 | **Last updated:** 2026-05-03
+**Total pages:** 37 | **Total sources:** 20 | **Last updated:** 2026-05-04

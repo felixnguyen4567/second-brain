@@ -2,93 +2,64 @@
 title: "AI Agent Skills Explained Simply"
 source: "https://medium.com/@tahirbalarabe2/ai-agent-skills-explained-simply-4010f6d9db92"
 author:
-  - "Tahir Balarabe"
+  - "[[Tahir]]"
 published: 2026-04-25
 created: 2026-05-04
-description: "Explains AI Agent Skills as modular, filesystem-based procedural knowledge units for LLMs. Covers the skill.md format, progressive disclosure, and how skills compare to MCP, RAG, and fine-tuning."
+description: "AI agent skills add procedural knowledge to LLMs via skill.md files. Learn the open standard adopted by Claude Code and OpenAI."
 tags:
   - "clippings"
-  - "AI-skills"
-  - "agentic-ai"
-  - "procedural-knowledge"
+  - "AI-Agents"
+  - "AI-Skills"
 ---
 
-# AI Agent Skills Explained Simply
+## Tóm tắt
 
-## Summary
+AI Agent Skills là modular capabilities mở rộng LLM bằng cách thêm procedural knowledge qua file `skill.md`. Đây là open standard được adopt bởi Claude Code và OpenAI Codex.
 
-AI Agent Skills solve the **procedural knowledge gap** in LLMs. While LLMs know facts (semantic memory), they lack step-by-step workflows (procedural memory). Skills are filesystem-based markdown files (`skill.md`) that teach agents how to execute repeatable processes. The format is an open standard at [[https://agentskills.io](https://agentskills.io/home)] (Apache 2.0), adopted by Claude Code and OpenAI Codex.
+## Key Concepts
 
-## Core Concepts
+### Vấn đề của Agent
+- LLMs biết facts nhưng không có procedural knowledge
+- Khi cần workflow 47 bước, agent phải đoán hoặc được chỉ định từng bước — cả hai đều không hiệu quả
 
-### What Is a Skill?
+### Agent Skill là gì?
+- File markdown (`skill.md`) trong một folder
+- Chứa YAML frontmatter với `name` và `description`
+- Hướng dẫn step-by-step cho agent
 
-A skill is a folder containing a `skill.md` file with:
-- **YAML frontmatter**: `name` (identifier) + `description` (trigger condition)
-- **Instructions**: Step-by-step markdown guidance
-- **Optional**: `scripts/`, `references/`, `assets/` subfolders
-
-### Three-Tier Progressive Disclosure
-
-| Tier | What Loads | Tokens/Skill |
-|------|-----------|--------------|
-| Metadata | Name + description only | ~few tokens |
-| Full instructions | Complete `skill.md` | Full file |
-| Resources | Scripts, references, assets | At point of need |
-
-### Skills vs Other Knowledge Methods
-
-- **MCP**: Tool access (capability), not judgment (when/how)
-- **RAG**: Factual reference material, not procedural steps
-- **Fine-tuning**: Baked into weights, expensive to update when model changes
-- **Skills**: Files. Version-controlled. Portable. Update without retraining.
-
-### Cognitive Science Mapping
-
-| Human Memory | AI Implementation |
-|--------------|-------------------|
-| Semantic (facts) | RAG / knowledge bases |
-| Episodic (experiences) | Conversation logs |
-| Procedural (skills) | Skill files |
-
-## The Trust Problem
-
-Skills can include executable scripts with access to:
-- File system
-- Environment variables
-- API keys
-
-Publicly available skills have been found containing:
-- Prompt injection
-- Tool poisoning
-- Hidden malware
-
-**Warning**: Treat skill installation like installing software dependencies — always review before use.
-
-## Key Commands / Structure
-
+### Cấu trúc Skill
 ```
-skill-folder/
-├── skill.md          # Mandatory: name, description, instructions
-├── scripts/          # Optional: JS, Python, bash executables
-├── references/       # Optional: extra documentation
-└── assets/           # Optional: templates, data files
+/skill-folder/
+  skill.md      # Mandatory: name + description + instructions
+  /scripts/     # Optional: JS, Python, bash
+  /references/ # Optional: documentation
+  /assets/      # Optional: templates, data
 ```
 
-## Adoption
+### Progressive Disclosure (3 Tiers)
+1. **Tier 1:** Chỉ load metadata (name + description) — vài tokens mỗi skill
+2. **Tier 2:** Khi trigger match → load full instructions
+3. **Tier 3:** Scripts/assets chỉ load khi cần
 
-- **Claude Code** — native skills support
-- **OpenAI Codex** — native skills support
-- **agentskills.io** — open standard registry (Apache 2.0)
+### So sánh với các phương pháp khác
 
-## Related Concepts
+| Phương pháp | Cho gì | Làm gì | Không làm gì |
+|---|---|---|---|
+| **MCP** | Tool access | Gọi external APIs | Khi nào/dùng thế nào |
+| **RAG** | Factual knowledge | Pull chunks từ DB | Dạy agent làm gì |
+| **Fine Tuning** | Knowledge trong weights | Làm knowledge vĩnh viễn | Rẻ khi model đổi |
+| **Skills** | Procedural knowledge | Step-by-step workflow | — |
 
-- [[concepts/skills-system]] — Reusable codified knowledge units in AI agents
-- [[concepts/Procedural-Knowledge]] — Know-how vs know-that distinction
-- [[concepts/MCP]] — Model Context Protocol (complementary, not competing)
-- [[concepts/RAG]] — Factual retrieval (skills' counterpart for facts)
+### Open Standard
+- Spec: [agentskills.io](https://agentskills.io) (Apache 2.0)
+- Adopted bởi: Claude Code, OpenAI Codex
 
-## Entities
+### Trust Problem
+Skills có thể chạy script với quyền trên filesystem, env vars, API keys. Đã từng có malware trong public skills — cần review trước khi install.
 
-- [[entities/Anthropic]] — Behind Claude Code skills platform
-- [[entities/OpenAI]] — Behind Codex skills platform
+## Liên quan
+
+- [[AI-Skills]]
+- [[Claude]]
+- [[MCP]]
+- [[AI-Agents]]
