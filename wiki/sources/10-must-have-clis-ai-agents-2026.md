@@ -1,73 +1,68 @@
 ---
 title: "10 Must-have CLIs for your AI Agents in 2026"
-type: source
-source: https://medium.com/@unicodeveloper/10-must-have-clis-for-your-ai-agents-in-2026-51ba0d0881df
-author: "[[Unicodeveloper]]"
+source: "https://medium.com/@unicodeveloper/10-must-have-clis-for-your-ai-agents-in-2026-51ba0d0881df"
+author:
+  - "unicodeveloper"
 published: 2026-04-01
 created: 2026-05-04
-description: "10 essential CLI tools that AI agents and developers need in 2026. CLIs beat MCP on cost and reliability."
-tags: [cli-tools, ai-agents, developer-tools, terminal, mcp, productivity]
-related_entities: [GitHub, Stripe, Supabase, Valyu, PostHog, ElevenLabs, Ramp, Google-Workspace, AgentMail, Vercel]
-related_concepts: [CLI-Tools, MCP, Terminal-Productivity, Agentic-AI, Local-AI]
+description: "A guide to 10 essential command-line tools that AI agents and developers need in 2026, covering GitHub, Stripe, Supabase, Valyu, PostHog, ElevenLabs, Ramp, Google Workspace, AgentMail, and Vercel."
+tags:
+  - "clippings"
+  - "CLI"
+  - "AI-agents"
+  - "developer-tools"
 ---
 
 # 10 Must-have CLIs for your AI Agents in 2026
 
-## Tóm tắt
+## Summary
 
-Bài viết giới thiệu 10 CLI tools mà developers và AI agents cần trong 2026. Điểm chính: **CLIs đánh bại MCP** (Model Context Protocol) trên cả chi phí (10–32x cheaper) và độ tin cậy (100% vs 72%). MCP tiêu tốn quá nhiều tokens vì đẩy toàn bộ schema vào context window. CLIs không có overhead đó vì chỉ chạy command và nhận output.
+The article argues that **CLIs outperform MCP servers** for AI agents in cost, reliability, and token efficiency (10–32x cheaper, ~100% vs 72% reliability). It profiles 10 must-have CLIs for AI agents in 2026: GitHub CLI (`gh`), Stripe CLI, Supabase CLI, Valyu CLI, PostHog CLI, ElevenLabs CLI, Ramp CLI, Google Workspace CLI (`gws`), AgentMail CLI, and Vercel CLI.
 
-## 10 CLI Tools
+## Key Arguments
 
-| # | Tool | Mục đích |
-|---|------|----------|
-| 1 | `gh` (GitHub CLI) | Quản lý repos, PRs, issues từ terminal |
-| 2 | Stripe CLI | Payment testing + local webhook forwarding |
-| 3 | Supabase CLI | Full Postgres local stack (DB + Auth + Storage) |
-| 4 | Valyu CLI | Web search + SEC filings, PubMed, FRED data access |
-| 5 | PostHog CLI | Analytics setup + self-hosting |
-| 6 | ElevenLabs CLI | TTS, STT, voice cloning từ terminal |
-| 7 | Ramp CLI | Expense management, card approvals |
-| 8 | Google Workspace CLI (`gws`) | Drive, Gmail, Calendar, Docs operations |
-| 9 | AgentMail CLI | Email inbox + transactional email từ terminal |
-| 10 | Vercel CLI | App deployment + preview URLs |
+- **CLI vs MCP**: Benchmarks show CLI-based agents beat MCP-based agents on every efficiency metric. MCP dumps entire schemas into context windows (150K+ tokens overhead for 3–4 servers). CLIs have zero schema injection overhead.
+- **Token savings**: Anthropic internal research found models writing shell scripts instead of calling MCP tools cut token usage by **98.7%**.
+- **Composability**: LLMs are pre-trained on millions of shell scripting examples — the grammar is baked into model weights.
+- **Enterprise MCP**: MCP remains valuable for OAuth 2.1, multi-tenant auth, compliance, and services without CLIs.
 
-## Key Findings
+## The 10 CLIs
 
-### CLI vs MCP: The Numbers
-- **Token efficiency**: CLIs 10–32x cheaper
-- **Reliability**: CLIs ~100% vs MCP ~72%
-- **Anthropic internal research**: Shell scripting thay vì MCP tools giảm token usage 98.7%
-- **Perplexity** pulled MCP support citing token overhead and reliability failures
+1. **GitHub CLI** (`gh`) — PRs, issues, repos, `gh copilot` inline AI
+2. **Stripe CLI** — Webhook tunneling (`stripe listen`), event triggering, log tailing
+3. **Supabase CLI** — Local Postgres + Auth + Storage stack, `supabase db push`
+4. **Valyu CLI** — Web search + SEC filings, PubMed, clinical trials, FRED, patents
+5. **PostHog CLI** — Analytics setup, framework auto-detection, self-hosting
+6. **ElevenLabs CLI** — TTS, STT, voice cloning, `—json` for scripting
+7. **Ramp CLI** — Expense/card management, `—agent` flag for JSON output
+8. **Google Workspace CLI** (`gws`) — Gmail, Drive, Calendar, Docs from terminal
+9. **AgentMail CLI** — Live inbox creation, transactional + receive email, webhooks
+10. **Vercel CLI** — Preview deployments, `vercel env pull.env.local`
 
-### Why CLIs Win for AI Agents
-1. **No schema injection overhead** — model chạy command, nhận output, done
-2. **Language models trained on millions of shell scripts** — biết cách chain commands tự nhiên
-3. **MCP dumps entire schema into context window** — stack 3-4 MCP servers = 150K tokens overhead trước khi làm gì hữu ích
+## Key Commands
 
-### MCP Still Has Value
-Enterprise deployments với OAuth 2.1, multi-tenant auth, compliance requirements, và services không có CLI → MCP là lựa chọn đúng.
+```bash
+# GitHub PR creation
+gh pr create --fill
 
-## The Terminal is Where AI-Assisted Development Happens
+# Stripe webhook forwarding
+stripe listen --forward-to localhost:3000/webhook
 
-Mỗi developer tool company lớn đã ship hoặc update CLI trong 2025–2026: GitHub, Stripe, Supabase, Vercel, PostHog, ElevenLabs, Ramp, Google, Resend, Valyu. Lý do: khi đang review code với Claude Code lúc midnight, switch sang browser và log vào 3 dashboards là context switch đắt tiền.
+# Valyu search
+valyu search "Q1 2026 10-K supply chain risk factors semiconductors"
+
+# Ramp transactions
+ramp transactions list --from_date 2026-01-01 --agent | jq '.data[] | select(.amount > 5000)'
+```
 
 ## Related Concepts
 
-- [[concepts/CLI-Tools]] — CLI tools overview
-- [[concepts/MCP]] — Model Context Protocol
-- [[concepts/Agentic-AI]] — AI agents using tools
-- [[concepts/Terminal-Productivity]] — Productivity in terminal environments
+- [[concepts/CLI-Tools]] — Command-line tools for AI agents
+- [[concepts/MCP]] — Model Context Protocol, alternative to CLIs for enterprise use cases
+- [[concepts/RAG]] — Retrieval-Augmented Generation (mentioned in context of AI data access)
 
-## Related Entities
+## Entities
 
-- [[entities/GitHub]] — Repository management
-- [[entities/Stripe]] — Payment infrastructure
-- [[entities/Supabase]] — Open-source Firebase alternative
-- [[entities/Valyu]] — Specialized data access CLI
-- [[entities/PostHog]] — Product analytics
-- [[entities/ElevenLabs]] — Voice AI
-- [[entities/Ramp]] — Financial operations
-- [[entities/Google-Workspace]] — Enterprise productivity suite
-- [[entities/AgentMail]] — Email automation
-- [[entities/Vercel]] — Deployment platform
+- [[entities/Valyu]] — Data API startup with CLI for specialized data access
+- [[entities/Supabase]] — Open-source Firebase alternative with full CLI
+- [[entities/Stripe]] — Payment infrastructure with developer-first CLI
