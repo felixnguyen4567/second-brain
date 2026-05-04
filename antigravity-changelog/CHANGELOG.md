@@ -40,17 +40,21 @@
 - **Security audit result:** 1 CRITICAL (known skill child_process), 1 WARN (trusted_proxies N/A), 1 INFO OK
 - **Status:** SSH key-only, brute-force auto-ban active ✅
 
-### ✅ Voice Integration — MiniMax TTS + STT Enabled
-- **Thời điểm:** ~06:30 UTC → 08:35 UTC (May 4)
+### ✅ Voice Integration — Groq STT + MiniMax TTS
+- **Thời điểm:** 06:30 → 09:38 UTC (May 4)
 - **Config applied:**
   - `messages.tts.enabled: true` + `messages.tts.provider: minimax` (TTS)
-  - `tools.media.audio.echoTranscript: true` (STT — fix: chưa có ở lần đầu)
-- **Provider:** MiniMax (dùng chung MINIMAX_API_KEY)
-- **Capabilities:**
-  - ✅ TTS: MiniMax speech provider (text → voice reply)
-  - ✅ STT: MiniMax media understanding (voice message → text transcript)
-- **Gateway restarted:** PM2 PID 478928, online ✅
-- **Test:** Gửi voice message trong Telegram → agent transcribe + reply
+  - `tools.media.audio.models: [{"provider":"groq"}]` (STT)
+  - `tools.media.audio.echoTranscript: true`
+- **Providers:**
+  - ✅ STT: **Groq Whisper v3 Turbo** — free, Vietnamese support, ~0.5s latency
+  - ✅ TTS: **MiniMax** speech provider (text → voice reply)
+- **Root cause fix:** MiniMax chỉ có `image` media understanding, KHÔNG có `audio`. Cần Groq key riêng cho STT.
+- **API Keys:** `GROQ_API_KEY` added to `.env`, PM2 restarted with `--update-env`
+- **TTS runtime fix:** `openclaw capability tts enable` + `set-provider --provider minimax` (config file ≠ runtime)
+- **TTS mode:** `auto: "off"` — chỉ reply voice khi Bear yêu cầu (tránh delay)
+- **AGENTS.md:** Thêm Voice section hướng dẫn July khi nào dùng TTS
+- **Gateway restarted:** PM2 PID 504800, online ✅
 
 ### ✅ OpenClaw Dashboard — Full System Evaluation
 - **Thời điểm:** ~09:18 UTC (May 3) / 18:48 ACST
