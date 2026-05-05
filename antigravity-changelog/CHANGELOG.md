@@ -9,6 +9,63 @@
 
 ---
 
+## 2026-05-05
+
+### ✅ OpenAI Codex OAuth — ChatGPT Plus → OpenClaw LLM
+- **Thời điểm:** ~00:08 → 01:05 UTC (May 5) / 09:38 → 10:35 ACST
+- **Mục tiêu:** Dùng ChatGPT Plus subscription làm LLM cho July (OpenClaw agent)
+- **Tutorial tham khảo:** https://lumadock.com/tutorials/openclaw-openai-codex-chatgpt-subscription
+- **Phát hiện:** ChatGPT Plus ≠ API Key. OpenClaw hỗ trợ `openai-codex` OAuth flow — dùng subscription trực tiếp, KHÔNG cần API key riêng.
+- **Quy trình:**
+  1. `openclaw onboard --auth-choice openai-codex` (interactive wizard, bắt buộc)
+  2. OAuth URL → browser → đăng nhập `cognifytech91@gmail.com` → authorize
+  3. Redirect `localhost:1455?code=...` → paste callback URL vào terminal
+  4. `openclaw models set openai-codex/gpt-5.3-codex` → thực tế set `openai-codex/gpt-5.5`
+  5. `openclaw models fallbacks add minimax/MiniMax-M2.7` (fallback khi hết quota)
+  6. PM2 restart
+- **Kết quả:**
+  - Default model: `openai-codex/gpt-5.5` ✅
+  - OAuth account: `cognifytech91@gmail.com` ✅
+  - Token expires: 10 ngày, auto-refresh khi active
+  - Quota: **5h/tuần** (ChatGPT Plus), 100% left
+  - Fallback: `minimax/MiniMax-M2.7` khi hết quota ✅
+  - Agent restarted: PM2 PID 681317, online ✅
+- **Lưu ý:**
+  - Non-interactive mode KHÔNG được hỗ trợ bởi openai-codex plugin
+  - KHÔNG bao giờ yêu cầu July tự chạy wizard (circular dependency risk)
+  - Re-auth command: `openclaw models auth login --provider openai-codex`
+
+### ✅ ChatGPT Custom Instructions — Restructure cho UI mới
+- **Thời điểm:** ~23:35 → 23:45 UTC (May 4) / 09:05 → 09:15 ACST
+- **Vấn đề:** ChatGPT Plus UI có 4 ô riêng biệt, KHÔNG phải 2 ô cũ
+- **File:** `second-brain/CHATGPT_INSTRUCTIONS.md` — viết lại hoàn toàn
+- **4 ô mapping:**
+  1. **Custom instructions** — behavior, tone, multi-agent role (Advisor)
+  2. **Nickname** — `Bear`
+  3. **Occupation** — `Case Manager @ Allianz/TIO Darwin & Founder of Cognify Tech`
+  4. **More about you** — compressed ~1480 ký tự (limit 1500)
+- **Nén thành công:** 1,239 characters — vừa vặn limit ✅
+
+### ✅ SSH Key Fix — Permission & Key Management
+- **Thời điểm:** ~00:26 UTC (May 5) / 09:56 ACST
+- **Vấn đề:** Bear SSH thất bại từ `~/Documents`
+  - `openclaw-key.pem` (Documents) → wrong key pair, không match EC2
+  - `openclaw_v2.pem` (Documents) → permission 0644, bị SSH reject
+- **Fixes:**
+  - `chmod 600 openclaw_v2.pem` — fix permission
+  - Phát hiện: 2 key ở Documents là key pair CŨ, không match EC2 instance
+  - Copy key đúng từ workspace → `~/Documents/openclaw-key-v3.pem` (chmod 400)
+- **Key hoạt động:** `/Users/Felix/Documents/openclaw-key-v3.pem` ✅
+- **SSH command:** `ssh -i ~/Documents/openclaw-key-v3.pem ubuntu@16.51.145.141`
+
+### 📌 Multi-Agent System — Context Files Updated
+- **CHATGPT_INSTRUCTIONS.md** — restructured for new ChatGPT UI (4 fields)
+- **CODEX_INSTRUCTIONS.md** — unchanged, ready for Codex integration
+- **AI_COMMAND_CENTER.md** — unchanged
+- **OPENAI_CODEX_SETUP.md** — NEW: step-by-step OAuth setup guide
+
+---
+
 ## 2026-05-04
 
 ### ✅ Fix Cron Job Failures — Model Timeout + Telegram Message Limit
