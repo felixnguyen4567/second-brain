@@ -116,3 +116,12 @@ grep "query" wiki/log.md
 ## [2026-05-05] ingest | Registered trending briefing source
 - `output/2026-05-05-trending-briefing.md` → [[sources/2026-05-05-trending-briefing]] — Trending News Briefing — 2026-05-05
 - Note: source summary already existed; heartbeat completed processed-source tracking.
+
+## [2026-05-05] analysis | Bear Astrology Website Improvement Brief
+- Source: July research synthesis from market/web research
+- Pages created: 2
+  - [[analyses/bear-astrology-website-improvement-brief-2026-05-05]]
+  - [[concepts/astrology-app-personalization]]
+- Pages updated: index.md, overview.md, log.md
+- Key concepts: astrology personalization, AI companion, compatibility reports, daily ritual, monetization
+- Status: saved to second brain wiki

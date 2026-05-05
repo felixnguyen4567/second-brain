@@ -1,8 +1,8 @@
 ---
 title: Wiki Index
 updated: 2026-05-05
-page_count: 54
-source_count: 34
+page_count: 111
+source_count: 40
 ---
 
 # 📚 Wiki Index
@@ -54,6 +54,8 @@ This is the master index of the LLM Wiki. It catalogs every page in the wiki wit
 - [[concepts/AI-Startup-Moat]] — Reliability compound error problem, moat creation for AI startups
 - [[concepts/War-Powers-Resolution]] — Constitutional crisis as Trump ends Iran war unilaterally (May 2026)
 
+- [[concepts/astrology-app-personalization]] — Personalized astrology as product strategy: natal chart, transits, AI companion, retention loops
+
 ## 📄 Sources
 
 - [[sources/hermes-agent-documentation]] — Official Hermes Agent documentation (Nous Research, May 2026)
@@ -104,8 +106,8 @@ This is the master index of the LLM Wiki. It catalogs every page in the wiki wit
 *No comparisons yet.*
 
 ## 🔬 Analyses
-*No analyses yet.*
+- [[analyses/bear-astrology-website-improvement-brief-2026-05-05]] — Product/UX/monetization improvement brief for Bear astrology website
 
 ---
 
-**Total pages:** 38 | **Total sources:** 34 | **Last updated:** 2026-05-05
+**Total pages:** 111 | **Total sources:** 40 | **Last updated:** 2026-05-05

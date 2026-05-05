@@ -1,6 +1,6 @@
 ---
 title: Wiki Overview
-updated: 2026-05-02
+updated: 2026-05-05
 ---
 
 # 🌐 Wiki Overview
@@ -13,11 +13,13 @@ This is a personal knowledge base maintained by an LLM agent (OpenClaw). It incr
 - [[log]] — Chronological record of operations
 
 ## Statistics
-- Pages: 5
-- Sources ingested: 1
-- Last ingest: 2026-05-02 (OpenAI o3-pro launch)
+- Pages: 111
+- Sources ingested: 40
+- Last ingest: 2026-05-05 (Bear astrology website improvement brief)
 - Last lint: N/A
 
 ## Topics
 - **AI Labs**: [[entities/OpenAI]]
 - **AI Architecture**: [[concepts/reasoning-models]]
+
+- **Product Strategy**: [[analyses/bear-astrology-website-improvement-brief-2026-05-05]], [[concepts/astrology-app-personalization]]

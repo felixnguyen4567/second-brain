@@ -11,6 +11,14 @@
 
 ## 2026-05-05
 
+### ✅ Second Brain Wiki — Bear Astrology Website Brief Saved
+- **Thời điểm:** ~22:20 UTC / 07:50 ACST (May 6)
+- **Vấn đề:** Bear yêu cầu hiển thị bản tin nghiên cứu cải tiến website Chiêm Tinh và lưu vào Second Brain wiki.
+- **Fix/Action:** Tạo analysis page + concept page, cập nhật wiki index/overview/log.
+- **File changed:** `wiki/analyses/bear-astrology-website-improvement-brief-2026-05-05.md`, `wiki/concepts/astrology-app-personalization.md`, `wiki/index.md`, `wiki/overview.md`, `wiki/log.md`
+- **Status:** Done ✅
+
+
 ### ✅ Antigravity Inbox Test — Received
 - **Thời điểm:** ~07:00 UTC / 16:30 ACST
 - **Vấn đề:** Task pending trong inbox chưa được xử lý từ 2026-05-01.
