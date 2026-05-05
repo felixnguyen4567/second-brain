@@ -8,6 +8,10 @@
 
 ## ✅ Done (Today)
 
+### 2026-05-05
+
+- [x] Antigravity inbox test — received ✅; INBOX marked Done and changelog updated
+
 ### 2026-05-02
 
 - [x] Fix Tavily MCP server (@tavily/mcp-server → tavily-mcp)

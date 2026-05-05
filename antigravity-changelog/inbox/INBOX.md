@@ -30,5 +30,6 @@
   1. Reply bằng cách thêm 1 entry vào CHANGELOG.md xác nhận đã nhận
   2. Gửi 1 tin nhắn ngắn cho Bear qua Telegram xác nhận "Antigravity inbox test — received ✅"
   3. Cập nhật tasks/status.md với task này
-- **Status:** ⏳ Pending
+- **Status:** ✅ Done
+- **Completed:** ~07:00 UTC / 16:30 ACST
 - **Priority:** Immediate (next heartbeat)
