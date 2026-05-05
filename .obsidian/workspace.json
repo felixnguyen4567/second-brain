@@ -208,6 +208,16 @@
   },
   "active": "6ec1d72a2507f594",
   "lastOpenFiles": [
+    "wiki/sources/2026-05-05-trending-briefing.md",
+    "wiki/concepts/astrology-app-personalization.md",
+    "wiki/analyses/bear-astrology-website-improvement-brief-2026-05-05.md",
+    "wiki/analyses",
+    "output/2026-05-05-trending-briefing.md",
+    "output/2026-05-05-social.md",
+    "output/2026-05-05-journal.md",
+    "output/2026-05-05-journal-submit-response.txt",
+    "output/2026-05-05-ai-news.md",
+    "output/2026-05-05-ai-news-submit-response.txt",
     "wiki/sources/inside-hermes-agent-how-a-self-improving-ai-agent-actually-works.md",
     "wiki/sources/if-you-understand-these-5-ai-terms-youre-ahead-of-90-of-people.md",
     "wiki/sources/if-you-can-only-read-a-few-books-this-year-read-these-10.md",
@@ -227,13 +237,6 @@
     "GEMINI_EXTRACT_PROMPT.md",
     "CODEX_INSTRUCTIONS.md",
     "CHATGPT_INSTRUCTIONS.md",
-    "AI_COMMAND_CENTER.md",
-    "wiki/sources/2026-05-04-trending-briefing.md",
-    "output/2026-05-04-trending-briefing.md",
-    "output/2026-05-04-social.md",
-    "output/2026-05-04-journal.md",
-    "output/2026-05-04-ai-news.md",
-    "wiki/sources/notebooklm-6-real-workflows.md",
     "avatars/july-avatar-alt.jpg",
     "avatars/july-avatar.jpg",
     "avatars",
@@ -243,10 +246,7 @@
     "antigravity-changelog/context",
     "antigravity-changelog",
     "package.json",
-    "package-lock.json",
     "Untitled 1.canvas",
-    "Untitled.canvas",
-    "wiki/processed.json",
-    "Clippings"
+    "Untitled.canvas"
   ]
 }
