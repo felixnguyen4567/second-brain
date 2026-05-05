@@ -1,8 +1,8 @@
 ---
 title: Wiki Index
-updated: 2026-05-03
+updated: 2026-05-05
 page_count: 54
-source_count: 20
+source_count: 34
 ---
 
 # 📚 Wiki Index
@@ -91,6 +91,8 @@ This is the master index of the LLM Wiki. It catalogs every page in the wiki wit
 - [[sources/2026-05-04-trending-briefing-2]] — 2026-05-04-trending-briefing
 - [[sources/inside-hermes-agent-how-a-self-improving-ai-agent-actually-works]] — Inside Hermes Agent: How a Self-Improving AI Agent Actually Works
 
+- [[sources/2026-05-05-trending-briefing]] — Daily trending news briefing (20 items, World/Tech/AI/Investment, May 5, 2026)
+
 ## 📰 News Digests
 
 - [[openclaw_news]] — OpenClaw news summary (May 2, 2026): security crisis, v4.29, creator predictions
@@ -106,4 +108,4 @@ This is the master index of the LLM Wiki. It catalogs every page in the wiki wit
 
 ---
 
-**Total pages:** 37 | **Total sources:** 20 | **Last updated:** 2026-05-04
+**Total pages:** 38 | **Total sources:** 34 | **Last updated:** 2026-05-05

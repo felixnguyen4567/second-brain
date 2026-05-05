@@ -336,3 +336,10 @@
 - **Thời điểm:** ~21:36 UTC
 - **Action:** Checked `tienminh.nguyen41@gmail.com` inbox via `gmail_date-matted` for last 24h; found 81 emails and prepared concise Vietnamese summary.
 - **Status:** Completed ✅
+
+### ✅ Daily Trending News Briefing — 2026-05-05
+- **Thời điểm:** ~21:45 UTC
+- **Vấn đề:** Cron yêu cầu chạy trending news briefing hằng ngày.
+- **Fix/Action:** Tạo briefing 20 items (World/Tech/AI/Investment), lưu output và ingest vào wiki source.
+- **File changed:** `output/2026-05-05-trending-briefing.md`, `wiki/sources/2026-05-05-trending-briefing.md`, `wiki/processed.json`, `wiki/index.md`
+- **Status:** Completed ✅
