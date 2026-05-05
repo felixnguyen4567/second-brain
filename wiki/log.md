@@ -113,3 +113,6 @@ grep "query" wiki/log.md
 - `output/2026-04-30-trending-briefing.md` → [[sources/2026-04-30-trending-briefing]] — 2026-04-30-trending-briefing
 - `output/2026-05-04-trending-briefing.md` → [[sources/2026-05-04-trending-briefing-2]] — 2026-05-04-trending-briefing
 - `raw/articles/hermes-agent-self-improving-ai-agent.md` → [[sources/inside-hermes-agent-how-a-self-improving-ai-agent-actually-works]] — Inside Hermes Agent: How a Self-Improving AI Agent Actually Works
+## [2026-05-05] ingest | Registered trending briefing source
+- `output/2026-05-05-trending-briefing.md` → [[sources/2026-05-05-trending-briefing]] — Trending News Briefing — 2026-05-05
+- Note: source summary already existed; heartbeat completed processed-source tracking.
