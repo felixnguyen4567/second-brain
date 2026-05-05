@@ -208,6 +208,7 @@
   },
   "active": "6ec1d72a2507f594",
   "lastOpenFiles": [
+    "OPENAI_CODEX_SETUP.md",
     "GEMINI_EXTRACT_PROMPT.md",
     "CODEX_INSTRUCTIONS.md",
     "CHATGPT_INSTRUCTIONS.md",
@@ -233,7 +234,6 @@
     "wiki/entities/AgentMail.md",
     "wiki/concepts/Tokens.md",
     "wiki/concepts/Temperature.md",
-    "wiki/concepts/RAG.md",
     "avatars/july-avatar-alt.jpg",
     "avatars/july-avatar.jpg",
     "avatars",
