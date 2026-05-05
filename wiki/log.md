@@ -97,3 +97,19 @@ grep "query" wiki/log.md
 - Pages updated: AI-Skills concept, index.md, processed.json, log.md
 - Key insight: Procedural vs factual knowledge, 3-tier progressive disclosure, open standard at agentskills.io
 - Subagent timeouts — ingested inline manually
+## [2026-05-05] ingest | Auto-ingest 15 sources
+- `Clippings/10 Must-have CLIs for your AI Agents in 2026.md` → [[sources/10-must-have-clis-for-your-ai-agents-in-2026]] — 10 Must-have CLIs for your AI Agents in 2026
+- `Clippings/Hermes Agent + Ollama FASTEST Way to Install Locally.md` → [[sources/hermes-agent-ollama-fastest-way-to-install-locally]] — Hermes Agent + Ollama: FASTEST Way to Install Locally
+- `Clippings/I Forced NotebookLM Into 6 Real Workflows — These Are The Results No One Talks About.md` → [[sources/i-forced-notebooklm-into-6-real-workflows-these-are-the-results-no-one-talks-abo]] — I Forced NotebookLM Into 6 Real Workflows — These Are The Results No One Talks About
+- `Clippings/If You Can Only Read A Few Books This Year, Read These 10.md` → [[sources/if-you-can-only-read-a-few-books-this-year-read-these-10]] — If You Can Only Read A Few Books This Year, Read These 10
+- `Clippings/If You Understand These 5 AI Terms, You’re Ahead of 90% of People.md` → [[sources/if-you-understand-these-5-ai-terms-youre-ahead-of-90-of-people]] — If You Understand These 5 AI Terms, You’re Ahead of 90% of People
+- `output/2026-04-23-trending-briefing.md` → [[sources/2026-04-23-trending-briefing]] — 2026-04-23-trending-briefing
+- `output/2026-04-24-trending-briefing.md` → [[sources/2026-04-24-trending-briefing]] — 2026-04-24-trending-briefing
+- `output/2026-04-25-trending-briefing.md` → [[sources/2026-04-25-trending-briefing]] — 2026-04-25-trending-briefing
+- `output/2026-04-26-trending-briefing.md` → [[sources/2026-04-26-trending-briefing]] — 2026-04-26-trending-briefing
+- `output/2026-04-27-trending-briefing.md` → [[sources/2026-04-27-trending-briefing]] — 2026-04-27-trending-briefing
+- `output/2026-04-28-trending-briefing.md` → [[sources/2026-04-28-trending-briefing]] — 2026-04-28-trending-briefing
+- `output/2026-04-29-trending-briefing.md` → [[sources/2026-04-29-trending-briefing]] — 2026-04-29-trending-briefing
+- `output/2026-04-30-trending-briefing.md` → [[sources/2026-04-30-trending-briefing]] — 2026-04-30-trending-briefing
+- `output/2026-05-04-trending-briefing.md` → [[sources/2026-05-04-trending-briefing-2]] — 2026-05-04-trending-briefing
+- `raw/articles/hermes-agent-self-improving-ai-agent.md` → [[sources/inside-hermes-agent-how-a-self-improving-ai-agent-actually-works]] — Inside Hermes Agent: How a Self-Improving AI Agent Actually Works

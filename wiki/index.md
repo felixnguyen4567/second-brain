@@ -75,6 +75,22 @@ This is the master index of the LLM Wiki. It catalogs every page in the wiki wit
 - [[sources/trending-news-2026-04-30]] — April 30 briefing: Iran War Day 61 ($25B cost), GPT-5.5 release, QCOM +15%
 - [[sources/trending-news-2026-05-01]] — May 1 briefing: Iran Day 62, Stanford AI Index, Alice Springs, Harvard AI trust study
 
+- [[sources/10-must-have-clis-for-your-ai-agents-in-2026]] — 10 Must-have CLIs for your AI Agents in 2026
+- [[sources/hermes-agent-ollama-fastest-way-to-install-locally]] — Hermes Agent + Ollama: FASTEST Way to Install Locally
+- [[sources/i-forced-notebooklm-into-6-real-workflows-these-are-the-results-no-one-talks-abo]] — I Forced NotebookLM Into 6 Real Workflows — These Are The Results No One Talks About
+- [[sources/if-you-can-only-read-a-few-books-this-year-read-these-10]] — If You Can Only Read A Few Books This Year, Read These 10
+- [[sources/if-you-understand-these-5-ai-terms-youre-ahead-of-90-of-people]] — If You Understand These 5 AI Terms, You’re Ahead of 90% of People
+- [[sources/2026-04-23-trending-briefing]] — 2026-04-23-trending-briefing
+- [[sources/2026-04-24-trending-briefing]] — 2026-04-24-trending-briefing
+- [[sources/2026-04-25-trending-briefing]] — 2026-04-25-trending-briefing
+- [[sources/2026-04-26-trending-briefing]] — 2026-04-26-trending-briefing
+- [[sources/2026-04-27-trending-briefing]] — 2026-04-27-trending-briefing
+- [[sources/2026-04-28-trending-briefing]] — 2026-04-28-trending-briefing
+- [[sources/2026-04-29-trending-briefing]] — 2026-04-29-trending-briefing
+- [[sources/2026-04-30-trending-briefing]] — 2026-04-30-trending-briefing
+- [[sources/2026-05-04-trending-briefing-2]] — 2026-05-04-trending-briefing
+- [[sources/inside-hermes-agent-how-a-self-improving-ai-agent-actually-works]] — Inside Hermes Agent: How a Self-Improving AI Agent Actually Works
+
 ## 📰 News Digests
 
 - [[openclaw_news]] — OpenClaw news summary (May 2, 2026): security crisis, v4.29, creator predictions
