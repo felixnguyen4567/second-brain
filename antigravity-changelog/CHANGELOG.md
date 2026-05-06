@@ -375,3 +375,14 @@
 - **Fix/Action:** Generated 20-item Vietnamese briefing, saved output, created wiki source, updated processed/index
 - **File changed:** `output/2026-05-06-trending-briefing.md`, `wiki/sources/2026-05-06-trending-briefing.md`, `wiki/processed.json`, `wiki/index.md`
 - **Status:** Completed ✅
+
+## 2026-05-06
+
+### ✅ Daily Content Pipeline — Apple AI Siri Settlement
+- **Thời điểm:** ~22:33 UTC / 08:03 ACST (May 7)
+- **Vấn đề:** Cron yêu cầu chạy content pipeline từ briefing `2026-05-06`.
+- **Fix/Action:** Chọn story #1 virality: Apple trả $250M vì delayed AI Siri. Draft AI News + Journal + social variants, submit cả hai qua Automation API với `published:false`.
+- **Submitted:** AI_NEWS draft `2026-05-06-apple-siri-ai-settlement-warning` (HTTP 201, id `4d971412-899a-4e4c-ab3f-6f2d8fd81311`); JOURNAL draft `2026-05-06-promised-ai-feature-too-early` (HTTP 201, id `183ab3b9-90fc-4dba-865a-943087fdb45c`).
+- **Note:** AI_NEWS API title was submitted as `Apple’s 50M Siri Settlement...` because `$250M` was shell-expanded in the curl argument; Markdown content title is correct. Manual title correction may be needed in admin.
+- **File changed:** `output/2026-05-06-ai-news.md`, `output/2026-05-06-journal.md`, `output/2026-05-06-social.md`, submit response logs.
+- **Status:** Done ✅
