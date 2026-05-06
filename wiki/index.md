@@ -1,8 +1,8 @@
 ---
 title: Wiki Index
-updated: 2026-05-05
-page_count: 111
-source_count: 40
+updated: 2026-05-06
+page_count: 112
+source_count: 41
 ---
 
 # 📚 Wiki Index
@@ -111,3 +111,4 @@ This is the master index of the LLM Wiki. It catalogs every page in the wiki wit
 ---
 
 **Total pages:** 111 | **Total sources:** 40 | **Last updated:** 2026-05-05
+- [[sources/2026-05-06-trending-briefing]] — Daily trending briefing: Iran oil tanker strike, Apple AI Siri settlement, OpenAI court battle, S&P 500 record, crypto regulation (May 6, 2026)
