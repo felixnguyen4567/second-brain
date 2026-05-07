@@ -125,3 +125,10 @@ grep "query" wiki/log.md
 - Pages updated: index.md, overview.md, log.md
 - Key concepts: astrology personalization, AI companion, compatibility reports, daily ritual, monetization
 - Status: saved to second brain wiki
+
+## [2026-05-07] ingest | Trending News Briefing — 2026-05-07
+- Source: `output/2026-05-07-trending-briefing.md`
+- Pages created: 1
+- Pages updated: 2
+- Key entities: Trump, Iran, Apple, Anthropic, SpaceX, CoreWeave, Moonshot AI
+- Key concepts: AI compute infrastructure, tariff policy, energy-market risk

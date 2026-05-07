@@ -1,0 +1,2 @@
+{"error":"\nInvalid `prisma.post.create()` invocation:\n\n\nUnique constraint failed on the fields: (`slug`)"}
+HTTP_STATUS:500
