@@ -386,3 +386,19 @@
 - **Note:** AI_NEWS API title was submitted as `Apple’s 50M Siri Settlement...` because `$250M` was shell-expanded in the curl argument; Markdown content title is correct. Manual title correction may be needed in admin.
 - **File changed:** `output/2026-05-06-ai-news.md`, `output/2026-05-06-journal.md`, `output/2026-05-06-social.md`, submit response logs.
 - **Status:** Done ✅
+
+## 2026-05-07
+
+### ✅ Proactivity Reset + July Dashboard Progress
+- **Thời điểm:** ~11:10 UTC / 20:40 ACST
+- **Trigger:** Bear corrected July for only sending morning reports and staying silent all day.
+- **Fix/Action:** Updated `~/proactivity/session-state.md`, `~/proactivity/heartbeat.md`, and `~/proactivity/patterns.md` to enforce operator cadence: each quiet period should advance one safe active workstream or surface a useful decision.
+- **Concrete progress:** Audited `/home/ubuntu/dashboard`; removed browser-side gateway token pattern from dashboard client, routed session lookup through `/api/openclaw`, improved gateway response parsing, kept Darwin weather refresh active.
+- **Validation:** `npm run lint && npm run build` passes; lint has one existing non-blocking `<img>` warning.
+- **Status:** Completed ✅
+
+### ✅ July Dashboard Commit — Server-side Gateway Routing
+- **Thời điểm:** ~11:14 UTC / 20:44 ACST
+- **Action:** Committed dashboard fix after lint/build validation.
+- **Commit:** `1aa49d3` — `fix: route dashboard gateway calls server-side`
+- **Status:** Completed ✅
