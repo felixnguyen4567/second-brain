@@ -402,3 +402,11 @@
 - **Action:** Committed dashboard fix after lint/build validation.
 - **Commit:** `1aa49d3` — `fix: route dashboard gateway calls server-side`
 - **Status:** Completed ✅
+
+### ✅ Dashboard real system stats
+- **Thời điểm:** ~11:43 UTC
+- **Vấn đề:** Dashboard Quick Stats vẫn dùng CPU/memory/uptime giả lập.
+- **Fix/Action:** Thêm `system_stats` vào `/api/openclaw`, lấy CPU load, memory và uptime từ Node `os`; client chuyển sang gọi endpoint này.
+- **File changed:** `/home/ubuntu/dashboard/src/app/api/openclaw/route.ts`, `/home/ubuntu/dashboard/src/app/page.tsx`
+- **Validation:** `npm run lint && npm run build` ✅
+- **Commit:** dashboard repo commit created ✅
