@@ -410,3 +410,11 @@
 - **File changed:** `/home/ubuntu/dashboard/src/app/api/openclaw/route.ts`, `/home/ubuntu/dashboard/src/app/page.tsx`
 - **Validation:** `npm run lint && npm run build` ✅
 - **Commit:** dashboard repo commit created ✅
+
+### ⚠️ Dashboard push still blocked — divergent remote history
+- **Thời điểm:** ~12:15 UTC
+- **Vấn đề:** HTTPS auth blocker was bypassed by switching dashboard `origin` to SSH, but push was rejected because remote `origin/main` has different history.
+- **Fix/Action:** Verified SSH access works; fetched remote and inspected divergence. Did not force push.
+- **Local dashboard commits not on remote:** `1aa49d3`, `2978878`
+- **Remote latest:** `533844e docs: update AGENTS.md with full project context for Codex`
+- **Status:** Needs decision before merging/reconciling histories ⚠️
