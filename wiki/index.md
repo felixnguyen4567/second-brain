@@ -113,3 +113,5 @@ This is the master index of the LLM Wiki. It catalogs every page in the wiki wit
 **Total pages:** 113 | **Total sources:** 42 | **Last updated:** 2026-05-07
 - [[sources/2026-05-06-trending-briefing]] — Daily trending briefing: Iran oil tanker strike, Apple AI Siri settlement, OpenAI court battle, S&P 500 record, crypto regulation (May 6, 2026)
 - [[sources/2026-05-07-trending-briefing]] — Daily trending briefing: Trump tariffs blocked, US-Iran escalation, Apple AI AirPods, Anthropic-SpaceX compute deal, oil and gold market volatility (May 7, 2026)
+- [[8crazythingsclaudeaicandothatchatgptcant]] — 8 Crazy Things Claude AI Can Do (That ChatGPT Can't)
+- [[ibuiltmyownaiagentandnameditafteracat]] — I Built My Own AI Agent and Named It After a Cat

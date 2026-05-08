@@ -1,3 +1,9 @@
+
+### ✅ Ingested: 8 Crazy Things Claude AI Can Do vs ChatGPT & Felix AI Agent article
+- **Thời điểm:** 2026-05-08T21:57:00Z
+- **Files:** wiki/sources/8crazythingsclaudeaicandothatchatgptcant.md, wiki/sources/ibuiltmyownaiagentandnameditafteracat.md
+- **Status:** ✅ Done
+
 ---
 title: Wiki Log
 ---
