@@ -115,3 +115,4 @@ This is the master index of the LLM Wiki. It catalogs every page in the wiki wit
 - [[sources/2026-05-07-trending-briefing]] — Daily trending briefing: Trump tariffs blocked, US-Iran escalation, Apple AI AirPods, Anthropic-SpaceX compute deal, oil and gold market volatility (May 7, 2026)
 - [[8crazythingsclaudeaicandothatchatgptcant]] — 8 Crazy Things Claude AI Can Do (That ChatGPT Can't)
 - [[ibuiltmyownaiagentandnameditafteracat]] — I Built My Own AI Agent and Named It After a Cat
+- [[2026-05-09-trending-briefing]] — Daily Trending News Briefing — May 9, 2026 (US-Iran peace deal, Meta pivot)
