@@ -1,8 +1,8 @@
 ---
 title: Wiki Index
-updated: 2026-05-07
-page_count: 113
-source_count: 42
+updated: 2026-05-11
+page_count: 114
+source_count: 43
 ---
 
 # 📚 Wiki Index
@@ -81,7 +81,7 @@ This is the master index of the LLM Wiki. It catalogs every page in the wiki wit
 - [[sources/hermes-agent-ollama-fastest-way-to-install-locally]] — Hermes Agent + Ollama: FASTEST Way to Install Locally
 - [[sources/i-forced-notebooklm-into-6-real-workflows-these-are-the-results-no-one-talks-abo]] — I Forced NotebookLM Into 6 Real Workflows — These Are The Results No One Talks About
 - [[sources/if-you-can-only-read-a-few-books-this-year-read-these-10]] — If You Can Only Read A Few Books This Year, Read These 10
-- [[sources/if-you-understand-these-5-ai-terms-youre-ahead-of-90-of-people]] — If You Understand These 5 AI Terms, You’re Ahead of 90% of People
+- [[sources/if-you-understand-these-5-ai-terms-youre-ahead-of-90-of-people]] — If You Understand These 5 AI Terms, You're Ahead of 90% of People
 - [[sources/2026-04-23-trending-briefing]] — 2026-04-23-trending-briefing
 - [[sources/2026-04-24-trending-briefing]] — 2026-04-24-trending-briefing
 - [[sources/2026-04-25-trending-briefing]] — 2026-04-25-trending-briefing
@@ -101,6 +101,7 @@ This is the master index of the LLM Wiki. It catalogs every page in the wiki wit
 - [[sources/trending-news-2026-05-03-v2]] — Trending News Briefing — May 3 Update (Pentagon AI deals, Linux flaw, Ubuntu outage)
 - [[sources/8crazythingsclaudeaicandothatchatgptcant]] — 8 Crazy Things Claude AI Can Do (That ChatGPT Can't)
 - [[sources/ibuiltmyownaiagentandnameditafteracat]] — I Built My Own AI Agent and Named It After a Cat
+- [[sources/2026-05-11-trending-briefing]] — Daily trending news briefing (20 items, World/Tech/AI/Investment, May 11, 2026)
 
 ## 📰 News Digests
 
@@ -117,4 +118,4 @@ This is the master index of the LLM Wiki. It catalogs every page in the wiki wit
 
 ---
 
-**Total pages:** 121 | **Total sources:** 50 | **Last updated:** 2026-05-09
+**Total pages:** 121 | **Total sources:** 50 | **Last updated:** 2026-05-11
