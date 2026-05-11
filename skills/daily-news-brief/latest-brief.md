@@ -1,53 +1,92 @@
-# 📰 每日新闻简报 | 2026年5月11日 | 星期一
+# 📰 Daily News Briefing | May 11th, 2026 | Monday
 
-## 🌍 国际时事
-1. **据伊朗方面10日消息，伊朗已拒绝美国提出的方案，认为同意该方案将意味着伊朗屈从于美国总统特朗普的过分要求。** [央视](https://news.cctv.com/2026/05/11/ARTIJXG2J0ebQrvFtiL7USry260511.shtml)
-2. **伊朗方面称已拒绝美国提出的方案** [央视](https://news.cctv.com/2026/05/11/ARTIJXG2J0ebQrvFtiL7USry260511.shtml)
-3. **特朗普：与伊朗停火协议已“岌岌可危”** [新浪](https://news.sina.com.cn/w/2026-05-12/doc-inhxqeez8753170.shtml)
-4. **伊朗议长：“14点提案”无可替代** [新浪](https://news.sina.com.cn/w/2026-05-12/doc-inhxqquu1791104.shtml)
-5. **伊朗议长：伊武装部队已做好准备应对任何侵略行为** [新浪](https://news.sina.com.cn/w/2026-05-12/doc-inhxqknt1546100.shtml)
-6. **伊朗官员：伊美就浓缩铀处置方式存在严重分歧** [新浪](https://news.sina.com.cn/w/2026-05-12/doc-inhxqknz0187726.shtml)
-7. **美股收盘：标普500指数再创新高 存储、光通信延续逼空行情** [新浪](https://news.sina.com.cn/w/2026-05-12/doc-inhxqqur1437420.shtml)
+## 🌍 World News
 
-## 💰 经济形势
-1. **美国总统特朗普将于5月13日至15日访华** [新浪](https://finance.sina.com.cn/china/gncj/2026-05-11/doc-inhxnscp1989027.shtml)
-2. **城堡证券：对美联储和市场构成“真正风险”的是通胀** [新浪](https://finance.sina.com.cn/world/2026-05-12/doc-inhxqeev1661950.shtml)
-3. **现货黄金突破4750美元/盎司，日内涨0.36%。** [新浪](https://wap.cj.sina.cn/pc/7x24/4873248)
-4. **【周二重要财经信息提醒（以下均为北京时间）】
-① 时间待定 国务院副总理何立峰于5月12-13日率团赴韩国与美方举行经贸磋商；
-② 时间待定 首届香港具身智能产业峰会暨智元APC2026（香港）开幕；
-③ 14:00 德国4月CPI终值；
-④ 15:15 美国纽约联储主席（享有FOMC永久投票权、号称美联储三把手）威廉姆斯在瑞士参加一个关于货币政策的小组会议，欧洲央行管委兼德国央行行长Nagel也在瑞士央行与国际货币基金组织（IMF）关于货币政策的小组会议上讲话；
-⑤ 港股收盘之后 京东发布业绩报告；
-⑥ 17:00 欧元区5月ZEW经济景气指数，德国5月ZEW经济景气指数；
-⑦ 18:00 欧洲央行管委Primoz Dolenc在斯洛文尼亚一个金融会议上讲话；
-⑧ 20:30 美国4月CPI；
-⑨ 21:10 美国芝加哥联储主席Goolsbee（2027年FOMC票委）参加NPR一个广播节目；
-⑩ 次日00:00 美国能源信息署（EIA）发布短期能源展望报告（STEO）；
-⑪ 次日01:00 美国芝加哥联储主席Goolsbee（2027年FOMC票委）讲话；
-⑫ 次日01:30 英国央行副行长Woods讲话；
-⑬ 次日02:00 美国4月政府预算；
-⑭ 美股盘后 核电股Oklo发布业绩报告。** [新浪](https://wap.cj.sina.cn/pc/7x24/4873235)
-5. **【A股资产备受基金青睐，“专业买手”连续加仓6个月】去年以来，A股市场震荡走高，基金市场“专业买手”对权益资产的配置偏好也持续走高。有券商统计显示，截至2026年4月末，基金投顾组合的A股仓位已连续6个月提升，4月A股在11类大类资产中，获加仓力度居首，且科技成长赛道成为投顾布局的核心方向。（上证报）** [新浪](https://wap.cj.sina.cn/pc/7x24/4873233)
+1. **Trump-Iran Ceasefire on "Massive Life Support"; Tehran Rejects US Proposal** [BBC News](https://www.bbc.com/news/world)
+   - Virality Score: 97 | Iran has rejected the US proposal, saying acceptance would mean capitulation to Trump's "excessive demands." Trump called the Iranian counteroffer "totally unacceptable" and warned the month-long ceasefire is "unbelievably weak." Iran is reportedly demanding lifting of the US naval blockade, recognition of its sovereignty over the Strait of Hormuz, and compensation for war damage.
 
-## 🔬 科技发展
-1. **美国总统特朗普13日至15日访华** [新浪](https://finance.sina.com.cn/tech/roll/2026-05-12/doc-inhxqefc0273162.shtml)
-2. **Cerebras上市，将考验投资者对 AI 芯片初创企业的投资意愿** [新浪](https://finance.sina.com.cn/stock/usstock/c/2026-05-11/doc-inhxpatr0572626.shtml)
-3. **AI热潮如何掩盖伊朗战争对大企业的冲击** [新浪](https://finance.sina.com.cn/stock/usstock/c/2026-05-11/doc-inhxptrf8953891.shtml)
-4. **孙正义酝酿在法国投资大型AI数据中心项目 据悉马克龙亲自出面接洽** [新浪](https://finance.sina.com.cn/stock/usstock/c/2026-05-11/doc-inhxptqz1800443.shtml)
-5. **大疆发布全新AI超幅扫拖机器人ROMO 2系列：重新定义高端智能清洁体验** [新浪](https://finance.sina.com.cn/tech/elec/xpfb/2026-05-11/doc-inhxptre2162100.shtml)
+2. **Trump-Xi Summit: 17 US CEOs Including Musk and Cook to Join China Trip (May 13-15)** [BBC News](https://www.bbc.com/news/world)
+   - Virality Score: 95 | A 17-member US business delegation will accompany Trump on his visit to Beijing, where he'll meet President Xi Jinping. This marks the first US presidential visit to China in nearly a decade. The summit takes place amid escalated trade tensions and the Iran crisis.
 
-## 👀 今日关注
-• 美国总统特朗普将于5月13日至15日访华
-• 美国总统特朗普13日至15日访华
-• 据伊朗方面10日消息，伊朗已拒绝美国提出的方案，认为同意该方案将意味着伊朗屈从于美国总统特朗普的过分要求。
+3. **Oil Prices Predicted to Stay Above $100 Through Year-End** [BBC News](https://www.bbc.com/news/business)
+   - Virality Score: 88 | JP Morgan expects oil to remain in the "low $100s" even if the Strait of Hormuz were to reopen next month. The Iran war has disrupted global energy markets significantly.
 
-## 📚 历史回顾
-• 历史回顾：特朗普上次访华期间签署多项经贸合作协议
-• 历史回顾：中美建交45周年，双边贸易额持续增长
-• 历史回顾：人工智能技术在过去5年实现突破性进展
+4. **South Korea Political Crisis Deepens as Constitutional Court Upholds Impeachment** [Reuters/Guardian](https://www.theguardian.com/world)
+   - Virality Score: 82 | Early presidential elections are now scheduled for June after the Constitutional Court upheld the parliamentary impeachment vote. Markets continue to react with volatility.
+
+5. **Philippine VP Sara Duterte Impeached for Second Time** [Guardian](https://www.theguardian.com/world)
+   - Virality Score: 78 | The Vice President faces charges of misusing public funds, unexplained wealth, and threatening President Marcos Jr. If convicted, she will be disqualified from running for president.
+
+6. **Canada: Alberta Voter Data Breach Raises Electoral Integrity Fears** [Guardian](https://www.theguardian.com/world)
+   - Virality Score: 74 | A rightwing separatist-linked group gained access to Alberta's list of electors — one of the largest data breaches in Canadian history. Security experts call it "truly terrifying."
+
+7. **US-Canada Relations: Hantavirus Cruise Ship Crisis Under Control** [BBC/Guardian](https://www.bbc.com/news/world)
+   - Virality Score: 68 | The hantavirus outbreak on the cruise ship has been contained. Two Britons evacuated are improving in hospital. The WHO has declared the outbreak over.
+
+## 💰 Investment & Markets
+
+1. **Michael Burry Warns: Market Feels Like "Last Months of 1999-2000 Bubble"** [CNBC](https://www.cnbc.com/2026/05/08/michael-burry-says-the-market-today-feels-like-the-last-months-of-the-1999-2000-bubble.html)
+   - Virality Score: 94 | The "Big Short" investor said investors should "reject greed" as AI enthusiasm and momentum trades push valuations sharply higher. Burry has already reduced his positions "almost entirely" in parabolic stocks.
+
+2. **KKR Private Credit Fund Losses Mount; JPMorgan Chase-Led Bank Group Reins In Credit Line** [CNBC](https://www.cnbc.com/2026/05/11/kkr-private-credit-fund-fsk-jpmorgan-chase-credit.html)
+   - Virality Score: 89 | The KKR fund (FSK) has become "one of the most visible fault lines in the private credit story" as losses mount. A consortium of banks has moved to restrict its credit line.
+
+3. **S&P 500 Could Cross 8,000 in 2026: Traders on Prediction Markets Place 50%+ Chance** [CNBC](https://www.cnbc.com/2026/05/08/how-much-further-can-this-teflon-market-go-heres-what-traders-say.html)
+   - Virality Score: 86 | Despite Burry's warnings, traders remain bullish. The "Teflon market" continues to defy expectations with AI-driven momentum.
+
+4. **Cerebras IPO Tests Investor Appetite for AI Chip Startups** [CNBC/Sina](https://www.cnbc.com/2026/05/11)
+   - Virality Score: 85 | The AI chip startup's market debut will be a key test of investor enthusiasm for specialized AI hardware companies beyond NVIDIA.
+
+5. **Whirlpool Says Iran War Causing "Recession-Level Industry Decline"** [CNBC](https://www.cnbc.com/2026/05/07/whirlpool-says-iran-war-causing-recession-level-industry-decline-the-shares-are-down-20percent.html)
+   - Virality Score: 82 | The appliance maker's shares dropped 12-20% as the Iran conflict caused consumer confidence to collapse. Major automakers are also warning of production impacts.
+
+6. **GameStop Offers $56 Billion for eBay — Struggles to Explain How It'll Pay** [Ars Technica](https://arstechnica.com)
+   - Virality Score: 80 | Ryan Cohen's bold bid faces skepticism as industry observers question the financing structure. The deal would need to maintain an investment-grade credit profile.
+
+7. **Apollo CEO Rowan Warns of Market Correction, Slams "Egregious" Practices at Rival Insurers** [CNBC](https://www.cnbc.com/2026/05/06/apollo-ceo-rowan-market-correction-rival-insurers.html)
+   - Virality Score: 76 | The private equity giant's CEO is positioning his firm defensively for an expected correction, calling out industry practices.
+
+## 🤖 AI & Technology
+
+1. **Anthropic's Mythos Set Off Cybersecurity "Hysteria" — Experts Say Threat Was Already Here** [CNBC](https://www.cnbc.com/2026/05/08/anthropic-mythos-ai-cybersecurity-banks.html)
+   - Virality Score: 92 | Anthropic's new AI model jolted banks, software giants and governments into reckoning with a new era of cyber vulnerabilities. CEO Dario Amodei warned AI has created a "moment of danger" exposing tens of thousands of existing vulnerabilities.
+
+2. **Ubuntu Infrastructure Down for More Than a Day** [Ars Technica](https://arstechnica.com)
+   - Virality Score: 88 | Canonical's infrastructure has been offline for over 24 hours, affecting package updates and services globally.
+
+3. **Canvas Cyberattack Disrupts Learning Platforms Amid Finals** [Ars Technica](https://arstechnica.com)
+   - Virality Score: 86 | A major cyberattack has disrupted the Canvas learning management system used by universities, causing chaos during final exam periods.
+
+4. **Supply Chain Attacks: Daemon Tools Backdoored; Open Source Package Steals Credentials** [Ars Technica](https://arstechnica.com)
+   - Virality Score: 85 | The widely-used Daemon Tools disk utility was backdoored in a month-long supply chain attack. Separately, an open source package with 1 million monthly downloads was caught stealing user credentials.
+
+5. **Most Severe Linux Threat in Years Catches World Flat-Footed** [Ars Technica](https://arstechnica.com)
+   - Virality Score: 84 | A critical Linux vulnerability has emerged that security researchers say is the most severe threat to surface in years, catching organizations unprepared.
+
+6. **Ransomware Goes Quantum-Safe: First Confirmed Quantum-Resistant Ransomware Family** [Ars Technica](https://arstechnica.com)
+   - Virality Score: 81 | Security researchers have confirmed the first ransomware family to use quantum-resistant encryption, marking a significant escalation in the ransomware arms race.
+
+7. **AI Chip Wars: Cerebras IPO, Mythos Vulnerability Revelations** [Sina/NY](https://finance.sina.com.cn)
+   - Virality Score: 79 | The AI chip landscape continues to evolve rapidly with the Cerebras IPO and major AI safety revelations dominating tech headlines.
+
+8. **Microsoft Issues Emergency Update for macOS and Linux ASP.NET Threat** [Ars Technica](https://arstechnica.com)
+   - Virality Score: 75 | Microsoft rushed out an emergency security update addressing a critical vulnerability in ASP.NET for macOS and Linux platforms.
+
+## 👀 Today's Highlights
+
+• **Trump-Xi Summit (May 13-15)**: The most significant US-China meeting in nearly a decade. 17 CEOs accompanying Trump. Trade, rare earths, and Iran on the agenda.
+• **Iran Ceasefire Collapse**: Ceasefire now "on massive life support" as Tehran rejects US demands. Oil markets on edge above $100.
+• **Market Bubble Debate**: Burry's 1999-2000 comparison vs. Teflon market optimism. S&P 500 at 8,000 within reach.
+• **AI Security Crisis**: Anthropic's Mythos exposes thousands of existing vulnerabilities. "Moment of danger" for banks, governments, and software firms.
+
+## 📊 Briefing Statistics
+- **Total News Items:** 23
+- **Categories Covered:** World News (7), Investment & Markets (7), AI & Technology (8)
+- **Highest Virality Score:** 97 (Trump-Iran ceasefire collapse)
+- **Generation Time:** May 11th, 2026 | 22:45 UTC
+- **Sources:** BBC News, Guardian, CNBC, Ars Technica, Sina, Reuters, AFR
 
 ---
-*简报生成时间：2026/5/12 06:49:54*
-*数据来源：新浪、央视等主流媒体*
-*注：以上新闻基于公开信息整理，具体细节请以官方发布为准*
+
+*This briefing was generated automatically by OpenClaw Daily News Skill*
+*For Bear — staying informed, one briefing at a time* ♟️
