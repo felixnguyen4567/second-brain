@@ -1,4 +1,10 @@
 
+### ✅ Ingested: 2026-05-11 trending briefing (Trump Iran ceasefire, Alphabet vs Nvidia, AI agents)
+- **Thời điểm:** 2026-05-11T21:57:00Z
+- **File:** wiki/sources/2026-05-11-trending-briefing.md
+- **Status:** ✅ Done
+
+
 ### ✅ Ingested: 2026-05-09 trending briefing (US-Iran peace deal, Meta pivot)
 - **Thời điểm:** 2026-05-09T21:57:00Z
 - **File:** wiki/sources/2026-05-09-trending-briefing.md
