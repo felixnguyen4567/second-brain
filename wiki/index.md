@@ -1,8 +1,8 @@
 ---
 title: Wiki Index
-updated: 2026-05-11
-page_count: 114
-source_count: 43
+updated: 2026-05-12
+page_count: 122
+source_count: 51
 ---
 
 # 📚 Wiki Index
@@ -102,6 +102,7 @@ This is the master index of the LLM Wiki. It catalogs every page in the wiki wit
 - [[sources/8crazythingsclaudeaicandothatchatgptcant]] — 8 Crazy Things Claude AI Can Do (That ChatGPT Can't)
 - [[sources/ibuiltmyownaiagentandnameditafteracat]] — I Built My Own AI Agent and Named It After a Cat
 - [[sources/2026-05-11-trending-briefing]] — Daily trending news briefing (20 items, World/Tech/AI/Investment, May 11, 2026)
+- [[sources/2026-05-12-trending-briefing]] — Daily trending news briefing (20 items, World/Tech/AI/Investment, May 12, 2026)
 
 ## 📰 News Digests
 
@@ -118,4 +119,4 @@ This is the master index of the LLM Wiki. It catalogs every page in the wiki wit
 
 ---
 
-**Total pages:** 121 | **Total sources:** 50 | **Last updated:** 2026-05-11
+**Total pages:** 122 | **Total sources:** 51 | **Last updated:** 2026-05-11
