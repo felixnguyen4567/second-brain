@@ -446,3 +446,10 @@
 - **Output:** Saved to `skills/daily-news-brief/history/2026-05-14.md` + updated `latest-brief.md`
 - **Highlights:** Cerebras IPO (97 virality), Trump-Xi summit (96), Iran ceasefire collapse (94), Australia Budget (82), Claude BTC recovery (90)
 - **Status:** Done ✅
+
+### ✅ Daily Content Pipeline — 2026-05-14
+- **Thời điểm:** ~22:33 UTC / 08:03 ACST (May 15)
+- **Vấn đề:** Cron yêu cầu chạy pipeline nội dung hằng ngày từ trending briefing (2026-05-13 briefing used — no briefing for 2026-05-14 existed).
+- **Fix/Action:** Chọn story #1 virality "Google-SpaceX orbital AI data centers" cho AI News; chọn "India-Pakistan 1-year ceasefire" với personal angle cho Journal. Drafted + submitted both to Automation API (`published:false`). Generated 5 social media variants (Twitter/Vietnamese, Facebook/bilingual, Instagram, TikTok, LinkedIn).
+- **File changed:** `output/2026-05-14-ai-news.md`, `output/2026-05-14-journal.md`, `output/2026-05-14-social.md`, `output/2026-05-14-ai-news-submit-response.txt`, `output/2026-05-14-journal-submit-response.txt`, `antigravity-changelog/CHANGELOG.md`
+- **Status:** Completed ✅ — AI_NEWS `0f6265dd-5b74-4647-83e2-5d30d93e49a4` (slug: google-spacex-orbital-ai-data-centers-2026); JOURNAL `ec14395a-ee34-4cf9-9316-d5deec93c36e` (slug: india-pakistan-ceasefire-one-year-2026)
