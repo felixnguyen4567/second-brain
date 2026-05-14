@@ -439,3 +439,10 @@
 - **Fix/Action:** Chọn story #1 virality “Anthropic dùng compute SpaceX”; drafted AI News + Journal; submitted both to Automation API with `published:false`; generated social variants.
 - **File changed:** `output/2026-05-07-ai-news.md`, `output/2026-05-07-journal.md`, `output/2026-05-07-social.md`, submit response files, `antigravity-changelog/CHANGELOG.md`
 - **Status:** Completed ✅ — AI_NEWS `3ef4284f-7419-4075-8460-bd7877935f75`; JOURNAL `72cb3d5e-2fe4-427c-9d76-af529c4f4870`
+
+### ✅ Daily News Briefing — May 14th, 2026
+- **Thời điểm:** ~21:45 UTC / 07:15 ACST (May 15)
+- **Action:** Chạy trending news briefing skill cho ngày May 14, 2026. Search top news across World, Tech, AI, Investment categories.
+- **Output:** Saved to `skills/daily-news-brief/history/2026-05-14.md` + updated `latest-brief.md`
+- **Highlights:** Cerebras IPO (97 virality), Trump-Xi summit (96), Iran ceasefire collapse (94), Australia Budget (82), Claude BTC recovery (90)
+- **Status:** Done ✅
