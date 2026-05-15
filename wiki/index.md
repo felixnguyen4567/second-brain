@@ -103,6 +103,8 @@ This is the master index of the LLM Wiki. It catalogs every page in the wiki wit
 - [[sources/ibuiltmyownaiagentandnameditafteracat]] — I Built My Own AI Agent and Named It After a Cat
 - [[sources/2026-05-11-trending-briefing]] — Daily trending news briefing (20 items, World/Tech/AI/Investment, May 11, 2026)
 - [[sources/2026-05-12-trending-briefing]] — Daily trending news briefing (20 items, World/Tech/AI/Investment, May 12, 2026)
+- [[sources/2026-05-13-trending-briefing]] — Daily trending news briefing (20 items, World/Tech/AI/Investment, May 13, 2026)
+- [[sources/2026-05-15-trending-briefing]] — Daily trending news briefing (20 items, World/Tech/AI/Investment, May 15, 2026)
 
 ## 📰 News Digests
 
