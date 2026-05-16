@@ -1,8 +1,8 @@
 ---
 title: Wiki Index
-updated: 2026-05-12
-page_count: 122
-source_count: 51
+updated: 2026-05-16
+page_count: 143
+source_count: 67
 ---
 
 # 📚 Wiki Index
@@ -23,6 +23,16 @@ This is the master index of the LLM Wiki. It catalogs every page in the wiki wit
 - [[entities/Qualcomm]] — Semiconductor giant pivoting to AI data center chips; +15–18% on April 30 on $20B buyback and hyperscaler adoption
 - [[entities/The PyCoach]] — AI educator, ranked 11 best Claude Skills (Medium, 50K+ subscribers)
 - [[entities/Pentagon AI Deals]] — 7 AI companies sign classified AI deals with Pentagon (May 2026)
+- [[entities/Apple Siri Settlement]] — Apple pays $250M for delayed AI Siri features; trust as product feature (May 2026)
+- [[entities/SpaceX]] — Evolving from launch provider to AI infrastructure company; Starlink, Starshield, orbital compute
+- [[entities/Helsing]] — Daniel Ek-backed defense AI company, $1.2B at $18B valuation (May 2026)
+- [[entities/Daniel Ek]] — Spotify CEO, co-founder of Helsing defense AI company
+- [[entities/Cowboy Space]] — Orbital AI data center startup, $275M raised but rocket availability challenged
+- [[entities/Byron Allen]] — Entertainment Studios founder, acquired BuzzFeed majority for $120M (May 2026)
+- [[entities/BuzzFeed]] — Digital media company acquired by Byron Allen at $120M majority stake
+- [[entities/Ripple]] — Crypto fintech; $200M credit facility from Neuberger Berman for Ripple Prime (May 2026)
+- [[entities/Solana ETF]] — Solana ETF sees strongest inflows since February; SOL target $120 (May 2026)
+- [[entities/Android-iPhone RCS]] — Apple adopts RCS; Android-iPhone messaging finally E2E encrypted (May 2026)
 - [[entities/OpenClaw]] — Personal AI agent framework (nickname "Lobster") — the system July runs on
 - [[entities/Claude]] — Anthropic's flagship AI assistant with extensible Skills
 - [[entities/Hermes-Agent]] — Nous Research's self-improving AI agent with closed learning loop (May 2026)
@@ -53,6 +63,11 @@ This is the master index of the LLM Wiki. It catalogs every page in the wiki wit
 - [[concepts/S&P-500]] — S&P 500 at record 7,209, +14% Q1 earnings, AI trade fueling rally (May 2026)
 - [[concepts/AI-Startup-Moat]] — Reliability compound error problem, moat creation for AI startups
 - [[concepts/War-Powers-Resolution]] — Constitutional crisis as Trump ends Iran war unilaterally (May 2026)
+- [[concepts/AI-Vaporware]] — AI promises becoming liabilities; Apple $250M lesson; trust as product feature
+- [[concepts/Orbital-AI-Infrastructure]] — Orbital data centers; SpaceX as AI infrastructure; solve power/land/cooling
+- [[concepts/Governable-AI]] — AI that can be evaluated, monitored, constrained, audited; US safety testing shift
+- [[concepts/AI-Compute-Leverage]] — Compute as strategic asset; "compute is the new oil"; infrastructure sets growth ceiling
+- [[concepts/India-Pakistan-Ceasefire]] — One year of fragile ceasefire; Kashmir/water/territory unresolved; nuclear risk elevated
 
 - [[concepts/astrology-app-personalization]] — Personalized astrology as product strategy: natal chart, transits, AI companion, retention loops
 
@@ -65,6 +80,17 @@ This is the master index of the LLM Wiki. It catalogs every page in the wiki wit
 - [[sources/openai-o3-pro-launch]] — OpenAI releases o3-pro reasoning model (TechCrunch, Apr 2026)
 - [[sources/claude-skills-best]] — "I Tried 100 Claude Skills" by The PyCoach (Apr 2026)
 - [[sources/pentagon-ai-deals-may-2026]] — Pentagon AI deals analysis: 7 companies on classified defense networks (May 2026)
+- [[sources/openai-misses-q1-2026-revenue]] — OpenAI missed Q1/2026 revenue; Anthropic/Google closing gap; GPT-5.5-Cyber (May 2026)
+- [[sources/us-ai-safety-testing-2026]] — US to safety test Google, Microsoft, xAI models; governance shift (May 2026)
+- [[sources/apple-siri-settlement-2026]] — Apple pays $250M for delayed AI Siri features (May 2026)
+- [[sources/anthropic-spacex-compute]] — Anthropic using SpaceX-linked AI compute; compute as strategic asset (May 2026)
+- [[sources/google-spacex-orbital-ai]] — Google in talks with SpaceX for orbital AI data centers (May 2026)
+- [[sources/2026-05-11-trending-briefing-v2]] — Trending briefing v2: 20 items, 4 categories; Iran ceasefire fragile, RCS E2E, Helsing $1.2B (May 2026)
+- [[sources/2026-05-04-journal-three-races]] — Journal: "Ba Cuộc Đua, Một Bài Học" — OpenAI vs Anthropic vs Google; adaptation beats speed (May 2026)
+- [[sources/2026-05-05-journal-ai-infrastructure]] — Journal: AI stopped being a toy, became infrastructure; governable AI advantage (May 2026)
+- [[sources/2026-05-06-journal-ai-promise]] — Journal: Most dangerous AI feature is promised too early; demo ≠ product (May 2026)
+- [[sources/2026-05-07-journal-ai-moat]] — Journal: Real AI moat might be boring stuff; infrastructure sets growth ceiling (May 2026)
+- [[sources/2026-05-14-journal-india-pakistan-ceasefire]] — Journal: Quiet after the storm — one year of India-Pakistan ceasefire (May 2026)
 - [[sources/agentic-ai-opportunity-schmidt]] — Eric Schmidt agentic AI advice analysis for Cognify Tech (May 2026)
 - [[sources/social-media-pentagon-agentic-2026-05-03]] — Social media variants for Pentagon AI + Agentic AI pillar topic
 - [[sources/deepseek-v4-preview]] — DeepSeek V4 official API docs (Apr 24, 2026)

@@ -150,3 +150,12 @@ grep "query" wiki/log.md
 - Pages updated: 2
 - Key entities: Trump, Iran, Apple, Anthropic, SpaceX, CoreWeave, Moonshot AI
 - Key concepts: AI compute infrastructure, tariff policy, energy-market risk
+
+## [2026-05-16] auto-ingest | 16 sources — AI News, Journals, Trending Briefing v2, Social Content
+- Source: `output/2026-05-03-ai-news.md`, `output/2026-05-04-ai-news.md`, `output/2026-05-05-ai-news.md`, `output/2026-05-06-ai-news.md`, `output/2026-05-07-ai-news.md`, `output/2026-05-14-ai-news.md`, `output/2026-05-11-trending-briefing-v2.md`, journal files (5), social files (5)
+- Pages created: 21
+  - Sources: 12 new source pages
+  - Entities: 11 new entity pages (Apple-Siri-Settlement, SpaceX, Helsing, Daniel-Ek, Cowboy-Space, Byron-Allen, BuzzFeed, Ripple, Solana-ETF, Android-iPhone-RCS, updated Pentagon-AI-Deals)
+  - Concepts: 5 new concept pages (AI-Vaporware, Orbital-AI-Infrastructure, Governable-AI, AI-Compute-Leverage, India-Pakistan-Ceasefire)
+- Key insights: Pentagon AI deals reshape industry; OpenAI missing revenue; US safety-testing shift; Apple $250M Siri lesson; Anthropic-SpaceX compute partnership; Google-SpaceX orbital AI data centers; Iran ceasefire fragility; RCS Android-iPhone encryption; Helsing $1.2B defense AI; BuzzFeed Byron Allen acquisition; Solana ETF inflows
+- Updated: index.md, processed.json

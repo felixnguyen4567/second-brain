@@ -3,7 +3,7 @@ title: Pentagon AI Deals (April 2026)
 type: entity
 tags: [pentagon, defense-ai, openai, google, microsoft, nvidia, aws, spacex, reflection-ai, anthropic, national-security]
 created: 2026-05-03
-updated: 2026-05-03
+updated: 2026-05-16
 sources: [pentagon-ai-deals-may-2026.md, trending-news-2026-04-30.md, trending-news-2026-05-01.md]
 ---
 
