@@ -453,3 +453,19 @@
 - **Fix/Action:** Chọn story #1 virality "Google-SpaceX orbital AI data centers" cho AI News; chọn "India-Pakistan 1-year ceasefire" với personal angle cho Journal. Drafted + submitted both to Automation API (`published:false`). Generated 5 social media variants (Twitter/Vietnamese, Facebook/bilingual, Instagram, TikTok, LinkedIn).
 - **File changed:** `output/2026-05-14-ai-news.md`, `output/2026-05-14-journal.md`, `output/2026-05-14-social.md`, `output/2026-05-14-ai-news-submit-response.txt`, `output/2026-05-14-journal-submit-response.txt`, `antigravity-changelog/CHANGELOG.md`
 - **Status:** Completed ✅ — AI_NEWS `0f6265dd-5b74-4647-83e2-5d30d93e49a4` (slug: google-spacex-orbital-ai-data-centers-2026); JOURNAL `ec14395a-ee34-4cf9-9316-d5deec93c36e` (slug: india-pakistan-ceasefire-one-year-2026)
+
+## 2026-05-17
+
+### ✅ Daily Trending News Briefing — 2026-05-17
+- **Thời điểm:** ~21:45 UTC / 07:15 ACST (May 18, 2026)
+- **Vấn đề:** Cron yêu cầu chạy trending news briefing cho ngày May 17, 2026.
+- **Fix/Action:** Search top news across World/Tech/AI/Investment; generated 20-item Vietnamese briefing with virality scores; saved to output + ingest into wiki.
+- **Highlights:**
+  - 🌍 WHO tuyên bố Ebola DR Congo là PHEIC (khẩn cấp y tế quốc tế) — 246 ca, 80 tử vong
+  - 💻 Phiên tòa Musk vs Altman lộ "mặt tối" ngành tech
+  - 🤖 Google I/O 2026 (19-20/5) sắp diễn ra — kỳ vọng AI updates lớn
+  - 🤖 Anthropic-SpaceX deal + Nvidia H200 được thông qua bán sang Trung Quốc
+  - 📈 UK gilt yields tăng vọt vì khủng hoảng lãnh đạo Labour
+- **File changed:** `output/2026-05-17-trending-briefing.md`, `wiki/sources/2026-05-17-trending-briefing.md`, `wiki/processed.json`, `wiki/index.md`, `antigravity-changelog/CHANGELOG.md`
+- **Status:** Completed ✅
+
