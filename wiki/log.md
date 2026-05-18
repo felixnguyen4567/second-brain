@@ -1,20 +1,10 @@
 
-### ✅ Ingested: 2026-05-11 trending briefing (Trump Iran ceasefire, Alphabet vs Nvidia, AI agents)
-- **Thời điểm:** 2026-05-11T21:57:00Z
-- **File:** wiki/sources/2026-05-11-trending-briefing.md
-- **Status:** ✅ Done
-
-
-### ✅ Ingested: 2026-05-09 trending briefing (US-Iran peace deal, Meta pivot)
-- **Thời điểm:** 2026-05-09T21:57:00Z
-- **File:** wiki/sources/2026-05-09-trending-briefing.md
-- **Status:** ✅ Done
-
-
-### ✅ Ingested: 8 Crazy Things Claude AI Can Do vs ChatGPT & Felix AI Agent article
-- **Thời điểm:** 2026-05-08T21:57:00Z
-- **Files:** wiki/sources/8crazythingsclaudeaicandothatchatgptcant.md, wiki/sources/ibuiltmyownaiagentandnameditafteracat.md
-- **Status:** ✅ Done
+## [2026-05-18] auto-ingest | 2 sources — Trending Briefings May 17 & 18
+- Sources: `output/2026-05-17-trending-briefing.md`, `output/trending-news-briefing-2026-05-18.md`
+- Pages created: 2 (sources: 2026-05-17-trending-briefing, trending-news-briefing-2026-05-18)
+- Pages updated: index.md, processed.json
+- Key stories May 17: WHO Ebola PHEIC, Moscow drone attack, Musk v Altman trial, Google I/O 2026 countdown, Anthropic-SpaceX deal, UK gilt crisis
+- Key stories May 18: US-China chip war escalation, Anthropic $900B valuation, GPT-5.5 default, Nasdaq -3.2%, NATO-Ukraine talks, India 200% tariff retaliation
 
 ---
 title: Wiki Log

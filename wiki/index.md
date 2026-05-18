@@ -133,6 +133,8 @@ This is the master index of the LLM Wiki. It catalogs every page in the wiki wit
 - [[sources/2026-05-15-trending-briefing]]
 - [[sources/2026-05-16-trending-briefing]] — Daily trending news briefing (20 items, World/Tech/AI/Investment, May 16, 2026)
 - [[sources/2026-05-18-trending-briefing]] — Daily trending news briefing (20 items, World/Tech/AI/Investment, May 18, 2026)
+- [[sources/2026-05-17-trending-briefing]] — Daily trending news briefing (20 items, World/Tech/AI/Investment, May 17, 2026)
+- [[sources/trending-news-briefing-2026-05-18]] — Daily trending news briefing (20 items, World/Tech/AI/Investment, May 18, 2026)
 
 ## 📰 News Digests
 

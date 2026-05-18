@@ -1,68 +1,68 @@
 ---
-title: "Daily Trending News Briefing — May 17, 2026"
-source: "file:///home/ubuntu/.openclaw/workspace/output/2026-05-17-trending-briefing.md"
-author:
-  - "July (OpenClaw Agent)"
-published: "2026-05-17"
-created: "2026-05-17"
-description: "Daily trending news briefing covering WHO Ebola PHEIC declaration, Ukraine drone attack on Moscow, UAE nuclear plant incident, Musk vs Altman OpenAI trial, Google I/O 2026 preview, Anthropic-SpaceX deal, Nvidia H200 China approval, and Stanford AI Index 2026."
-tags:
-  - "trending-briefing"
-  - "world-health"
-  - "ai"
-  - "geopolitics"
-  - "technology"
+title: "2026-05-17 Trending News Briefing"
+type: source
+date: 2026-05-17
+category: daily-briefing
+summary: "20 news items across World/Tech/AI/Investment. WHO declares Ebola PHEIC (DR Congo), Moscow drone attack kills 3, Musk v Altman trial drama, Google I/O 2026 countdown, Anthropic-SpaceX deal, UK gilt crisis."
+source_path: output/2026-05-17-trending-briefing.md
+virality_top: 9/10
+item_count: 20
 ---
 
-# Daily Trending News Briefing — May 17, 2026
+# 📰 Trending News Briefing — 2026-05-17
 
-## Summary
+> Generated at: 21:45 UTC | 07:15 ACST (Mon May 18, 2026)
+> Coverage: 4 categories × 5 stories = 20 items
+> Top Viral Score: 9/10
 
-Major stories: WHO declares Ebola PHEIC in DR Congo, Ukraine drone attack kills 3 in Moscow, UAE reports attack near Abu Dhabi nuclear plant, Musk vs Altman OpenAI trial revelations, Google I/O 2026 coming May 19-20, Anthropic-SpaceX deal announced, Nvidia H200 approved for China sale.
+## Key Stories
 
-## World News
+### World News
+- **WHO Ebola PHEIC**: WHO declares Ebola outbreak in DRC a Public Health Emergency of International Concern (PHEIC) — 246 cases, 80 deaths; 5th time ever for Ebola
+- **Moscow Drone Attack**: Ukraine launches large-scale drone attack on Moscow; 3 killed; Zelenskiy calls it "justified response"
+- **UAE Nuclear Incident**: Attack reported near Barakah nuclear power plant Abu Dhabi; called "dangerous escalation"
+- **Paris Subway Attack**: Knife attack at Paris Metro; suspect possibly linked to Syria
+- **Hezbollah Drone Tactics**: BBC Verify analysis shows Hezbollah using advanced fiber-optic drone tactics vs Israel
 
-- **WHO Ebola PHEIC**: WHO declared Ebola outbreak in DR Congo a Public Health Emergency of International Concern — 246 cases, 80 deaths. Not yet a pandemic but requires global coordination.
-- **Ukraine Drone Attack on Moscow**: 3 killed in largest drone attack on Moscow region. Zelensky calls it "justified response" to Russian attacks on Ukrainian cities.
-- **UAE Attack Near Nuclear Plant**: Attack reported near Barakah nuclear power plant in Abu Dhabi — "dangerous escalation" per UAE authorities.
-- **Paris Subway Attack**: Knife attack at Paris metro station; suspect possibly linked to Syria. French police investigating.
-- **Hezbollah Drone Tactics**: BBC Verify analysis reveals Hezbollah's advanced fiber-optic drone tactics targeting Israel.
+### Technology
+- **X/Twitter vs Ofcom**: X promises faster action on hostile content in UK; compliance still inadequate per regulator
+- **Musk v Altman Trial**: 5-week trial reveals deep internal conflict about OpenAI's nonprofit mission vs profit direction
+- **Raspberry Pi CEO Warning**: Eben Upton warns AI job fear is causing people to avoid tech careers — "self-defeating problem"
+- **HMRC AI Fraud Detection**: UK Tax Authority signs £175M contract with Quantexa for AI fraud detection
+- **UK Palantir Replacement**: UK government fully replaces Palantir in refugee system with in-house solution
 
-## Technology
+### AI & ML
+- **Google I/O 2026** (May 19-20): 2 days away; Gemini expected deep integration across Search/Workspace/Android
+- **Anthropic-SpaceX Deal**: Strategic infrastructure partnership announced; Claude rate limits doubled reflecting enterprise demand
+- **Nvidia H200 Approved for China**: Chip approved for export; positive signal for global AI supply chain; China = ~25% Nvidia AI revenue
+- **Stanford AI Index 2026**: AI is no longer experimental — scaling globally across industries
+- **AI Infrastructure as Strategic Asset**: 7 AI updates May 2026 confirm AI becoming "AI infrastructure" — geopolitical force, not just tool
 
-- **X (Twitter) vs Ofcom**: X promises faster action on hostile content in UK after Ofcom demands improvements.
-- **Musk vs Altman Trial**: Five weeks of testimony revealed deep conflicts about OpenAI's direction — nonprofit mission vs profit motives.
-- **Raspberry Pi CEO Warning**: Eben Upton warns AI job displacement fears are causing people to avoid tech careers — "self-defeating problem."
-- **HMRC AI Fraud Detection**: UK Tax Authority signs £175M contract with Quantexa for AI-powered fraud detection.
-- **UK Replaces Palantir**: UK government fully replaces Palantir in asylum seeker data system with in-house solution.
+### Investment & Finance
+- **UK Gilts Crisis**: UK government bond yields spike, pound falls amid political leadership crisis
+- **British Gas Fine**: Ofgem fines British Gas £20M for illegal prepaid meter installations on vulnerable customers
+- **Swatch Hype**: Swiss brand closes stores after massive queues for £335 limited edition watch
+- **Startup Funding Q1/2026**: Global VC funding shatters records at $297B in Q1 — 2.5x previous quarter; ~40% in AI
+- **ASX Market Weakness**: CBA, CSL, Cochlear "shredded" amid global volatility; Plato fund profits from short positions
 
-## AI & Machine Learning
+---
 
-- **Google I/O 2026 (May 19-20)**: Two days away. Major AI updates expected for Gemini across Search, Workspace, Android.
-- **Anthropic-SpaceX Deal**: Strategic partnership announced — Anthropic expanding beyond Google ($40B investment). Claude rate limits doubled.
-- **Nvidia H200 Approved for China**: High-performance AI chip cleared for export to China — positive signal for global AI supply chain.
-- **Stanford AI Index 2026**: AI is truly scaling globally — record investment, models, and real-world deployments.
-- **AI Infrastructure Becomes Strategic**: AI shifting from "product" to foundational infrastructure layer for modern enterprises.
+## Key Entities
+- [[entities/WHO]] — World Health Organization; declared Ebola PHEIC
+- [[entities/Musk-v-Altman-Trial]] — Updated with May 17 trial revelations
+- [[entities/Anthropic]] — SpaceX partnership announced
+- [[entities/SpaceX]] — Anthropic partnership + Starlink/Starshield
 
-## Investment & Finance
+## Key Concepts
+- [[concepts/Governable-AI]] — UK government AI adoption (HMRC/Quantexa, Palantir replacement) as governance example
+- [[concepts/AI-Compute-Leverage]] — Anthropic-SpaceX compute infrastructure deal
 
-- **UK Gilt Crisis**: Borrowing costs surge and pound falls due to UK leadership crisis and potential budget overspend.
-- **British Gas Fined £20M**: Ofgem fined British Gas for illegal prepayment meter installations on vulnerable customers.
-- **Swatch Store Closures**: Swatch temporarily closes UK stores after massive queues for limited-edition watch (£335).
-- **Startup Funding Q1 2026**: Global VC funding hits record $297B in Q1 — 40% into AI and data infrastructure.
-- **ASX Market Decline**: CBA, CSL, Cochlear among stocks "shredded" amid inflation and interest rate concerns.
+## Content Opportunities
+1. WHO Ebola PHEIC explainer (health + global coordination angle)
+2. Musk v Altman trial "dark side of tech" analysis (high drama/shareability)
+3. Google I/O 2026 countdown/prediction (timely, AI-focused)
 
-## Content Opportunities (Top 3)
-
-1. WHO Ebola PHEIC — virality 9/10, health emergency, strong visual potential for explainer content
-2. Google I/O 2026 preview — virality 9/10, timely (May 19-20), prediction and preview content
-3. Musk vs Altman trial — virality 8/10, drama, insider tech politics, high shareability
-
-## Sources
-
-- BBC News (World)
-- Reuters (World)
-- TechCrunch (Finance, AI)
-- AIToolsRecap (AI)
-- Stanford HAI (AI)
-- AFR (Markets)
+## Related Sources
+- [[sources/2026-05-16-trending-briefing]]
+- [[sources/2026-05-18-trending-briefing]]
+- [[sources/trending-news-briefing-2026-05-18]]
