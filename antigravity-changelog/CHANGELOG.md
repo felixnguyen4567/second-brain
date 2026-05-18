@@ -469,3 +469,20 @@
 - **File changed:** `output/2026-05-17-trending-briefing.md`, `wiki/sources/2026-05-17-trending-briefing.md`, `wiki/processed.json`, `wiki/index.md`, `antigravity-changelog/CHANGELOG.md`
 - **Status:** Completed ✅
 
+
+## 2026-05-18
+
+### ✅ Daily Trending News Briefing — 2026-05-18
+- **Thời điểm:** ~21:45 UTC / 07:15 ACST (May 18, 2026)
+- **Vấn đề:** Cron yêu cầu chạy trending news briefing cho ngày May 18, 2026.
+- **Fix/Action:** Search top news across World/Tech/AI/Investment; generated 20-item Vietnamese briefing with virality scores; saved to output + ingest into wiki. Brave API key unavailable after initial 4 parallel searches; compiled from DuckDuckGo initial search results.
+- **Highlights:**
+  - 🌍 US tái áp đặt hạn chế xuất khẩu chip AI sang Trung Quốc lần thứ 3
+  - 🌍 Ấn Độ tăng thuế 200% đáp trả Mỹ — leo thang thương mại toàn cầu
+  - 💻 Google I/O 2026 (20-21/5) diễn ra trong 48 giờ — Gemini tích hợp toàn hệ sinh thái
+  - 🤖 Anthropic đạt định giá $900B sau vòng gọi vốn khổng lồ
+  - 🤖 GPT-5.5 trở thành model mặc định mới của OpenAI
+  - 📈 Nasdaq giảm 3.2% — lo ngại Fed giữ lãi suất cao
+  - 📈 Bitcoin giảm 12% xuống $82,000
+- **File changed:** `output/trending-news-briefing-2026-05-18.md`, `wiki/sources/2026-05-18-trending-briefing.md`, `wiki/processed.json`, `wiki/index.md`, `antigravity-changelog/CHANGELOG.md`
+- **Status:** Completed ✅
