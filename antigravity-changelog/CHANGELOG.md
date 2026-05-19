@@ -486,3 +486,18 @@
   - 📈 Bitcoin giảm 12% xuống $82,000
 - **File changed:** `output/trending-news-briefing-2026-05-18.md`, `wiki/sources/2026-05-18-trending-briefing.md`, `wiki/processed.json`, `wiki/index.md`, `antigravity-changelog/CHANGELOG.md`
 - **Status:** Completed ✅
+
+## 2026-05-19
+
+### ✅ Daily Content Pipeline — 2026-05-19
+- **Thời điểm:** ~22:34 UTC / 08:04 ACST (May 20, 2026)
+- **Vấn đề:** Cron yêu cầu chạy content pipeline nội dung hằng ngày từ trending briefing 2026-05-19.
+- **Pillar Story #1 (Virality 8/10):** Pentagon Drops Anthropic — OpenAI/Google Win 8 AI Defense Contracts
+- **Personal Angle (Journal):** Trump's Iran Reversal — The Art of Knowing When to Stop
+- **Articles submitted:**
+  - AI_NEWS draft: `pentagon-drops-anthropic-openai-google-ai-contracts-2026` (ID: `fb7736aa-19e5-4a9d-ad6d-cd81d0a3b888`) — published:false
+  - JOURNAL draft: `trump-iran-reversal-decision-stop-2026` (ID: `6f5c6557-7e0f-48d9-a1c3-0a00da6de63a`) — published:false
+- **Social variants:** 5 formats (Twitter/Vietnamese, Facebook/bilingual, Instagram, TikTok, LinkedIn) → `output/2026-05-19-social.md`
+- **Git commit:** `493732c` — pushed to main
+- **Status:** Both drafts submitted to felixng.vercel.app/api/automation ✅
+
