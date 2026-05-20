@@ -132,9 +132,14 @@ This is the master index of the LLM Wiki. It catalogs every page in the wiki wit
 - [[sources/2026-05-13-trending-briefing]] — Daily trending news briefing (20 items, World/Tech/AI/Investment, May 13, 2026)
 - [[sources/2026-05-15-trending-briefing]]
 - [[sources/2026-05-16-trending-briefing]] — Daily trending news briefing (20 items, World/Tech/AI/Investment, May 16, 2026)
+- [[sources/2026-05-19-trending-briefing]] — Daily trending news briefing (20 items, World/Tech/AI/Investment, May 19, 2026)
 - [[sources/2026-05-18-trending-briefing]] — Daily trending news briefing (20 items, World/Tech/AI/Investment, May 18, 2026)
 - [[sources/2026-05-17-trending-briefing]] — Daily trending news briefing (20 items, World/Tech/AI/Investment, May 17, 2026)
 - [[sources/trending-news-briefing-2026-05-18]] — Daily trending news briefing (20 items, World/Tech/AI/Investment, May 18, 2026)
+- [[sources/ibuiltmyownaiagentandnameditafteracat]] — I Built My Own AI Agent and Named It After a Cat (Felix, Sau Sheong, May 2026)
+- [[sources/2026-05-19-ai-news]] — Pentagon drops Anthropic; AI defense contracts shift to OpenAI/Google (May 19, 2026)
+- [[sources/2026-05-19-journal]] — Journal: Trump Iran Reversal — The Art of Knowing When to Stop (May 19, 2026)
+- [[sources/2026-05-19-social]] — Social media variants for Pentagon drops + Trump Iran reversal (May 19, 2026)
 
 ## 📰 News Digests
 
