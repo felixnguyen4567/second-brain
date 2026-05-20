@@ -501,3 +501,21 @@
 - **Git commit:** `493732c` — pushed to main
 - **Status:** Both drafts submitted to felixng.vercel.app/api/automation ✅
 
+
+## 2026-05-20
+
+### ✅ Daily Trending News Briefing — May 20th, 2026
+- **Thời điểm:** 21:45 UTC / 7:15 AM ACST (Darwin)
+- **Trigger:** Cron job `f265cd7f-601d-4e73-bc0f-bfeff3ddab90`
+- **Categories covered:** World News (5), Investment & Markets (6), AI & Technology (8)
+- **Top stories:**
+  - 🌐 Google I/O 2026 LIVE: Gemini Omni + Gemini 3.5 Flash (Virality: 98)
+  - 💰 S&P 500 nearing record high, Nvidia earnings awaited (Virality: 94)
+  - 🌍 Iran 80% of global executions 2025 — UN report (Virality: 95)
+  - 🤖 AI power crisis: data centers consuming record energy (Virality: 81)
+  - 💹 Iran Hormuz ceasefire on "massive life support", oil above $100/barrel
+- **Output saved:**
+  - `skills/daily-news-brief/history/2026-05-20.md`
+  - `skills/daily-news-brief/latest-brief.md`
+- **Status:** Done ✅
+
