@@ -1,8 +1,8 @@
 ---
 title: Wiki Index
-updated: 2026-05-16
-page_count: 143
-source_count: 67
+updated: 2026-05-21
+page_count: 144
+source_count: 68
 ---
 
 # 📚 Wiki Index
@@ -140,6 +140,7 @@ This is the master index of the LLM Wiki. It catalogs every page in the wiki wit
 - [[sources/2026-05-19-ai-news]] — Pentagon drops Anthropic; AI defense contracts shift to OpenAI/Google (May 19, 2026)
 - [[sources/2026-05-19-journal]] — Journal: Trump Iran Reversal — The Art of Knowing When to Stop (May 19, 2026)
 - [[sources/2026-05-19-social]] — Social media variants for Pentagon drops + Trump Iran reversal (May 19, 2026)
+- [[sources/2026-05-21-trending-briefing]] — Daily trending news briefing (20 items, World/Tech/AI/Investment, May 21, 2026): Alibaba Qwen3.7-Max, Anthropic beats OpenAI, CPPIB AI bubble warning, $50B US REIT merger
 
 ## 📰 News Digests
 
@@ -156,4 +157,4 @@ This is the master index of the LLM Wiki. It catalogs every page in the wiki wit
 
 ---
 
-**Total pages:** 123 | **Total sources:** 52 | **Last updated:** 2026-05-16
+**Total pages:** 124 | **Total sources:** 53 | **Last updated:** 2026-05-21
