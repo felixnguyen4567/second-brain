@@ -519,3 +519,16 @@
   - `skills/daily-news-brief/latest-brief.md`
 - **Status:** Done ✅
 
+
+### ✅ Trending News Briefing — 2026-05-23
+- **Thời điểm:** ~21:45 UTC / 07:15 ACST (May 23)
+- **Vấn đề:** Bear yêu cầu chạy trending news briefing hàng ngày qua cron job.
+- **Fix/Action:** Chạy skill trending-news-briefing. Tìm kiếm tin tức từ BBC, TechCrunch, VentureBeat, Investing.com qua RSS feeds. Tổng hợp 20 tin (4 categories × 5 items) với virality scores.
+- **Tin nổi bật hôm nay:**
+  - Trump xác nhận thỏa thuận Iran "largely negotiated" (Virality: 9/10)
+  - SpaceX phóng Starship V3 thành công, mất booster + IPO (Virality: 9/10)
+  - TrustFall: 7 attack surfaces trong AI coding tools thất bại (Virality: 9/10)
+  - Alibaba Qwen3.7-Max: 35 giờ autonomous, hỗ trợ Claude Code (Virality: 8/10)
+- **File changed:** `output/2026-05-23-trending-briefing.md`, `wiki/sources/2026-05-23-trending-briefing.md`, `wiki/processed.json`
+- **Git push:** main → github/main (rebased, successful)
+- **Status:** Done ✅
