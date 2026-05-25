@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "output/trending-news-briefing-2026-05-02.md",
+                "file": "wiki/entities/OpenAI.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "trending-news-briefing-2026-05-02"
+              "title": "OpenAI"
             }
           }
         ]
@@ -181,10 +181,10 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "output/trending-news-briefing-2026-05-02.md"
+                "file": "wiki/entities/OpenAI.md"
               },
               "icon": "lucide-info",
-              "title": "File properties for trending-news-briefing-2026-05-02"
+              "title": "File properties for OpenAI"
             }
           }
         ],
@@ -208,6 +208,9 @@
   },
   "active": "6ec1d72a2507f594",
   "lastOpenFiles": [
+    "wiki/overview.md",
+    "output/2026-05-23-trending-briefing.md",
+    "output/trending-news-briefing-2026-05-02.md",
     "skills/daily-news-brief/history/2026-05-25.md",
     "skills/daily-news-brief/node_modules/parse5/node_modules/entities/escape.d.ts",
     "skills/daily-news-brief/node_modules/parse5/node_modules/entities/decode.d.ts",
@@ -241,9 +244,6 @@
     "skills/daily-news-brief/node_modules/iconv-lite/README.md",
     "skills/daily-news-brief/node_modules/iconv-lite/Changelog.md",
     "skills/daily-news-brief/node_modules/has-flag/readme.md",
-    "skills/daily-news-brief/node_modules/html-to-text/README.md",
-    "skills/daily-news-brief/node_modules/undici/README.md",
-    "skills/daily-news-brief/node_modules/undici/types/README.md",
     "avatars/july-avatar-alt.jpg",
     "avatars/july-avatar.jpg",
     "Untitled 1.canvas",
