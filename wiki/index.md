@@ -1,8 +1,8 @@
 ---
 title: Wiki Index
-updated: 2026-05-21
-page_count: 144
-source_count: 68
+updated: 2026-05-27
+page_count: 146
+source_count: 70
 ---
 
 # 📚 Wiki Index
@@ -141,6 +141,8 @@ This is the master index of the LLM Wiki. It catalogs every page in the wiki wit
 - [[sources/2026-05-19-journal]] — Journal: Trump Iran Reversal — The Art of Knowing When to Stop (May 19, 2026)
 - [[sources/2026-05-19-social]] — Social media variants for Pentagon drops + Trump Iran reversal (May 19, 2026)
 - [[sources/2026-05-21-trending-briefing]] — Daily trending news briefing (20 items, World/Tech/AI/Investment, May 21, 2026): Alibaba Qwen3.7-Max, Anthropic beats OpenAI, CPPIB AI bubble warning, $50B US REIT merger
+- [[sources/2026-05-23-trending-briefing]] — Daily trending news briefing (20 items, World/Tech/AI/Investment, May 23, 2026): Trump Iran negotiation, Starship V3, Qwen3.7-Max
+- [[sources/2026-05-27-trending-briefing]] — Daily trending news briefing (20 items, World/Tech/AI/Investment, May 27, 2026): U.S.-Iran strikes, Pope Leo XIV AI Encyclical, Cloudflare AI layoffs, Bitcoin ETF outflows
 
 ## 📰 News Digests
 

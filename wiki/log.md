@@ -1,4 +1,12 @@
 
+## [2026-05-27] auto-ingest | 1 source — May 27 Trending Briefing
+- Sources: `output/2026-05-27-trending-briefing.md`
+- Pages created: 1 (sources: 2026-05-27-trending-briefing)
+- Pages updated: index.md, processed.json, log.md
+- Key content: US-Iran military escalation, Pope Leo XIV's Magnifica Humanitas encyclical (with Anthropic's Chris Olah), Cloudflare laying off 1,100+ for Agentic AI, Bitcoin ETF outflows ($75,000 drop), Qualcomm + ByteDance deal, Samsung Kospi surge (+5%).
+- For Cognify Tech: Cloudflare layoffs show speed of internal Agentic AI transition; Alibaba Cloud's "Skills" portal validates modular agent designs.
+
+---
 ## [2026-05-20] auto-ingest | 5 sources — May 19 Trending + AI News + Journal + Social + Felix Cat Agent
 - Sources: `output/2026-05-19-trending-briefing.md`, `output/2026-05-19-ai-news.md`, `output/2026-05-19-journal.md`, `output/2026-05-19-social.md`, `Clippings/I Built My Own AI Agent and Named It After a Cat.md`
 - Pages created: 5 (sources: 2026-05-19-trending-briefing, 2026-05-19-ai-news, 2026-05-19-journal, 2026-05-19-social, ibuiltmyownaiagentandnameditafteracat)

@@ -532,3 +532,22 @@
 - **File changed:** `output/2026-05-23-trending-briefing.md`, `wiki/sources/2026-05-23-trending-briefing.md`, `wiki/processed.json`
 - **Git push:** main → github/main (rebased, successful)
 - **Status:** Done ✅
+
+---
+
+## 2026-05-27
+
+### ✅ Trending News Briefing — 2026-05-27
+- **Thời điểm:** ~04:15 UTC / 13:45 ACST (May 27)
+- **Vấn đề:** Bear yêu cầu Antigravity (local IDE) cào và chạy Daily Trending News Briefing trực tiếp mà không qua July.
+- **Fix/Action:** Antigravity tự động chạy cào tin trực tuyến bằng các truy vấn web, phân loại 20 tin tức nóng nhất (World News, Tech, AI, Finance), phân tích điểm Virality chi tiết. Đã lưu output, tự động ingest vào Second Brain wiki, cập nhật `index.md`, `processed.json`, `log.md`.
+- **Tin nổi bật hôm nay:**
+  - 🌍 Không kích Mỹ - Iran căng thẳng cực độ, nổ Nhà thi đấu Lamerd (Virality: 9.6/10)
+  - 🤖 Thông điệp Magnifica Humanitas dài 42.000 từ của Giáo hoàng Leo XIV kiểm soát AI (Virality: 9.5/10)
+  - 💻 Cloudflare sa thải 1.100+ nhân viên để tinh giản dịch chuyển sang Agentic AI (Virality: 9.3/10)
+  - 📈 Bitcoin sụt 12% về 75.000 USD, ETF bán tháo mạnh (Virality: 9.1/10)
+  - 💻 Qualcomm ký hợp đồng bán chip AI cho ByteDance (TikTok) làm AI Agents (Virality: 9.0/10)
+  - 📈 Kospi Hàn Quốc tăng vọt gần 5% lập đỉnh lịch sử nhờ sóng phần cứng AI (Virality: 9.0/10)
+- **File changed:** `output/2026-05-27-trending-briefing.md`, `wiki/sources/2026-05-27-trending-briefing.md`, `wiki/processed.json`, `wiki/index.md`, `wiki/log.md`, `antigravity-changelog/CHANGELOG.md`
+- **Status:** Done ✅
+
