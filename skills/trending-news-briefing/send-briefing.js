@@ -200,7 +200,11 @@ async function main() {
     
     const today = new Date().toISOString().split('T')[0];
     const fs = require('fs');
-    const outputPath = `/home/ubuntu/.openclaw/workspace/output/${today}-trending-briefing.md`;
+    const path = require('path');
+    
+    // Resolve output path dynamically relative to this script's directory
+    const outputDir = path.resolve(__dirname, '../../output');
+    const outputPath = path.join(outputDir, `${today}-trending-briefing.md`);
     
     let briefing;
     if (fs.existsSync(outputPath)) {
@@ -209,7 +213,6 @@ async function main() {
     } else {
       console.log('Generating new briefing...');
       briefing = await generateBriefing();
-      const outputDir = '/home/ubuntu/.openclaw/workspace/output';
       if (!fs.existsSync(outputDir)) fs.mkdirSync(outputDir, { recursive: true });
       fs.writeFileSync(outputPath, briefing);
       console.log('Saved to:', outputPath);

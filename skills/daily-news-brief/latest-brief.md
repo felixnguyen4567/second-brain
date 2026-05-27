@@ -1,86 +1,39 @@
-# 📰 Daily News Briefing | May 20th, 2026 | Wednesday
+# 📰 每日新闻简报 | 2026年5月26日 | 星期二
 
-## 🌍 World News
+## 🌍 国际时事
+1. **俄方称 将对基辅军工联合体发动打击** [央视](https://news.cctv.com/2026/05/26/ARTI2aoPUwQJgrxR90eE13eL260526.shtml)
+2. **俄方警告外国公民尽快离开基辅市，并呼吁基辅市民不要靠近乌克兰军事和行政基础设施。** [央视](https://news.cctv.com/2026/05/26/ARTI2aoPUwQJgrxR90eE13eL260526.shtml)
+3. **特朗普“强制要求”中东多国签署《亚伯拉罕协议》，“伊朗也该加入”** [新浪](https://news.sina.com.cn/w/2026-05-25/doc-inhzcpin2043969.shtml)
+4. **特朗普称美伊协议要么伟大要么没有 批奥巴马协议给了伊朗核武路径** [新浪](https://news.sina.com.cn/w/2026-05-25/doc-inhzchzm2810807.shtml)
+5. **特朗普要求先签“亚伯拉罕协议” 沙特方面回应** [新浪](https://news.sina.com.cn/w/2026-05-26/doc-inhzeknu3017607.shtml)
+6. **伊朗官员：武装力量处于最高戒备 若敌人犯错必将回应** [新浪](https://news.sina.com.cn/w/2026-05-26/doc-inhzeeez2490307.shtml)
+7. **伊朗总统下令：恢复互联网至今年1月大规模断网前状态** [新浪](https://news.sina.com.cn/w/2026-05-26/doc-inhzcxxh1887515.shtml)
 
-1. **Iran Alone Accounts for Nearly 80% of Worldwide Executions in 2025 — UN Report** [MSN/Al Jazeera](https://www.msn.com/en-in/news/news/world-news-today-live-updates-on-may-20-2026-iran-alone-accounts-for-nearly-80-of-worldwide-executions-in-2025-says-report/ar-AA23AyPI)
-   - Virality Score: 95 | A comprehensive UN report reveals Iran was responsible for approximately 80% of all executions globally in 2025. The findings have drawn sharp international condemnation and renewed calls from human rights organizations for accountability. Iran has rejected the findings as "politically motivated."
+## 💰 经济形势
+1. **稀土掐住美国命脉？AI、通胀，全看中国脸色** [新浪](https://video.sina.com.cn/p/finance/2026-05-25/detail-inhyzzfw3806296.d.html)
+2. **智利政府预计2026年预算赤字对GDP占比为2.4%。** [新浪](https://wap.cj.sina.cn/pc/7x24/4899128)
+3. **【现货黄金涨超1.3%，白银涨超3.3%】周一（5月25日）纽约尾盘，现货黄金涨1.35%，报4570.50美元/盎司，亚太盘初显著上涨，日内持续高位震荡。COMEX黄金期货涨1.07%，报4605.10美元/盎司。现货白银涨3.35%，报78.0713美元/盎司，亚太盘初从76.50美元下方涨至78.82美元上方，整体持续高位震荡。COMEX白银期货涨2.89%，报78.400美元/盎司。COMEX铜期货涨1.40%，报6.47美元/磅。现货铂金涨2.25%，现货钯金涨3.58%。** [新浪](https://wap.cj.sina.cn/pc/7x24/4899107)
+4. **美联储步入“沃什时代” “实用货币主义”登场？** [新浪](https://finance.sina.com.cn/roll/2026-05-25/doc-inhyzuxy3897231.shtml)
+5. **特朗普提名沃什出任美联储主席** [新浪](https://finance.sina.com.cn/zt_d/subject-1769766561/)
 
-2. **Ukraine War: Over 15,800 People Killed Since Russia's Full-Scale Invasion — UN** [Al Jazeera/Reuters](https://www.aljazeera.com/news/)
-   - Virality Score: 93 | The United Nations reports that more than 15,800 people have been killed in Russia's all-out war on Ukraine since the February 2022 invasion, including nearly 800 children. The humanitarian crisis continues to deepen as peace talks remain stalled. Western allies are debating further military support amid signs of prolonged conflict.
+## 🔬 科技发展
+1. **华为韬定律改写半导体规则：麒麟芯片将突破5GHz AI芯片125倍性能提升** [新浪](https://finance.sina.com.cn/tech/discovery/2026-05-25/doc-inhzascn2595635.shtml)
+2. **人工智能浪潮，把电视产业拍在沙滩上？** [新浪](https://t.cj.sina.cn/articles/view/1654140974/6298302e02001iwmm?from=tech)
+3. **数分钟内，Meta与谷歌旗下 AI 模型安全防护机制遭破解移除** [新浪](https://finance.sina.com.cn/stock/usstock/c/2026-05-25/doc-inhzcpik9521784.shtml)
+4. **日本东证指数创历史新高 因人工智能热潮和伊朗协议希望提振市场情绪** [新浪](https://finance.sina.com.cn/stock/usstock/c/2026-05-25/doc-inhzawmm5153558.shtml)
+5. **欧洲央行约谈各大银行，督促其修补最新人工智能模型暴露出的漏洞** [新浪](https://finance.sina.com.cn/stock/usstock/c/2026-05-25/doc-inhzawmh5798846.shtml)
 
-3. **Google I/O 2026: Gemini Omni and Gemini 3.5 Flash Redefine AI Multimodality** [Google Blog/TechRadar](https://blog.google/innovation-and-ai/technology/developers-tools/google-io-2026-collection/)
-   - Virality Score: 97 | Google's annual developer conference unveiled two new flagship AI models. Gemini Omni can create anything from any input starting with video — representing a major leap in world understanding and multimodality. Gemini 3.5 Flash is the first model combining frontier intelligence with action capabilities. The keynote kicked off at 10am PT today.
+## 👀 今日关注
+• 特朗普“强制要求”中东多国签署《亚伯拉罕协议》，“伊朗也该加入”
+• 特朗普称美伊协议要么伟大要么没有 批奥巴马协议给了伊朗核武路径
+• 华为韬定律改写半导体规则：麒麟芯片将突破5GHz AI芯片125倍性能提升
 
-4. **US-Iran Ceasefire on "Massive Life Support": Hormuz Tensions Continue** [Reuters/BBC](https://www.reuters.com/world)
-   - Virality Score: 88 | The month-long ceasefire between the US and Iran remains on fragile ground with Tehran rejecting latest proposals as "capitulation." Iran's demands include lifting the naval blockade, recognition of sovereignty over the Strait of Hormuz, and war reparations. Oil markets remain volatile with prices holding above $100/barrel.
-
-5. **South Korea Presidential Election Set for June 3rd After Court Impeachment Ruling** [Reuters/AP](https://www.reuters.com/world)
-   - Virality Score: 81 | Early elections proceed following the Constitutional Court's upholding of parliamentary impeachment. Main candidates include Lee Jae-myung (DP). Markets are closely watching the political transition for policy direction on tech and trade.
-
-## 💰 Investment & Markets
-
-1. **S&P 500 Nears Record High as Easing Treasury Yields Lift Sentiment** [Times of India/Stock Market Today](https://timesofindia.indiatimes.com/business/international-business/us-stock-market-today-may-20-2026-sp-500-nears-record-high-easing-treasury-yields-lift-sentiment/articleshow/131228517.cms)
-   - Virality Score: 94 | US stocks moved higher Wednesday, edging toward first gain in four sessions as easing yields and stronger-than-expected corporate earnings supported investor sentiment. The S&P 500 is now approaching its all-time high with traders placing elevated odds on crossing 8,000 by year-end.
-
-2. **Nvidia Climbs Ahead of Earnings as Investors Await AI Guidance** [Motley Fool](https://www.fool.com/coverage/stock-market-today/2026/05/20/stock-market-today-may-20-nvidia-climbs-ahead-of-earnings-as-investors-await-ai-guidance/)
-   - Virality Score: 92 | Nvidia's pre-earnings rally helped power a broader market rebound as easing yields and oil prices calmed recent jitters. Analysts expect strong data center revenue growth. The earnings report will be closely watched for guidance on AI chip demand trajectory for the rest of 2026.
-
-3. **Cerebras IPO Momentum Continues: AI Infrastructure Play in Focus** [TechCrunch/Bloomberg](https://techcrunch.com/2026/05/14/cerebras-raises-5-5b-kicking-off-2026s-ipo-season-with-a-bang/)
-   - Virality Score: 89 | Following last week's blockbuster 89% surge on debut, Cerebras shares remain elevated as investors bet on specialized AI chip demand. The $5.5B IPO signaled strong appetite for AI infrastructure plays beyond NVIDIA. SpaceX, OpenAI, and Anthropic listings are rumored for coming months.
-
-4. **Global Shares and Bonds Rally on US-China Trade Optimism — May 2026 Market Update** [ Morgans Financial](https://morgans.com.au/news/macro-monthly-market-a-worldly-lens-may-2026)
-   - Virality Score: 85 | A comprehensive market update shows global shares and bonds rallying as US-China trade talks show tentative progress. Australian markets benefiting from commodity strength. Bond markets stabilizing after recent inflation concerns.
-
-5. **Michael Burry Warns "The Market Feels Like Late 1999" Amid Record Highs** [CNBC](https://www.cnbc.com/2026/05/08/michael-burry-says-the-market-today-feels-like-the-last-months-of-the-1999-2000-bubble.html)
-   - Virality Score: 80 | The "Big Short" investor maintains his bubble警告 despite the Teflon market's relentless climb. Burry has reduced positions in parabolic stocks "almost entirely" and urges investors to "reject greed." The S&P 500's approach to 8,000 has reignited dot-com era comparisons.
-
-6. **Apple Reports Record Services Revenue, Stock Rises 3%** [Bloomberg](https://www.bloomberg.com/markets)
-   - Virality Score: 78 | Apple's quarterly earnings beat expectations with services revenue hitting a new record. CEO Tim Cook attended the Trump-Xi summit as part of a US CEO delegation. The company's AI integration strategy across devices continues to drive investor optimism.
-
-## 🤖 AI & Technology
-
-1. **Google I/O 2026 Day 1 Live: Gemini Omni "Leap Forward in World Understanding"** [TechRadar/Google Blog](https://www.techradar.com/news/live/google-io-2026-live)
-   - Virality Score: 98 | Google's I/O keynote is happening NOW (3am AEST May 20). Gemini Omni is the star — capable of creating anything from any input, starting with video. Gemini 3.5 Flash is the first model combining frontier intelligence with action. Chrome is implementing automatic AI file downloads.
-
-2. **7 Explosive AI Updates in May 2026 Every Founder Must Know** [imfounder.com](https://imfounder.com/science-tech/ai/ai-updates-may-2026/)
-   - Virality Score: 91 | Key themes: Government regulation intensifying, Anthropic's $900B funding round, AI agents replacing traditional apps. The convergence of agentic orchestration, physical AI, and capital-intensive deployment represents a critical inflection point in AI maturation.
-
-3. **OpenAI Unveils Three Revolutionary Audio Models** [Planet News](http://planet.news/article/ai-tech-breakthroughs-may-2026)
-   - Virality Score: 89 | OpenAI's latest audio models represent a significant advancement in voice synthesis and understanding. Combined with GPT-5.5 being the default instant model, OpenAI continues to push the frontier of generative AI capabilities.
-
-4. **Anthropic's Rise: Claude Code Fixes and $900B Round Reshaping Enterprise AI** [tldl.io](https://www.tldl.io/blog/ai-news-updates-2026)
-   - Virality Score: 86 | Anthropic continues rapid enterprise growth with Claude Code fixes and major funding round. The company is reportedly valued at $900B following its latest raise. Claude's success in cracking an 11-year-old Bitcoin wallet ($400K value) demonstrated AI's problem-solving capabilities.
-
-5. **AI Agents Replacing Apps: The Major Shift in Enterprise Computing** [imfounder.com](https://imfounder.com/science-tech/ai/ai-updates-may-2026/)
-   - Virality Score: 85 | AI is rapidly evolving from standalone tools into foundational computing layers embedded across cloud, enterprise, OS, and consumer devices. The agentic AI adoption is accelerating as businesses seek to automate complex workflows end-to-end.
-
-6. **AI Adoption in Business Set to Increase 30%+ in 2026** [AI and News](https://www.aiandnews.com/blog/latest-ai-news-may-2026/)
-   - Virality Score: 83 | Generative AI is driving innovative content creation and monetization opportunities. Growing emphasis on AI ethics and regulation as adoption accelerates. Enterprise spending on AI infrastructure remains a top priority.
-
-7. **Power Crisis Looms: AI Data Centers Consuming Record Energy** [Kersai Research](https://kersai.com/ai-may-2026-model-wave-agents-power-crisis/)
-   - Virality Score: 81 | The massive synchronized industrial deployment of AI is creating unprecedented energy demand. Power constraints are emerging as a critical bottleneck for frontier model development. Nuclear and renewable energy investments in AI infrastructure accelerating.
-
-8. **DeepSeek V4 and Kimi K2.6: Chinese AI Models Challenge US Dominance** [tldl.io](https://www.tldl.io/blog/ai-news-updates-2026)
-   - Virality Score: 79 | Chinese AI labs continue aggressive global push. DeepSeek V4 and Kimi K2.6 coding challenge capabilities making waves. Tencent Cloud upgraded DeepSeek integration. Xiaomi MiMo seeing rapid global adoption. The US-China AI race intensifying.
-
-## 👀 Today's Highlights
-
-• **Google I/O 2026 LIVE:** Gemini Omni and Gemini 3.5 Flash unveiled — biggest AI announcements of the year happening now
-• **Nvidia Earnings:** Pre-market rally as investors await AI chip demand guidance post-earnings
-• **S&P 500 Nears Record:** Index approaching 8,000 milestone as yields ease and earnings beat
-• **Iran Hormuz Crisis:** Ceasefire on life support, oil above $100/barrel, global energy markets on edge
-• **AI Power Crisis:** Data center energy consumption reaching critical levels — nuclear and renewables in focus
-• **Anthropic $900B Round:** Claude maker valued at eye-watering figure, enterprise AI adoption accelerating
-
-## 📊 Briefing Statistics
-
-- **Total News Items:** 21
-- **Categories Covered:** World News (5), Investment & Markets (6), AI & Technology (8)
-- **Highest Virality Score:** 98 (Google I/O 2026 Gemini announcements — LIVE)
-- **Generation Time:** May 20th, 2026 | 21:45 UTC | 7:15 AM Darwin time (ACST)
-- **Sources:** Google Blog, TechRadar, CNBC, Bloomberg, Reuters, BBC, Al Jazeera, Motley Fool, TechCrunch, Times of India, Morgans Financial, tldl.io, Planet News, AI and News, Kersai Research, imfounder.com
+## 📚 历史回顾
+• 历史回顾：特朗普上次访华期间签署多项经贸合作协议
+• 历史回顾：中美建交45周年，双边贸易额持续增长
+• 历史回顾：人工智能技术在过去5年实现突破性进展
 
 ---
-
-*This briefing was generated automatically by OpenClaw Daily News Skill*
-*For Bear — staying informed, one briefing at a time* ♟️
+*简报生成时间：2026/5/26 06:02:30*
+*数据来源：新浪、央视等主流媒体*
+*注：以上新闻基于公开信息整理，具体细节请以官方发布为准*

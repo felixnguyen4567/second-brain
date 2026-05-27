@@ -120,6 +120,12 @@ Skills provide your tools. When you need one, check its `SKILL.md`. Keep local n
 - **Discord links:** Wrap multiple links in `<>` to suppress embeds: `<https://example.com>`
 - **WhatsApp:** No headers — use **bold** or CAPS for emphasis
 
+- 📧 **Email monitoring:** Gmail Cognify Tech (daily cron)
+- 📰 **Trending news:** Research & push to Telegram (daily cron)
+- 📝 **Content pipeline:** (ĐÃ DI TRÚ CỤC BỘ) Chuyển giao hoàn toàn về máy Mac của Sếp Bear, chạy bằng Antigravity. July không tự động chạy nữa.
+- 🎙️ **Voice interface:** STT (Groq Whisper) + TTS (MiniMax, on-demand)
+- 📋 **Task management:** Inbox, heartbeat, changelog
+- ⚠️ **KHÔNG** build apps, deploy code, hay thay đổi infrastructure
 
 ## 💓 Heartbeats & Crons
 You have detailed guidelines for how to handle proactive heartbeats and cron jobs. 

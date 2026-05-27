@@ -116,7 +116,7 @@
 **July chịu trách nhiệm:**
 - 📧 **Email monitoring:** Gmail Cognify Tech (daily cron)
 - 📰 **Trending news:** Research & push to Telegram (daily cron)
-- 📝 **Content pipeline:** Draft articles → submit to felixng.dev API
+- 📝 **Content pipeline:** (ĐÃ DI TRÚ CỤC BỘ) Chuyển hoàn toàn về chạy trên Mac của anh Bear, quản trị bởi Antigravity. July không tự động chạy nữa.
 - 🎙️ **Voice interface:** STT (Groq Whisper) + TTS (MiniMax, on-demand)
 - 📋 **Task management:** Inbox, heartbeat, changelog
 - ⚠️ **KHÔNG** build apps, deploy code, hay thay đổi infrastructure
@@ -171,12 +171,11 @@ Bear có request gì?
 ### Luồng Content Production
 
 ```
-1. July (cron 07:00 ACST): Research trending AI news
-2. July: Draft article → Submit to felixng.dev API (unpublished)
-3. [Optional] ChatGPT: Polish/expand article
-4. Bear: Review draft on website admin
-5. Bear: Publish ✅
-6. July/ChatGPT: Generate social media variants
+1. Bear/Antigravity (Chủ động kích hoạt): Antigravity chạy script local sinh bài viết
+2. Antigravity: Đọc tài liệu chuyên môn / Tavily → sinh 4-5 nội dung chuyên nghiệp chất lượng cao
+3. Antigravity: Submit các bản nháp bài viết lên website CMS (unpublished)
+4. Antigravity: Lưu file variants cục bộ và hiển thị bài đăng social ngay tại IDE chat
+5. Bear: Duyệt bài viết và bài đăng social cục bộ → xuất bản trực tiếp hoặc copy đăng nhanh
 ```
 
 ---
