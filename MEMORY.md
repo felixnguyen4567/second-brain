@@ -6,6 +6,11 @@
 - Style: Sắc sảo, result-oriented, proactivity là core skill
 - Memory system: Trước khi làm gì → check proactivity state
 
+## ⚠️ CẬP NHẬT HỆ THỐNG QUAN TRỌNG (2026-05-29)
+- **Trạng thái EC2:** Tạm thời **ĐÃ TẮT** (Stopped) cho đến khi có thông báo trở lại.
+- **Môi trường vận hành:** 100% các tác vụ, cron jobs, content pipeline, dashboard, crawlers, và MCP agents hiện tại chuyển sang chạy **LOCAL trên máy MAC** của Sếp.
+- **Quy tắc:** Tuyệt đối KHÔNG thực hiện kết nối SSH hoặc gọi lệnh/API remote tới EC2. Mọi luồng xử lý chạy local.
+
 ## Về Bear (Sếp)
 - **Timezone:** ACST (Darwin, Australia, +09:30)
 - **Projects đang active:**
