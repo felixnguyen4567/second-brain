@@ -18,11 +18,11 @@
 
 ### 2. OpenClaw Agent (July)
 - **Stack:** OpenClaw, Node.js, PM2, systemd
-- **Deploy:** AWS EC2 t2.micro (ip-172-31-29-188)
-- **Workspace:** EC2 → `/home/ubuntu/.openclaw/workspace/`
+- **Deploy:** AWS EC2 t2.micro (Tạm tắt ⚠️ - Chuyển sang chạy local trên máy MAC)
+- **Workspace:** Local MAC → `/Users/Felix/Documents/antigravity/openclaw awc/`
 - **Repo:** github.com/felixnguyen4567/second-brain
 - **Mô tả:** AI assistant tự động: email check, trending news, wiki ingest, content pipeline
-- **Cron Jobs:** 4 active (07:00-07:30 ACST daily)
+- **Cron Jobs:** Chuyển sang chạy local trên máy MAC.
 
 ---
 
