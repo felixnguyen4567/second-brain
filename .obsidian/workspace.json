@@ -208,6 +208,7 @@
   },
   "active": "6ec1d72a2507f594",
   "lastOpenFiles": [
+    "skills/daily-news-brief/news-brief.log",
     "skills/daily-news-brief/history/2026-05-28.md",
     "output/2026-05-27-trending-briefing.md",
     "output/2026-05-28-trending-briefing.md",
@@ -243,7 +244,6 @@
     "node_modules/ieee754/README.md",
     "node_modules/base64-js/README.md",
     "node_modules/buffer/README.md",
-    "node_modules/buffer/AUTHORS.md",
     "avatars/july-avatar-alt.jpg",
     "avatars/july-avatar.jpg",
     "Untitled 1.canvas",
