@@ -12,6 +12,10 @@ const https = require('https');
 const http = require('http');
 const fs = require('fs');
 
+function getTodayStr() {
+  return new Intl.DateTimeFormat('en-CA', { timeZone: 'Australia/Darwin', year: 'numeric', month: '2-digit', day: '2-digit' }).format(new Date());
+}
+
 const BOT_TOKEN = '8560386393:AAG_c6GfsJY-TmleBrU4n8xO17umTLQmKEI';
 const CHAT_ID = '2078996036'; // Bear's Telegram ID
 
@@ -124,7 +128,7 @@ async function generateBriefing() {
     console.log(`Fetched ${results[cat].length} items for ${cat}`);
   }
   
-  const today = new Date().toISOString().split('T')[0];
+  const today = getTodayStr();
   const now = new Date();
   const timeStr = now.toLocaleTimeString('en-AU', { timeZone: 'Australia/Darwin', hour: '2-digit', minute: '2-digit' });
   
@@ -198,7 +202,7 @@ async function main() {
     console.log('=== Trending News Briefing Generator ===');
     console.log('Time:', new Date().toISOString());
     
-    const today = new Date().toISOString().split('T')[0];
+    const today = getTodayStr();
     const fs = require('fs');
     const path = require('path');
     
