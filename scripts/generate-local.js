@@ -378,7 +378,7 @@ async function callMiniMax(systemPrompt, userPrompt, jsonMode = false) {
     providerName = 'Google Gemini (OpenAI-compatible)';
     url = 'https://generativelanguage.googleapis.com/v1beta/openai/chat/completions';
     key = process.env.GEMINI_API_KEY;
-    model = 'gemini-1.5-pro';
+    model = 'gemini-2.5-flash';
   } else if (process.env.OPENAI_API_KEY) {
     providerName = 'OpenAI';
     url = 'https://api.openai.com/v1/chat/completions';

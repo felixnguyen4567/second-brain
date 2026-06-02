@@ -208,6 +208,7 @@
   },
   "active": "6ec1d72a2507f594",
   "lastOpenFiles": [
+    "scratch/test-gemini.js",
     "output/2026-05-28-trending-briefing.md",
     "skills/daily-news-brief/history/2026-06-02.md",
     "output/2026-06-02-trending-briefing.md",
@@ -243,7 +244,6 @@
     "node_modules/util-deprecate/README.md",
     "node_modules/util-deprecate/History.md",
     "node_modules/ieee754/README.md",
-    "node_modules/base64-js/README.md",
     "avatars/july-avatar-alt.jpg",
     "avatars/july-avatar.jpg",
     "Untitled 1.canvas",
