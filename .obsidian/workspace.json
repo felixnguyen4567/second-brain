@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "output/2026-06-02-trending-briefing.md",
+                "file": "output/2026-06-03-trending-briefing.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2026-06-02-trending-briefing"
+              "title": "2026-06-03-trending-briefing"
             }
           }
         ]
@@ -181,10 +181,10 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "output/2026-06-02-trending-briefing.md"
+                "file": "output/2026-06-03-trending-briefing.md"
               },
               "icon": "lucide-info",
-              "title": "File properties for 2026-06-02-trending-briefing"
+              "title": "File properties for 2026-06-03-trending-briefing"
             }
           }
         ],
@@ -208,12 +208,12 @@
   },
   "active": "6ec1d72a2507f594",
   "lastOpenFiles": [
+    "output/2026-06-02-trending-briefing.md",
     "skills/daily-news-brief/history/2026-06-03.md",
     "output/2026-06-03-trending-briefing.md",
     "scratch/test-gemini.js",
     "output/2026-05-28-trending-briefing.md",
     "skills/daily-news-brief/history/2026-06-02.md",
-    "output/2026-06-02-trending-briefing.md",
     "output/2026-05-27-trending-briefing.md",
     "skills/daily-news-brief/news-brief.log",
     "skills/daily-news-brief/history/2026-05-28.md",
