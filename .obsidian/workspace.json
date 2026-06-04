@@ -208,6 +208,7 @@
   },
   "active": "6ec1d72a2507f594",
   "lastOpenFiles": [
+    "scratch/test-search-gen.js",
     "output/2026-06-03-trending-briefing.md",
     "skills/daily-news-brief/history/2026-06-04.md",
     "output/2026-06-04-trending-briefing.md",
@@ -243,7 +244,6 @@
     "node_modules/prebuild-install/CHANGELOG.md",
     "node_modules/prebuild-install/CONTRIBUTING.md",
     "node_modules/better-sqlite3/README.md",
-    "node_modules/string_decoder/README.md",
     "avatars/july-avatar-alt.jpg",
     "avatars/july-avatar.jpg",
     "Untitled 1.canvas",
