@@ -1,3 +1,15 @@
+---
+title: "Trending News Briefing — 2026-06-09"
+type: source
+tags: [trending-news, daily-briefing, world-news, AI, investment]
+created: 2026-06-09
+author: July
+source: web search aggregation
+generated: 2026-06-09T16:15:00Z
+coverage: "4 categories × 5 items = 20 items"
+top_viral_score: 9/10
+---
+
 # 📰 Trending News Briefing — 2026-06-09
 
 > 🕐 Generated at: 16:15 (Darwin Local Time)
