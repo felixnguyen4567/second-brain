@@ -208,6 +208,7 @@
   },
   "active": "6ec1d72a2507f594",
   "lastOpenFiles": [
+    "output/2026-06-15-ai-tech-briefing.md",
     "output/2026-06-09-trending-briefing.md",
     "output/2026-06-11-ai-tech-briefing.md",
     "output/trending-news-briefing-2026-05-18.md",
@@ -243,7 +244,6 @@
     "node_modules/bindings/README.md",
     "node_modules/bindings/LICENSE.md",
     "node_modules/prebuild-install/node_modules/tar-fs/README.md",
-    "node_modules/prebuild-install/node_modules/tar-stream/README.md",
     "avatars/july-avatar-alt.jpg",
     "avatars/july-avatar.jpg",
     "Untitled 1.canvas",
