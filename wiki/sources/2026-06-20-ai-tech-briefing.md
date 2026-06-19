@@ -1,3 +1,15 @@
+---
+title: "Bản Tin AI & Công Nghệ — 2026-06-20"
+type: source
+tags: [ai-news, tech-briefing, daily-briefing, agents, funding]
+created: 2026-06-20
+author: Felix Ng
+source: web search aggregation
+generated: 2026-06-20T08:00:00Z
+coverage: "5 categories × 5 items = 24 items"
+top_viral_score: 10/10
+---
+
 # 🧠 BẢN TIN AI & CÔNG NGHỆ — 20/06/2026 (Thứ Bảy)
 
 > Bản tin hàng ngày về AI, công nghệ, phần mềm hot, dự án viral, và mẹo AI hữu ích.

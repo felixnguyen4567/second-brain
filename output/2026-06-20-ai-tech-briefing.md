@@ -88,7 +88,7 @@ Bộ GitHub spec-kit đang tạo trend lớn: thay đổi cách làm việc từ
 
 ## 💡 AI TIPS & WORKFLOWS
 
-### Tip 1: Bento-Box Prompting — Kỹ thuật cô lập dữ liệu đầu vào để diệt trừ ảo giác
+### Tip 1: Bento-Box Prompting — Phương pháp cô lập dữ liệu đầu vào để diệt trừ ảo giác
 Để ngăn chặn tình trạng LLM bị nhiễu thông tin khi debug hoặc phân tích file cấu hình lớn:
 1. LUÔN tách biệt rõ ràng dữ liệu thô đầu vào như logs, JSON, source code trong các thẻ XML riêng biệt (ví dụ: `<source_code>...</source_code>`).
 2. Đặt toàn bộ các chỉ thị thực thi (instructions) ở phần cuối cùng dưới thẻ `[TASKS]`.
