@@ -1,8 +1,8 @@
 ---
 title: Wiki Index
-updated: 2026-06-20
-page_count: 148
-source_count: 72
+updated: 2026-06-22
+page_count: 149
+source_count: 73
 ---
 
 # 📚 Wiki Index
@@ -148,6 +148,8 @@ This is the master index of the LLM Wiki. It catalogs every page in the wiki wit
 
 - [[sources/2026-06-20-ai-tech-briefing]] — Daily AI & Tech briefing (24 items, AI/Tech/Funding/Projects, June 20, 2026): Anthropic Fable 5, OpenAI IPO investigation, Databricks Summit, Space-based data centers, Arcade.dev funding
 
+- [[sources/2026-06-22-ai-tech-briefing]] — Daily AI & Tech briefing (25 items, AI/Tech/Funding/Projects, June 22, 2026): China Spacesail smartphone voice calls, Canada Bill C-34 chatbot safety, Baseten and Supabase massive funding, trending GitHub repos
+
 ## 📰 News Digests
 
 - [[openclaw_news]] — OpenClaw news summary (May 2, 2026): security crisis, v4.29, creator predictions
@@ -163,4 +165,4 @@ This is the master index of the LLM Wiki. It catalogs every page in the wiki wit
 
 ---
 
-**Total pages:** 124 | **Total sources:** 53 | **Last updated:** 2026-05-21
+**Total pages:** 149 | **Total sources:** 73 | **Last updated:** 2026-06-22
