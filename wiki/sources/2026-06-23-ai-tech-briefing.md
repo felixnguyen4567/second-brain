@@ -1,3 +1,15 @@
+---
+title: "Bản Tin AI & Công Nghệ — 2026-06-23"
+type: source
+tags: [ai-news, tech-briefing, daily-briefing, agents, funding]
+created: 2026-06-23
+author: Felix Ng
+source: web search aggregation
+generated: 2026-06-23T08:00:00Z
+coverage: "5 categories × 5 items = 25 items"
+top_viral_score: 10/10
+---
+
 # 🧠 BẢN TIN AI & CÔNG NGHỆ — 23/06/2026 (Thứ Ba)
 
 > Bản tin hàng ngày về AI, công nghệ, phần mềm hot, dự án viral, và mẹo AI hữu ích.
@@ -102,7 +114,7 @@ Học hỏi từ các system prompt rò rỉ của các mô hình lớn trong d�
 ### Tip 3: Xây dựng Prototype AI với chi phí 0 đồng
 Khi bắt đầu một dự án AI mới, hãy tránh việc đăng ký ngay API trả phí:
 1. Tham khảo danh sách từ **awesome-free-models** để chọn các API miễn phí hoặc tải các mô hình SLM chạy local qua Ollama.
-2. Xây dựng và chạy thử nghiệm luồng nghiệp vụ cốt lõi ngay trên máy cá nhân để kiểm chứng tính khả thi của ý tưởng.
+2. Xây dựng và chạy thử nghiệm luồng nghiệp vụ cốt loi ngay trên máy cá nhân để kiểm chứng tính khả thi của ý tưởng.
 3. Chỉ khi dự án đã chứng minh được giá trị và cần mở rộng quy mô phục vụ khách hàng, bạn mới cấu hình chuyển đổi sang các API đám mây trả phí cao cấp.
 
 ---
