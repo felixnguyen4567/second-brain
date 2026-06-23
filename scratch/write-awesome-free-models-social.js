@@ -1,0 +1,399 @@
+const fs = require('fs');
+const path = require('path');
+const axios = require('axios');
+const Database = require('better-sqlite3');
+require('dotenv').config({ path: path.join(__dirname, '../.env') });
+
+const AUTOMATION_API_KEY = process.env.AUTOMATION_API_KEY;
+const VERCEL_API_URL = 'https://felixng.vercel.app/api/automation';
+const DB_PATH = path.join(__dirname, '../../openclaw-dashboard/openclaw.db');
+
+const TOPIC = "awesome-free-models: How to Build AI Projects with Zero API Bills";
+const TYPE = "AI_NEWS";
+const PILLAR = "Website Article (long-form)";
+const SLUG = "awesome-free-models-zero-cost-ai";
+const COVER_IMAGE_URL = "https://image.pollinations.ai/p/futuristic_glowing_sever_racks_in_a_clean_data_center,_minimal_modern_isometric_design,_concept_of_free_open_source_AI_models_and_zero_cost_infrastructure,_neon_accents,_3d_render,_octane_style?width=1200&height=630&nologo=true&seed=22891";
+
+const ARTICLE_CONTENT = `Cơn ác mộng lớn nhất của các lập trình viên khi phát triển ứng dụng trí tuệ nhân tạo (AI) không nằm ở giải thuật phức tạp, mà là hóa đơn gọi API đám mây từ các ông lớn như OpenAI hay Anthropic. Việc gọi liên tục hàng vạn token trong giai đoạn phát triển, kiểm thử, và tinh chỉnh hệ thống có thể nhanh chóng làm bốc hơi hạn mức thẻ tín dụng của bạn trước khi sản phẩm kịp ra mắt.
+
+May mắn thay, cộng đồng mã nguồn mở đang tích cực xây dựng các giải pháp tự chủ tài chính. Tiêu biểu là kho lưu trữ **12britz/awesome-free-models** trên GitHub. Đây là một danh sách chọn lọc, được cập nhật liên tục các mô hình AI mã nguồn mở chất lượng cao, các nhà cung cấp API miễn phí và các công cụ tự chạy mô hình locally (self-hosted) giúp bạn hiện thực hóa ý tưởng của mình với chi phí hoàn toàn bằng 0.
+
+## Sức Mạnh Từ Các Nhà Cung Cấp API Miễn Phí
+
+Nếu bạn muốn ứng dụng của mình chạy trực tiếp trên môi trường đám mây nhưng không muốn trả phí API, awesome-free-models giới thiệu những cổng dịch vụ cung cấp hạ tầng suy luận miễn phí cực kỳ chất lượng.
+
+Đứng đầu danh sách là **Groq**. Bằng cách sử dụng chip LPU (Language Processing Unit) tự phát triển, Groq cung cấp dịch vụ suy luận mô hình mã nguồn mở (như Llama 3, Mixtral) với tốc độ chóng mặt (lên tới hơn 800 tokens/giây) và cung cấp một gói miễn phí (free tier) vô cùng hào phóng mà không yêu cầu bạn phải điền thẻ tín dụng.
+
+Bên cạnh đó, **OpenRouter** mang tới các cổng API miễn phí để truy cập vào các mô hình mở phổ biến như Llama 3 8B, Qwen 2, hay Mistral 7B. Dịch vụ serverless của **Hugging Face** cũng là một lựa chọn tuyệt vời cho phép bạn deploy và gọi các mô hình máy học nhỏ hoàn toàn miễn phí phục vụ giai đoạn phát triển nguyên mẫu (prototyping).
+
+## Chạy AI Tại Biên: Tự Chủ Trí Tuệ Trên Máy Cá Nhân
+
+Khi các mô hình ngôn ngữ nhỏ (SLMs) ngày càng thông minh hơn, việc chạy mô hình ngay trên phần cứng của bạn đã trở thành một lựa chọn thực tế và khả thi. Công cụ nổi bật giúp đơn giản hóa quy trình này là **Ollama**.
+
+Ollama cho phép tải và chạy các mô hình lớn như Llama 3 8B, Phi-3, Qwen 2, hay Gemma 2 trực tiếp trên máy tính cá nhân (tối ưu hóa xuất sắc cho Apple Silicon, card đồ họa NVIDIA và chip NPU thế hệ mới). Chỉ với một dòng lệnh đơn giản:
+\`\`\`bash
+ollama run llama3
+\`\`\`
+Bạn đã sở hữu một bộ não AI mạnh mẽ hoạt động hoàn toàn offline và bảo mật tuyệt đối dữ liệu cá nhân. Điều tuyệt vời nhất là Ollama tự động mở một cổng kết nối localhost tương thích hoàn toàn với định dạng API của OpenAI. Điều này nghĩa là bạn có thể dễ dàng thay đổi địa chỉ kết nối trong ứng dụng của mình từ API đám mây sang local mà không cần chỉnh sửa logic code.
+
+## Hệ Sinh Thái Phụ Trợ: Từ Giao Diện Đến Trợ Lý Lập Trình
+
+Một mô hình AI chạy local sẽ không có nhiều tác dụng nếu thiếu đi các giao diện tương tác và tích hợp phần mềm. Awesome-free-models cung cấp đầy đủ các mảnh ghép này:
+
+1. **Open WebUI**: Giao diện trò chuyện mã nguồn mở tuyệt đẹp có thiết kế tương tự ChatGPT, cho phép bạn quản lý, tinh chỉnh hệ thống prompt và tương tác trực quan với các mô hình đang chạy trong Ollama.
+2. **Continue.dev**: Tiện ích mở rộng trợ lý lập trình (AI Coding Assistant) mã nguồn mở tích hợp thẳng vào VS Code hoặc JetBrains. Bạn có thể kết nối Continue với mô hình Llama 3 hoặc DeepSeek Coder chạy locally qua Ollama để tự động sinh code, giải thích biệt ngữ và refactor mã nguồn hoàn toàn miễn phí.
+3. **Cline / Agentic Frameworks**: Cho phép các tác nhân tự trị (AI Agents) tự động gọi các công cụ hệ thống và thao tác trên thư mục dự án của bạn mà không lo phát sinh hóa đơn API khổng lồ trong các vòng lặp tự sửa code (self-healing loops).
+
+## Kiến Trúc 0 Đồng: Thiết Kế Luồng Vận Hành Hybrid
+
+Để tối ưu hóa hiệu quả phát triển phần mềm, các nhà phát triển nên thiết lập một luồng kiến trúc kết hợp linh hoạt (Hybrid Architecture):
+
+- **Giai đoạn Phát triển (Development)**: Lập trình viên viết code locally, sử dụng **Continue.dev** kết hợp với **Ollama** chạy mô hình **DeepSeek Coder 7B** làm trợ lý sinh mã. Mọi bối cảnh mã nguồn được giữ kín tại máy cá nhân, bảo mật 100% tài sản trí tuệ.
+- **Giai đoạn Kiểm thử (Staging)**: Deploy ứng dụng lên các nền tảng serverless, sử dụng các đầu kết nối API miễn phí từ **Groq** hoặc **OpenRouter** để kiểm toán hiệu năng và trải nghiệm đa người dùng.
+- **Giai đoạn Vận hành (Production)**: Thiết lập bộ định tuyến AI (AI Router). Định tuyến 80% tác vụ phân loại và xử lý đơn giản về cụm máy chủ local tự host, và chỉ chuyển tiếp 20% các bài toán cực khó lên các API nguồn đóng trả phí cao cấp như Claude 3.5 hay GPT-4.
+
+Awesome-free-models khẳng định rằng việc xây dựng sản phẩm AI chất lượng cao không còn là đặc quyền của các doanh nghiệp lớn nhiều vốn. Sự kết hợp thông minh giữa các công cụ mã nguồn mở và API miễn phí giúp bạn hoàn thành dự án của mình với chi phí 0đ một cách dễ dàng.`;
+
+const SOCIAL_COPIES = {
+  x: `Bạn muốn xây dựng ứng dụng AI nhưng xót tiền gọi API của OpenAI hay Anthropic?
+
+Repo GitHub "awesome-free-models" chính là vị cứu tinh của bạn.
+
+Cách thiết lập hệ thống AI hoàn chỉnh với chi phí 0đ: 🧵
+
+1/6 Cơn ác mộng hóa đơn API:
+Giai đoạn viết code và test ứng dụng ngốn rất nhiều token. Nếu dùng API trả phí, thẻ tín dụng của bạn sẽ bốc hơi cực nhanh.
+↳ Giải pháp: Tận dụng các tài nguyên AI miễn phí được xác thực bởi cộng đồng.
+
+2/6 Tận dụng Free API đám mây:
+Nhiều nền tảng cung cấp gói miễn phí (không cần thẻ tín dụng) cho giai đoạn prototype:
+↳ Groq: Tốc độ siêu tốc (>800 tokens/s) với Llama 3, Mixtral.
+↳ OpenRouter: Cấp API key miễn phí truy cập các dòng mô hình mở.
+↳ Hugging Face serverless.
+
+3/6 Chạy AI offline tại biên (Local AI):
+Sử dụng Ollama để chạy các mô hình Llama 3 8B, Phi-3, Gemma 2 ngay trên máy tính của bạn.
+↳ Tối ưu cho chip Apple Silicon, GPU NVIDIA và NPU.
+↳ Cổng localhost của Ollama tương thích hoàn toàn với OpenAI API, đổi link kết nối trong 1 nốt nhạc.
+
+4/6 Mảnh ghép giao diện & coding:
+↳ Giao diện: Open WebUI tuyệt đẹp, đầy đủ tính năng như ChatGPT để quản lý prompt.
+↳ Trợ lý code: Tích hợp Continue.dev vào VS Code, kết nối Ollama local để sinh mã và giải thích code miễn phí 100%.
+
+5/6 Kiến trúc Hybrid tối ưu chi phí:
+↳ Dev: Dùng Ollama local + Continue.dev để bảo mật code và 0đ API.
+↳ Staging: Dùng Groq/OpenRouter free API kiểm thử đa người dùng.
+↳ Production: Định hướng tác vụ đơn giản về server local tự host, chỉ gửi tác vụ khó lên đám mây trả phí.
+
+6/6 Xây dựng sản phẩm AI chất lượng cao không còn là đặc quyền của các dự án triệu đô.
+Chủ động nắm giữ hạ tầng giúp bạn đi nhanh và bền vững hơn.
+
+Ghé repo 12britz/awesome-free-models để khám phá nhé! Anh em đang dùng tool nào? 👇`,
+
+  fb: `🚀 STOP PAYING FOR AI CLOUD APIs: Build your AI apps for free with awesome-free-models!
+
+Are you tired of watching your credit card limit evaporate during the development and testing phases of your AI project? You don't need paid cloud APIs to start building. 
+
+The GitHub repository **12britz/awesome-free-models** contains a curated, verified index of open-weight models, free API providers (like Groq and OpenRouter), local inference tools (like Ollama), and developer assistants (like Continue.dev). 
+
+By adopting a local-first development model and routing production tasks through a hybrid architecture, you can build, test, and run your AI products with zero cloud costs.
+
+---
+
+🚀 NÓI KHÔNG VỚI HÓA ĐƠN API CLOUD: Xây dựng ứng dụng AI 0đ với awesome-free-models!
+
+Bạn cảm thấy xót tiền khi thẻ tín dụng liên tục bị trừ vì gọi API OpenAI/Anthropic trong quá trình phát triển và kiểm thử? Bạn hoàn toàn có thể bắt đầu dự án mà không tốn một xu.
+
+Repo GitHub **12britz/awesome-free-models** cung cấp danh sách chọn lọc các mô hình nguồn mở chất lượng cao, các cổng API miễn phí (như Groq, OpenRouter), công cụ chạy offline (như Ollama) và trợ lý code (như Continue.dev).
+
+Bằng cách áp dụng quy trình lập trình local-first và thiết kế kiến trúc lai, bạn có thể tự tin xây dựng và vận hành các sản phẩm AI với chi phí cơ sở hạ tầng bằng 0.
+
+#AI #OpenSource #Ollama #Groq #AwesomeFreeModels #DeveloperTools #FelixAIDaily`,
+
+  li: `Developers are facing a silent tax on AI innovation: the cloud API bill. 
+
+During the initial stages of prototyping, testing, and debugging, calling proprietary models over public APIs can cost hundreds of dollars before you write a single line of business logic. 
+
+The repository **12britz/awesome-free-models** represents a growing movement toward architectural independence. It catalogs genuinely free, verified AI developer resources.
+
+Key architectural pillars for zero-cost AI development in 2026:
+↳ Remote Free Tiers: Groq offers ultra-fast LPU inference on open models, while OpenRouter provides free public endpoints for models like Llama 3 and Qwen.
+↳ Local-First Development: Run open-weight models locally via Ollama. It automatically spins up an OpenAI-compatible API endpoint on localhost, allowing you to swap out cloud backends with a single line of environment config.
+↳ Open-Source Extensions: Integrate Continue.dev into VS Code/JetBrains, linking it to local LLMs (like DeepSeek Coder) to act as a free, offline programming assistant.
+
+Sovereign development means owning your infrastructure. By leveraging free local inference for coding and developer loops, engineering teams can insulate their budgets from cloud API volatility.
+
+What does your local AI stack look like this year?
+
+#SoftwareEngineering #AI #DeveloperInfrastructure #OpenSource #Ollama #Groq`,
+
+  ig: `📸 Làm app AI không tốn 1đ tiền API? 💻🛰️
+
+Nếu bạn đang xót tiền vì hóa đơn gọi API OpenAI/Anthropic tăng vọt trong lúc dev và test app, thì repo GitHub "awesome-free-models" chính là câu trả lời.
+
+Danh sách chọn lọc các API miễn phí, mô hình nguồn mở tự chạy và trợ lý code offline giúp bạn hoàn thiện sản phẩm với chi phí 0đ.
+
+Lướt để xem bản đồ các công cụ AI miễn phí tốt nhất hiện nay! 👉
+
+.
+.
+.
+#AI #Ollama #Groq #OpenSource #CodingAssistant #WebDeveloper #TechNews #FelixAIDaily
+
+=== CAROUSEL OUTLINE ===
+Slide 1 — Hook:
+"TẠO APP AI CHI PHÍ 0 ĐỒNG? 💻💰"
+Subtitle: Khám phá repo 12britz/awesome-free-models. Bản đồ công cụ AI miễn phí tốt nhất cho lập trình viên.
+
+Slide 2 — The API Tax:
+"Cơn ác mộng hóa đơn API"
+↳ Giai đoạn dev và viết code thử nghiệm ngốn hàng triệu token.
+↳ Trả phí API đám mây ngay từ đầu rất lãng phí.
+↳ Giải pháp: Tận dụng tài nguyên mã nguồn mở và API miễn phí.
+
+Slide 3 — Cloud Free Tier:
+"Các API miễn phí chất lượng"
+↳ Groq: Tốc độ cực nhanh (>800 tokens/s) với Llama 3, miễn phí không cần điền thẻ tín dụng.
+↳ OpenRouter: Cung cấp API miễn phí kết nối đến các dòng mô hình mở phổ biến.
+↳ Hugging Face serverless.
+
+Slide 4 — Local Inference:
+"Tự chạy AI offline bằng Ollama"
+↳ Chạy Llama 3, Gemma 2, Phi-3 mượt mà ngay trên GPU/NPU của máy cá nhân.
+↳ Cổng localhost của Ollama tương thích 100% với OpenAI API.
+↳ Đổi endpoint kết nối trong cấu hình ứng dụng dễ dàng.
+
+Slide 5 — Free Coding Tools:
+"Trợ lý lập trình miễn phí"
+↳ Continue.dev: Tích hợp trợ lý sinh mã trực tiếp vào VS Code.
+↳ Kết nối với Ollama để code offline, bảo mật mã nguồn nội bộ tuyệt đối.
+↳ Open WebUI: Giao diện ChatGPT tuyệt đẹp chạy trên máy của bạn.
+
+Slide 6 — Hybrid Architecture:
+"Quy trình tối ưu hóa chi phí"
+↳ Dev: Dùng Ollama local + Continue.dev (0đ).
+↳ Staging: Dùng Groq / OpenRouter free API để test đa người dùng.
+↳ Production: Chỉ chuyển hướng các tác vụ cực khó lên API trả phí cao cấp.
+
+Slide 7 — CTA:
+"Làm chủ hạ tầng của bạn! 🔑"
+Bạn đang sử dụng API trả phí hay tự chạy AI local cho dự án của mình?
+Follow @felixng.dev để đón đầu các giải pháp công nghệ tối ưu nhất!
+
+=== REEL IDEA ===
+[VISUAL: A laptop screen displaying a VS Code window and a credit card interface with API bill warnings. Text overlay: "Tired of AI API bills?"]
+Are you building an AI app but hate paying for every single token during development?
+[VISUAL: Zooming in on the GitHub page for 12britz/awesome-free-models]
+Check out this repository: awesome-free-models. It is a curated index of completely free AI tools.
+[VISUAL: Command line running 'ollama run llama3' in a split second]
+You can run powerful models locally on your NPU with Ollama. It gives you an OpenAI-compatible API on localhost for free.
+[VISUAL: Demonstration of VS Code autocomplete via Continue.dev extension]
+Pair it with Continue.dev to get a full AI coding assistant in VS Code without spending a dime.
+[SOUND: Tech cyber beat pacing up]
+Stop paying for tokens while you are still writing code. Go check awesome-free-models!
+Drop your thoughts on local AI below!`,
+
+  tt: `[0-2s HOOK — Nói thẳng vào camera, tay cầm chiếc thẻ tín dụng cắt đôi hoặc che mắt biểu cảm xót xa]
+"Dừng việc cúng tiền API cho OpenAI hay Anthropic chỉ để viết code thử nghiệm đi anh em!"
+
+[2-5s CONTEXT]
+"Hôm nay mình chia sẻ cho các bạn repo GitHub cực hot: awesome-free-models. Bản đồ các tài nguyên AI hoàn toàn miễn phí."
+
+[5-15s KEY POINT 1]
+[VISUAL CUE: Hiện logo Groq và OpenRouter trên nền màn hình code]
+"Nếu muốn chạy đám mây, hãy dùng Groq hoặc OpenRouter. Groq cho tốc độ phản hồi cực nhanh trên 800 tokens/s với mô hình mở, hoàn toàn miễn phí và không cần add thẻ tín dụng."
+
+[15-25s KEY POINT 2]
+[VISUAL CUE: Chạy Ollama trên terminal, hiện dòng chữ Localhost:11434]
+"Muốn bảo mật và offline? Hãy cài Ollama để tự chạy Llama 3 hay Phi-3 ngay trên máy của bạn. Cổng localhost của Ollama tương thích 100% với OpenAI API, đổi link kết nối trong code là xong."
+
+[25-35s KEY POINT 3]
+[VISUAL CUE: Demo tính năng tự sinh code của VS Code và giao diện Open WebUI]
+"Kết hợp thêm giao diện Open WebUI tuyệt đẹp như ChatGPT và cài extension Continue.dev vào VS Code. Bạn sẽ có trợ lý lập trình thông minh sinh code offline miễn phí."
+
+[35-40s CTA]
+[VISUAL CUE: Nút Subscribe và Follow hiện lên]
+"Anh em đang code AI bằng API trả phí hay tự chạy local? Bình luận bên dưới và follow kênh để tối ưu hóa công nghệ nhé!"`,
+
+  threads: `Repo GitHub "awesome-free-models" là cứu cánh cho các developer đang xót tiền trả hóa đơn gọi API OpenAI/Anthropic lúc lập trình thử nghiệm. 💻💰
+
+Làm sao để dựng hệ thống AI chất lượng cao với chi phí 0đ?
+
+Phân tích các công cụ và kiến trúc lai ở bình luận nhé anh em 👇
+
+---
+
+Tại sao lại lãng phí tiền gọi API đám mây trong giai đoạn viết code?
+Lúc dev và test, số lượng token gọi lặp đi lặp lại rất lớn.
+
+Để giải quyết, hãy tận dụng các API miễn phí không cần thẻ tín dụng:
+1. Groq: Tốc độ phản hồi cực nhanh (>800 tokens/s) cho Llama 3, Mixtral.
+2. OpenRouter: API key miễn phí kết nối đến các mô hình mở.
+
+---
+
+Để bảo mật code và chạy offline, hãy sử dụng Ollama:
+- Tự chạy Llama 3 8B, Phi-3 ngay trên máy cá nhân (tối ưu cho Apple Silicon, GPU, NPU).
+- Ollama tự tạo cổng localhost tương thích hoàn toàn với OpenAI API. Bạn có thể đổi đường dẫn kết nối trong code dễ dàng.
+
+---
+
+Mảnh ghép lập trình và giao diện miễn phí:
+1. Giao diện: Open WebUI chạy local, đẹp và đầy đủ tính năng tương tự ChatGPT.
+2. Trợ lý code VS Code: Continue.dev kết nối với Ollama để sinh và sửa mã nguồn hoàn toàn miễn phí.
+
+---
+
+Kiến trúc Hybrid tối ưu cho tương lai:
+- Dev & Test: Dùng Ollama local + Continue.dev (0đ).
+- Staging: Dùng Groq/OpenRouter free API để test đa người dùng.
+- Production: Định tuyến tác vụ phân loại cơ bản về server local, chỉ đẩy tác vụ khó lên API đám mây trả phí.
+
+Anh em có đang tự chạy AI local không? Chia sẻ bên dưới nhé! 👇`
+};
+
+async function main() {
+  console.log('♟️ Starting awesome-free-models Content Generation & Injection...');
+
+  // 1. Save locally in output/
+  const today = new Date();
+  const todayStr = today.toISOString().split('T')[0];
+  const outputFilename = `${todayStr}-social.md`;
+  const outputDir = path.join(__dirname, '../output');
+  if (!fs.existsSync(outputDir)) {
+    fs.mkdirSync(outputDir, { recursive: true });
+  }
+  const outputPath = path.join(outputDir, outputFilename);
+
+  const archiveMarkdown = `# Content Production Log | ${todayStr}
+
+## 🎯 Topic: ${TOPIC}
+- **Type**: ${TYPE}
+- **Pillar**: ${PILLAR}
+- **Slug**: ${SLUG}
+- **Cover Image**: ${COVER_IMAGE_URL}
+
+---
+
+## 📝 Refined Article (Website Draft)
+
+${ARTICLE_CONTENT}
+
+---
+
+## 📢 Multi-Channel Social Content
+
+### 🐦 Twitter/X (Vietnamese Thread)
+${SOCIAL_COPIES.x}
+
+### 📘 Facebook (Bilingual English/Vietnamese)
+${SOCIAL_COPIES.fb}
+
+### 💼 LinkedIn (Professional English - NTHacker)
+${SOCIAL_COPIES.li}
+
+### 📸 Instagram (Caption + Carousel Outline + Reel)
+${SOCIAL_COPIES.ig}
+
+### 🎵 TikTok (Spoken Script)
+${SOCIAL_COPIES.tt}
+
+### 🧵 Threads (Thread Chained)
+${SOCIAL_COPIES.threads}
+`;
+
+  fs.writeFileSync(outputPath, archiveMarkdown, 'utf8');
+  console.log(`💾 Saved complete content generation log to: output/${outputFilename}`);
+
+  // 2. Submit draft to Website CMS API
+  if (AUTOMATION_API_KEY) {
+    console.log('\n🚀 Submitting draft to Felix\'s website CMS...');
+    await submitDraftToWebsite(TOPIC, SLUG, ARTICLE_CONTENT, TYPE, COVER_IMAGE_URL);
+  } else {
+    console.log('⚠️ Skipping website submission (AUTOMATION_API_KEY is not defined).');
+  }
+
+  // 3. SQLite Dashboard Post Injection
+  console.log('\n📊 Queuing post directly in OpenClaw Dashboard SQLite DB...');
+  await queueInDashboard(TOPIC, SOCIAL_COPIES, COVER_IMAGE_URL);
+
+  console.log('\n♟️ Content generation & injection complete! Check your dashboard at http://localhost:3838/posts ! ♟️');
+}
+
+async function queueInDashboard(topic, socialCopies, coverImageUrl) {
+  try {
+    if (!fs.existsSync(DB_PATH)) {
+      console.error('❌ Could not queue in dashboard: SQLite database file does not exist at ' + DB_PATH);
+      return;
+    }
+
+    const db = new Database(DB_PATH);
+
+    // Standardized content title block that matches openclaw-dashboard matcher
+    const structuredContent = `🎯 TIÊU ĐIỂM: ${topic}\n\n📝 CHI TIẾT: ${socialCopies.li.slice(0, 300)}...`;
+    const mediaUrls = JSON.stringify([coverImageUrl]);
+
+    const stmt = db.prepare(`
+      INSERT INTO social_posts (
+        content, media_urls, 
+        content_fb, content_ig, content_x, content_li, content_threads,
+        platform_fb_status, platform_ig_status, platform_x_status, platform_li_status, platform_threads_status
+      ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+    `);
+
+    stmt.run(
+      structuredContent,
+      mediaUrls,
+      socialCopies.fb,
+      socialCopies.ig,
+      socialCopies.x,
+      socialCopies.li,
+      socialCopies.threads,
+      'pending',
+      'pending',
+      'pending',
+      'pending',
+      'pending'
+    );
+
+    db.close();
+    console.log('✅ Successfully queued social post directly in SQLite DB!');
+  } catch (error) {
+    console.error('❌ Failed to queue post in dashboard:', error.message);
+  }
+}
+
+async function submitDraftToWebsite(title, slug, content, type, coverImageUrl) {
+  try {
+    const payload = {
+      title_en: title,
+      title_vi: '', 
+      slug: slug,
+      type: type === 'AI_NEWS' ? 'AI_NEWS' : 'JOURNAL',
+      published: false, // Always false (draft)
+      coverImageUrl: coverImageUrl,
+      content_en: content
+    };
+
+    console.log(`Submitting draft payload to ${VERCEL_API_URL}...`);
+    const response = await axios.post(VERCEL_API_URL, payload, {
+      headers: {
+        'Content-Type': 'application/json',
+        'Authorization': `Bearer ${AUTOMATION_API_KEY}`
+      }
+    });
+
+    if (response.status === 200 || response.status === 201) {
+      console.log('✅ Website draft submitted successfully!');
+    } else {
+      console.error('❌ Website submission failed with status:', response.status, response.data);
+    }
+  } catch (error) {
+    console.error('❌ Connection error to Vercel API:', error.response ? error.response.data : error.message);
+  }
+}
+
+main().catch(err => {
+  console.error('❌ Script failed:', err);
+  process.exit(1);
+});
