@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "output/2026-06-20-ai-tech-briefing.md",
+                "file": "output/2026-06-23-social.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2026-06-20-ai-tech-briefing"
+              "title": "2026-06-23-social"
             }
           }
         ]
@@ -181,10 +181,10 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "output/2026-06-20-ai-tech-briefing.md"
+                "file": "output/2026-06-23-social.md"
               },
               "icon": "lucide-info",
-              "title": "File properties for 2026-06-20-ai-tech-briefing"
+              "title": "File properties for 2026-06-23-social"
             }
           }
         ],
@@ -208,6 +208,15 @@
   },
   "active": "6ec1d72a2507f594",
   "lastOpenFiles": [
+    "scratch/send-telegram-today-24.js",
+    "wiki/sources/2026-06-24-ai-tech-briefing.md",
+    "output/2026-06-24-ai-tech-briefing.md",
+    "skills/daily-news-brief/history/2026-06-24.md",
+    "test-key-without-prefix.js",
+    "test-env-key.js",
+    "test-direct-gemini.js",
+    "test-briefing-gemini.js",
+    "output/2026-06-20-ai-tech-briefing.md",
     "output/2026-06-23-agentic-video-social.md",
     "scratch/write-agentic-video-social.js",
     "output/2026-06-23-social.md",
@@ -225,10 +234,8 @@
     "output/2026-06-20-social.md",
     "scratch/write-fable-social.js",
     "output/2026-06-18-ai-tech-briefing.md",
-    "scratch/send-telegram-today.js",
     "wiki/sources/2026-06-20-ai-tech-briefing.md",
     "skills/daily-news-brief/history/2026-06-20.md",
-    "output/2026-06-20-ai-tech-briefing.md",
     "output/2026-06-18-agent-reach-social.md",
     "output/2026-06-18-social.md",
     "output/trending-news-2026-05-03-v2.md",
@@ -237,13 +244,6 @@
     "output/2026-06-17-ai-tech-briefing.md",
     "output/2026-06-11-ai-tech-briefing.md",
     "output/2026-06-16-ai-tech-briefing.md",
-    "output/2026-06-15-ai-tech-briefing.md",
-    "output/2026-06-09-trending-briefing.md",
-    "skills/daily-news-brief/history/2026-06-11.md",
-    "output/2026-06-04-trending-briefing.md",
-    "scratch/curate-and-update.js",
-    "scratch/raw-news-data.json",
-    "scratch/fetch-raw.js",
     "avatars/july-avatar-alt.jpg",
     "avatars/july-avatar.jpg",
     "Untitled 1.canvas",

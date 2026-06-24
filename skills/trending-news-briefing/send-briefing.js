@@ -243,7 +243,7 @@ async function main() {
     
     // Paths definition
     const outputDir = path.resolve(__dirname, '../../output');
-    const outputPath = path.join(outputDir, `${today}-trending-briefing.md`);
+    const outputPath = path.join(outputDir, `${today}-ai-tech-briefing.md`);
     const historyDir = path.resolve(__dirname, '../daily-news-brief/history');
     const historyPath = path.join(historyDir, `${today}.md`);
 
