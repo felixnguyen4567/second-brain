@@ -210,36 +210,27 @@ Save this video and follow for more tech updates!`,
 [35-40s CTA]
 "Anh em có muốn có một trợ lý tự đọc tin nhắn và làm báo cáo thay mình thế này không? Bình luận bên dưới và bấm follow kênh nhé!"`,
 
-  threads: `Sản xuất video đa kênh Reels/TikTok mà không cần edit timeline thủ công? 🎥💻
+  threads: `WeChat doanh nghiệp (WeCom) vừa tích hợp AI Agent "Dayuan" chạy trên DeepSeek V4 để dọn dẹp việc văn phòng tự động! 🧑‍💻🏢
 
-Đó chính là Agentic Video Production — giải pháp kết hợp Multi-Agent Workflow cùng framework Remotion để lập trình video bằng React.
+Không còn nỗi sợ lội hàng tá tin nhắn group chat hay trả lời hàng chục email thủ công mỗi sáng.
 
-Anh em đọc tiếp phân tích chi tiết ở bình luận nhé 👇
-
----
-
-Tại sao quy trình làm video truyền thống lại là nút thắt lớn nhất của các Content Creator?
-Lên kịch bản, sinh visual, lồng tiếng, làm sub, cắt ghép... Quá nhiều thao tác tay chậm chạp.
-
-Hệ thống Agentic Video Production giải quyết bằng cách chia nhỏ cho các Agent tự trị:
-1. Scriptwriter Agent: Viết kịch bản nói có nhãn timestamps.
-2. Visual Director Agent: Sinh visual qua API (Flux/Runway).
-3. Voiceover Agent: Lồng tiếng qua ElevenLabs.
-4. Transcriber Agent: Chạy Whisper lấy chính xác timestamp của từng từ để làm sub chạy karaoke.
+Chi tiết các tính năng tự trị cực đỉnh của Dayuan ở dưới đây nhé 👇
 
 ---
 
-Điểm đặc sắc nhất: Editor Agent không dùng GUI mà lập trình video!
-Sử dụng Remotion (React-based video rendering framework) để định nghĩa layout bằng code HTML/CSS.
+Nhiều người nghĩ AI văn phòng chỉ là viết email hộ. Nhưng Dayuan đi xa hơn thế nhiều nhờ động cơ DeepSeek V4 (tiết kiệm 90% chi phí token so với GPT):
 
-Khi muốn tạo video mới, Agent chỉ cần nạp dữ liệu (text sub, link ảnh, file âm thanh) vào file cấu hình JSON, Remotion CLI sẽ tự động render ra file mp4 hoàn hảo từng khung hình.
+1. Tóm tắt hội thoại nhóm: Gom tin nhắn theo ngữ cảnh để báo cáo: Ai đang gặp vấn đề gì, đầu việc tiếp theo là gì.
+2. Tự động hóa lịch họp: Nghe hiểu câu chat hẹn gặp của nhân viên để tự động lên lịch WeCom Calendar và gửi lời mời.
 
 ---
 
-Không những thế, hệ thống này scale cực khủng nhờ Cloud Serverless:
-Remotion hỗ trợ đóng gói để chạy render song song trên AWS Lambda. Bạn có thể xuất 100 video Reels/TikTok đồng thời chỉ trong 3 phút với chi phí hạ tầng siêu rẻ.
+Bảo mật dữ liệu công ty thế nào khi cho AI quét chat và email?
+Tencent giải quyết bằng cơ chế Sandbox cô lập tuyệt đối. Dữ liệu hội thoại không đi ra ngoài Internet và cam kết không dùng để huấn luyện các mô hình AI thương mại khác.
 
-Anh em đã bao giờ thử lập trình video bằng code chưa? Chia sẻ góc nhìn bên dưới nhé! 👇`
+Một bước chuyển dịch thực sự từ chatbot thụ động sang Cognitive Enterprise Agent tự trị, giải phóng sức lao động văn phòng!
+
+Anh em có muốn công ty mình tích hợp công nghệ này sớm không? 👇`
 };
 
 async function main() {
@@ -304,8 +295,8 @@ ${SOCIAL_COPIES.threads}
   }
 
   // 3. SQLite Dashboard Post Injection
-  console.log('\n📊 Queuing post directly in OpenClaw Dashboard SQLite DB...');
-  await queueInDashboard(TOPIC, SOCIAL_COPIES, COVER_IMAGE_URL);
+  console.log('\n📊 Queuing post directly in OpenClaw Dashboard SQLite DB... (Commented out to prevent duplicates)');
+  // await queueInDashboard(TOPIC, SOCIAL_COPIES, COVER_IMAGE_URL);
 
   console.log('\n♟️ Content generation & injection complete! Check your dashboard at http://localhost:3838/posts ! ♟️');
 }
