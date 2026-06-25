@@ -1,8 +1,8 @@
 ---
 title: Wiki Index
-updated: 2026-06-24
-page_count: 151
-source_count: 75
+updated: 2026-06-26
+page_count: 152
+source_count: 76
 ---
 
 # 📚 Wiki Index
@@ -153,6 +153,7 @@ This is the master index of the LLM Wiki. It catalogs every page in the wiki wit
 - [[sources/2026-06-23-ai-tech-briefing]] — Daily AI & Tech briefing (25 items, AI/Tech/Funding/Projects, June 23, 2026): Micron strategic Anthropic partnership, Oracle AI layoffs, NVIDIA European supercomputers, SpaceX Reflection compute deal
 
 - [[sources/2026-06-24-ai-tech-briefing]] — Daily AI & Tech briefing (25 items, AI/Tech/Funding/Projects, June 24, 2026): US Senate War Powers resolution on Iran, Nasdaq $1T tech sell-off, Tencent WeCom Dayuan AI agent, Five Eyes secure-by-design warning
+- [[sources/2026-06-26-ai-tech-briefing]] — Daily AI & Tech briefing (25 items, AI/Tech/Funding/Projects, June 26, 2026): IBM sub-1nm chip, Adobe Topaz acquisition, OpenAI Jalapeño chip, Venezuela earthquakes
 
 ## 📰 News Digests
 
@@ -169,4 +170,4 @@ This is the master index of the LLM Wiki. It catalogs every page in the wiki wit
 
 ---
 
-**Total pages:** 151 | **Total sources:** 75 | **Last updated:** 2026-06-24
+**Total pages:** 152 | **Total sources:** 76 | **Last updated:** 2026-06-26
