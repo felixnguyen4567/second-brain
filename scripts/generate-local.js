@@ -84,7 +84,13 @@ async function main() {
   if (optTopic) {
     console.log(`📝 Custom Topic Override: "${optTopic}"`);
     topic = optTopic;
-    sourceSummary = `Manually provided topic: ${optTopic}`;
+    if (optTavily && TAVILY_API_KEY) {
+      console.log(`🔍 Sourcing context via Tavily search for custom topic: "${optTopic}"...`);
+      const searchResults = await searchTavily(optTopic);
+      sourceSummary = searchResults.map(r => `Source: ${r.title}\nURL: ${r.url}\nContent: ${r.content}`).join('\n\n');
+    } else {
+      sourceSummary = `Manually provided topic: ${optTopic}`;
+    }
   } else {
     const useNewsBrief = optNewsBrief || (!optTavily && fs.existsSync(BRIEF_HISTORY_DIR));
     
