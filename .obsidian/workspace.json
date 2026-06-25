@@ -208,6 +208,8 @@
   },
   "active": "6ec1d72a2507f594",
   "lastOpenFiles": [
+    "output/2026-06-25-social.md",
+    "scratch/submit-ibm-post.js",
     "output/2026-06-24-ai-tech-briefing.md",
     "scratch/send-telegram-today-26.js",
     "wiki/sources/2026-06-26-ai-tech-briefing.md",
@@ -225,7 +227,6 @@
     "test-key-without-prefix.js",
     "test-env-key.js",
     "test-direct-gemini.js",
-    "test-briefing-gemini.js",
     "output/2026-06-20-ai-tech-briefing.md",
     "output/2026-06-23-agentic-video-social.md",
     "wiki/sources/2026-06-23-ai-tech-briefing.md",
