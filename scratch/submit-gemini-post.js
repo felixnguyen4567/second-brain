@@ -1,0 +1,317 @@
+const fs = require('fs');
+const path = require('path');
+const axios = require('axios');
+const Database = require('better-sqlite3');
+require('dotenv').config({ path: path.join(__dirname, '../.env') });
+
+const DB_PATH = path.resolve(__dirname, '../../openclaw-dashboard/openclaw.db');
+const AUTOMATION_API_KEY = process.env.AUTOMATION_API_KEY;
+const VERCEL_API_URL = 'https://felixng.vercel.app/api/automation';
+
+// Content Definitions
+const topic = "Google Gemini 2.5 Pro (Deep Think) — Mô hình lập luận sâu thiết lập các tiêu chuẩn";
+const slug = "google-gemini-2-5-pro-deep-think-reasoning-standards";
+const coverImageUrl = "https://image.pollinations.ai/p/futuristic_brain_connected_to_glowing_fiber_optic_networks,_digital_thinking_pathways_diagram_style,_google_ai_aesthetic,_neon_blue_and_purple_lighting,_high-tech_engineering_concept,_3d_render?width=1200&height=630&nologo=true&seed=8824";
+
+const articleMarkdown = `Kỷ nguyên AI tạo sinh đang chuyển dịch từ cuộc đua về tốc độ sang cuộc đua về chiều sâu. Hầu hết các mô hình ngôn ngữ lớn (LLM) hiện nay hoạt động theo cơ chế xác suất tức thời — tạo ra từ tiếp theo (next-token prediction) mà không có sự trì hoãn hay tự đánh giá. Phương pháp này dù nhanh nhưng dễ gãy đổ khi đối mặt với logic phức tạp, toán cao cấp hoặc lập trình hệ thống. Google đã thay đổi cuộc chơi này bằng việc giới thiệu **Gemini 2.5 Pro (Deep Think)**, mô hình bán dẫn thực sự 'suy nghĩ' và phản biện trước khi đưa ra câu trả lời, thiết lập nên những tiêu chuẩn công nghiệp mới cho dòng AI lập luận (Reasoning Models).
+
+Sự đột phá này mở ra hướng đi bền vững cho toàn bộ hệ sinh thái Agentic AI nhờ giải quyết triệt để bài toán về độ tin cậy và tính nhất quán logic của câu trả lời.
+
+## Cơ Chế "Parallel Thinking" Và Khả Năng Tự Phản Biện
+
+Khác với các phương pháp thúc đẩy lập luận truyền thống như Chain-of-Thought (CoT) – vốn yêu cầu mô hình viết ra giấy nháp các bước suy nghĩ trong văn bản phản hồi, cơ chế **Deep Think** của Gemini 2.5 Pro được tích hợp trực tiếp từ bên trong hạt nhân xử lý.
+
+Khi tiếp nhận một bài toán phức tạp, mô hình hoạt động theo nguyên lý **Tư duy song song (Parallel Thinking)**:
+1. **Khám phá đa giả thuyết (Hypothesis Exploration)**: AI không đi theo một đường thẳng logic duy nhất. Nó đồng thời khởi tạo nhiều luồng suy nghĩ khác nhau đằng sau hậu trường.
+2. **Quay lui khi gặp ngõ cụt (Backtracking)**: Nếu một luồng lập luận dẫn đến mâu thuẫn toán học hoặc lỗi biên dịch logic, mô hình tự động phát hiện, hủy bỏ nhánh suy nghĩ đó và quay lại điểm rẽ nhánh để thử nghiệm giả thuyết tiếp theo.
+3. **Cơ chế điều tiết "Thinking Budget" (Ngân sách suy nghĩ)**: Đây là một nâng cấp kỹ thuật tối quan trọng dành cho các nhà phát triển. Thông qua API, kỹ sư có thể lập trình đặt mức ngân sách suy nghĩ cho từng yêu cầu. Nhiệm vụ đơn giản sẽ dùng ngân sách thấp để giảm độ trễ (latency) và chi phí; ngược lại các tác vụ logic nặng (như tối ưu thuật toán hay debug mã nguồn hệ thống) sẽ được cấp ngân sách tối đa để mô hình có đủ thời gian tự phản biện sâu trước khi xuất kết quả.
+
+## Kiến Trúc MoE Và Sức Mạnh Lập Luận Đa Phương Thức
+
+Nền tảng của Gemini 2.5 Pro (Deep Think) nằm ở kiến trúc **Mixture-of-Experts (MoE) thưa (sparse)** kết hợp cùng khả năng xử lý đa phương thức (multimodal) bản địa của Google.
+
+- **Tối ưu hóa tài nguyên qua MoE**: Thay vì kích hoạt toàn bộ mạng lưới tham số khổng lồ cho mỗi token đầu ra, kiến trúc MoE chỉ kích hoạt các mạng chuyên gia (expert networks) phù hợp nhất với ngữ cảnh đầu vào (toán học, viết mã, hội thoại thông thường). Điều này giúp giảm đáng kể chi phí tính toán lý thuyết trong khi vẫn duy trì được độ sâu lập luận.
+- **Cửa sổ ngữ cảnh khổng lồ**: Hỗ trợ cửa sổ ngữ cảnh đầu vào lên tới **1 triệu token** và khả năng sinh đầu ra (output token) lên tới **192.000 token**. Dung lượng sinh cực lớn này là điều kiện bắt buộc để mô hình có thể giải quyết các bài toán chứng minh toán học kéo dài hàng chục trang hoặc thực hiện tái cấu trúc (refactoring) các dự án mã nguồn lớn phức tạp.
+- **Đa phương thức sâu**: Khả năng suy luận logic không chỉ giới hạn ở văn bản. Deep Think có thể lập luận trực tiếp trên hình ảnh kỹ thuật, sơ đồ hệ thống, âm thanh và luồng video để phát hiện các mối quan hệ logic phức tạp, đạt điểm số ấn tượng 84% trên benchmark MMMU.
+
+## Bẻ Gãy Các Benchmark Khó Nhất: USAMO & LiveCodeBench
+
+Độ tin cậy của Gemini 2.5 Pro (Deep Think) đã được chứng minh qua các bài kiểm tra học thuật và lập trình có độ khó cao nhất:
+- **USAMO (Kỳ thi Olympiad Toán học Hoa Kỳ)**: Deep Think đạt điểm số vượt trội so với các mô hình phản xạ nhanh truyền thống, giải quyết thành công các bài toán hình học và đại số chuyên sâu vốn đòi hỏi tư duy hình tượng và chứng minh logic đa bước phức tạp.
+- **LiveCodeBench**: Trên bảng xếp hạng lập trình thi đấu này, mô hình liên tục đưa ra các đoạn mã có tính tối ưu cao về cấu trúc dữ liệu và giải thuật, hạn chế tối đa các lỗi biên dịch logic nhờ khả năng tự giả lập và kiểm thử mã nguồn bên trong luồng suy nghĩ.
+
+## Tầm Nhìn Kỹ Thuật: Nền Móng Cho Kỷ Nguyên AI Agent Tự Trị
+
+Sự ra đời của dòng mô hình lập luận sâu như Gemini 2.5 Pro đánh dấu bước chuyển dịch chiến lược của ngành công nghiệp trí tuệ nhân tạo. Chatbot dạng "hỏi nhanh đáp gọn" chỉ là bước khởi đầu. Mục tiêu cuối cùng của các doanh nghiệp công nghệ là xây dựng những **AI Agent (Tác nhân tự trị)** có khả năng thay thế con người thực thi các quy trình nghiệp vụ phức tạp thông qua API.
+
+Để một AI Agent có thể tự tin gọi API thanh toán, thao tác trên máy tính của người dùng hoặc chỉnh sửa mã nguồn sản xuất, nó bắt buộc phải có khả năng lập luận chính xác tuyệt đối. Nó phải biết tự nghi ngờ giả thuyết của mình, tự chạy thử nghiệm trong sandbox và khắc phục lỗi trước khi nhấn nút xác nhận hành động. 
+
+Gemini 2.5 Pro (Deep Think) chính là viên gạch nền móng đầu tiên chứng minh tính khả thi của tầm nhìn đó, mở đường cho các thế hệ AI Agent tự trị hoàn chỉnh trong tương lai gần.`;
+
+const socialCopies = {
+  x: `Gemini 2.5 Pro (Deep Think) định hình lại AI bằng kiến trúc lập luận sâu (Deep Reasoning) MoE thay vì đoán mò từ tiếp theo.
+
+↳ Cơ chế Parallel Thinking: Tự phản biện và tối ưu hóa suy nghĩ trước khi trả lời.
+↳ 1M context window & sinh tối đa 192k token.
+↳ Giải quyết nút thắt cho AI Agent.`,
+
+  fb: `The paradigm of Generative AI is shifting from speed to depth. 
+
+Most LLMs operate on instant probability — generating the next token without a pause. While efficient, this approach fails under the weight of complex logic, high-level math, or systems programming. Enter Google's **Gemini 2.5 Pro (Deep Think)**, a model that systematically 'thinks' before it speaks.
+
+Built on a sparse Mixture-of-Experts (MoE) architecture, Deep Think employs a 'parallel-thinking' mechanism. Rather than outputting the first path it finds, the model internally explores multiple hypotheses, backtracks when it hits a logical dead-end, and refines its reasoning path. Backed by a 1-million-token context window and a massive 192,000 output token limit, it has set new standards in math (USAMO) and coding (LiveCodeBench). More importantly, it gives developers control over a 'thinking budget' to balance compute cost against reasoning quality. 
+
+Deep reasoning is the ultimate bridge from simple chatbots to fully autonomous AI agents.
+
+---
+
+Kỷ nguyên AI tạo sinh đang chuyển dịch từ cuộc đua về tốc độ sang cuộc đua về chiều sâu.
+
+Hầu hết các mô hình ngôn ngữ lớn hiện nay hoạt động theo cơ chế xác suất tức thời — tạo ra từ tiếp theo mà không có sự trì hoãn hay tự đánh giá. Phương pháp này dù nhanh nhưng dễ gãy đổ khi đối mặt với logic phức tạp, toán cao cấp hoặc lập trình hệ thống. Google đã giải quyết bài toán này với **Gemini 2.5 Pro (Deep Think)**, mô hình bán dẫn thực sự 'suy nghĩ' trước khi đưa ra câu trả lời.
+
+Chạy trên kiến trúc Mixture-of-Experts (MoE), Deep Think sử dụng cơ chế 'tư duy song song' (parallel-thinking). Thay vì trả lời ngay, mô hình tự động phân tích nhiều giả thuyết, quay lui (backtrack) khi gặp ngõ cụt logic và tinh chỉnh lập luận. Với cửa sổ ngữ cảnh 1 triệu token và khả năng sinh tối đa 192.000 token, mô hình đã thiết lập tiêu chuẩn mới trong các kỳ thi toán (USAMO) và lập trình (LiveCodeBench). Đồng thời, nhà phát triển có thể tinh chỉnh 'ngân sách suy nghĩ' (thinking budget) để cân bằng giữa chi phí và độ chính xác.
+
+Tư duy lập luận sâu chính là cầu nối quyết định để đưa chúng ta từ chatbot thông thường lên thế hệ AI Agent tự trị đáng tin cậy.`,
+
+  li: `The true bottleneck of enterprise AI deployment is not latency; it is logical reliability.
+
+Standard LLMs suffer from high error rates in complex environments because they are trained for instant next-token generation. Google's Gemini 2.5 Pro (Deep Think) introduced a paradigm shift by integrating deep reasoning directly into the model's core architecture.
+
+The System Architecture:
+Deep Think utilizes a sparse Mixture-of-Experts (MoE) framework paired with native multi-modal capabilities. Rather than generating answers on the fly, it implements a systematic parallel-thinking process:
+
+1. Internal Hypothesis Testing: The model generates and tests multiple reasoning paths internally, correcting and backtracking when logical errors are detected.
+2. Configurable Thinking Budgets: Engineers can programmatically set the reasoning depth, allowing applications to trade off computation latency for higher logical precision.
+3. 192k Output Token Capacity: With a 1-million-token context input window and a 192,000 output token limit, the model has the bandwidth to process and write massive codebase refactors or long-form mathematical proofs.
+4. Verified Performance: Achieved milestone scores on USAMO (advanced mathematics) and LiveCodeBench (competitive programming), outperforming immediate-response baselines.
+
+Business Impact:
+For builders and enterprises, deep reasoning solves the consistency problem. By replacing external, prompt-engineered Chain-of-Thought loops with native, model-level reasoning, systems become significantly more deterministic. This architectural reliability is the foundation required to transition from fragile chatbots to production-grade autonomous agents that can manage real-world software and APIs.
+
+Is your engineering team utilizing thinking budgets to optimize logic-heavy AI pipelines?`,
+
+  ig: `Google Gemini 2.5 Pro (Deep Think) is changing how AI 'thinks'! 🧠🚀
+
+Most AI models guess the next word instantly. Gemini 2.5 Pro Deep Think is designed to pause, explore different logical paths, and correct itself before giving you an answer. 
+
+Swipe left to see how deep reasoning is setting the new gold standard for AI computing! 👉
+
+.
+.
+.
+#GoogleGemini #DeepThink #ArtificialIntelligence #MachineLearning #TechInnovation #Coding #FutureOfWork #FelixNgDaily
+
+=== CAROUSEL OUTLINE ===
+Slide 1 — Hook:
+AI THAT ACTUALLY THINKS! 🧠💻
+Subtitle: Inside Google Gemini 2.5 Pro (Deep Think) and the rise of deep reasoning.
+
+Slide 2 — The Problem:
+AI is Just Guessing
+↳ Traditional LLMs generate responses instantly.
+↳ Under pressure (complex math, logic, coding), they 'hallucinate' and fail.
+↳ They lack the ability to double-check their own logic.
+
+Slide 3 — The Engine:
+Parallel Thinking & Backtracking
+↳ Gemini 2.5 Pro Deep Think runs a 'parallel-thinking' loop.
+↳ It tests multiple hypotheses internally before outputting text.
+↳ If it hits a logical dead-end, it backtracks and tries a new path.
+
+Slide 4 — Key Specs:
+Massive Compute Window
+↳ Powered by a sparse Mixture-of-Experts (MoE) architecture.
+↳ Supports a 1-million-token input context window.
+↳ Can output up to 192,000 tokens for long-form reasoning.
+
+Slide 5 — Thinking Budgets:
+You Control the Speed
+↳ Developers can set a 'thinking budget'.
+↳ Low budget = fast response (simple tasks).
+↳ Max budget = deep, slow reflection (complex coding & math).
+
+Slide 6 — The Benchmark Shatterer:
+Proven Performance
+↳ Set record-breaking scores on USAMO (Mathematical Olympiad).
+↳ Excelled in LiveCodeBench (complex coding).
+↳ Native multi-modal support (text, code, image, audio, video).
+
+Slide 7 — CTA:
+Are Reasoning Models the Future?
+Would you rather have a fast AI that makes mistakes, or a slow AI that is 100% correct?
+Let's discuss below and follow @felixng.dev for the latest in tech!
+
+=== REEL IDEA ===
+[VISUAL: A fast-paced screen showing code failing, then a loading spinner with the words 'Deep Think Activated'.]
+Stop using prompt templates to force AI to think. Google's Gemini 2.5 Pro Deep Think does it natively.
+[VISUAL: Visual diagram showing traditional AI (Linear path) vs Deep Think (Tree diagram branching and backtracking).]
+Most AIs guess the next word. Deep Think runs a parallel reasoning loop. It drafts, refutes, and refines its ideas before displaying them.
+[VISUAL: Showing the adjustable 'Thinking Budget' slider in a code editor.]
+Developers can adjust the 'Thinking Budget' to balance latency and accuracy.
+[VISUAL: Highlighting the 192k output token limit.]
+With a 192k output capacity, it handles massive math proofs and long-form coding without breaking.
+Save this video and follow for more tech updates!`,
+
+  tt: `[0-2s HOOK — Speaking directly to camera, showing a brain emoji overlay]
+Stop writing 'think step by step' in your AI prompts. Google Gemini 2.5 Pro Deep Think has reasoning built right into its DNA!
+
+[2-8s CONTEXT]
+[VISUAL CUE: Show the Google AI Studio interface running Deep Think with a thinking log visible]
+Normally, AI chatbots guess the next word instantly using probabilities. But when it comes to math or coding, that causes massive errors. 
+
+[8-20s HOW IT WORKS]
+[VISUAL CUE: Simple tree diagram animation showing paths branching out and some getting crossed out]
+Deep Think is different. It uses a sparse Mixture-of-Experts architecture to run a 'parallel-thinking' loop. It literally generates multiple hypotheses internally, double-checks its own logic, backtracks when it makes a mistake, and only outputs the answer when it's sure.
+
+[20-30s METRICS]
+[VISUAL CUE: Highlights of USAMO and LiveCodeBench logos with green checkmarks]
+This reasoning model blew away advanced math benchmarks like USAMO and competitive coding on LiveCodeBench. And it supports a massive 192,000 output token limit.
+
+[30-40s CTA]
+[VISUAL CUE: Host gesturing to comment]
+You can even adjust its 'thinking budget' to trade speed for accuracy. So, would you use a slower, reasoning-focused AI for your daily coding? Let me know and hit follow!`,
+
+  threads: `Không cần gõ thêm câu lệnh 'hãy suy nghĩ từng bước' nữa. 🧠
+
+Google Gemini 2.5 Pro (Deep Think) đã đưa khả năng lập luận sâu (Deep Reasoning) trở thành một tính năng bản địa chạy trực tiếp từ bên trong lõi mô hình.
+
+Đây là bước dịch chuyển quan trọng, định hình lại cách AI tiếp cận các bài toán khó. Chi tiết ở chuỗi dưới đây nhé 👇
+---
+Khác biệt cốt lõi: Hầu hết LLM hiện tại hoạt động theo dạng 'đoán mò' từ tiếp theo dựa trên xác suất tức thì. 
+
+Gemini 2.5 Pro Deep Think thì khác. Nó sử dụng cơ chế 'tư duy song song' (parallel-thinking). Mô hình tự động tạo ra nhiều hướng đi logic, tự phản biện và quay lui (backtrack) nếu phát hiện lỗi sai trước khi hiển thị câu trả lời.
+---
+Sức mạnh phần cứng & Kiến trúc:
+↳ Chạy trên nền tảng Mixture-of-Experts (MoE) tối ưu tài nguyên.
+↳ Cửa sổ ngữ cảnh đầu vào 1 triệu token.
+↳ Khả năng sinh đầu ra (output) lên tới 192.000 token — cực khủng cho các tác vụ lập luận dài hơi.
+---
+Nhà phát triển có thể thiết lập 'ngân sách suy nghĩ' (thinking budget):
+↳ Nhiệm vụ đơn giản: AI trả lời nhanh, tiết kiệm chi phí.
+↳ Bài toán phức tạp (toán USAMO, lập trình hệ thống): AI dành nhiều thời gian hơn để phản biện, đạt độ chính xác tối đa.
+---
+Sự chuyển dịch từ chatbot phản xạ tức thì sang mô hình lập luận sâu MoE chính là điều kiện bắt buộc để xây dựng các AI Agent tự trị đáng tin cậy. 
+
+Anh em đã thử nghiệm cơ chế 'thinking budget' này trên các tác vụ lập trình thực tế chưa? Chia sẻ trải nghiệm bên dưới nhé! 👇`
+};
+
+async function main() {
+  const today = new Date();
+  const todayStr = today.toISOString().split('T')[0];
+  const outputFilename = `${todayStr}-social.md`;
+  const outputPath = path.join(__dirname, '../output', outputFilename);
+
+  const archiveMarkdown = `# Content Production Log | ${todayStr}
+
+## 🎯 Topic: ${topic}
+- **Type**: AI_NEWS
+- **Pillar**: Model Releases (AI News)
+- **Slug**: ${slug}
+- **Cover Image**: ${coverImageUrl}
+
+---
+
+## 📝 Refined Article (Website Draft)
+
+${articleMarkdown}
+
+---
+
+## 📢 Multi-Channel Social Content
+
+### 🐦 Twitter/X (Vietnamese)
+${socialCopies.x}
+
+### 📘 Facebook (Bilingual English/Vietnamese)
+${socialCopies.fb}
+
+### 💼 LinkedIn (Professional English)
+${socialCopies.li}
+
+### 📸 Instagram (English Carousel Hooks)
+${socialCopies.ig}
+
+### 🎵 TikTok (Spoken Script)
+${socialCopies.tt}
+
+### 🧵 Threads (Vietnamese)
+${socialCopies.threads}
+`;
+
+  // 1. Write the log file locally
+  fs.mkdirSync(path.dirname(outputPath), { recursive: true });
+  fs.writeFileSync(outputPath, archiveMarkdown, 'utf8');
+  console.log(`💾 Saved local log to output/${outputFilename}`);
+
+  // 2. Submit draft to Website API
+  if (AUTOMATION_API_KEY) {
+    console.log('🚀 Submitting draft to Felix\'s website...');
+    try {
+      const payload = {
+        title_en: "Google Gemini 2.5 Pro (Deep Think) — Setting Reasoning Standards for AI",
+        title_vi: "Google Gemini 2.5 Pro (Deep Think) — Mô hình lập luận sâu thiết lập các tiêu chuẩn",
+        slug: slug,
+        type: 'AI_NEWS',
+        published: false,
+        coverImageUrl: coverImageUrl,
+        content_en: articleMarkdown
+      };
+      const response = await axios.post(VERCEL_API_URL, payload, {
+        headers: {
+          'Authorization': `Bearer ${AUTOMATION_API_KEY}`,
+          'Content-Type': 'application/json'
+        }
+      });
+      console.log('✅ Website API response:', response.status, response.data);
+    } catch (err) {
+      console.error('❌ Website submission failed:', err.response ? err.response.data : err.message);
+    }
+  } else {
+    console.log('⚠️ Skipping website submission (AUTOMATION_API_KEY missing).');
+  }
+
+  // 3. Queue in SQLite DB
+  if (fs.existsSync(DB_PATH)) {
+    console.log('📊 Connecting to SQLite database...');
+    try {
+      const db = new Database(DB_PATH);
+      const structuredContent = `🎯 TIÊU ĐIỂM: ${topic}\n\n📝 CHI TIẾT: ${socialCopies.li.slice(0, 300)}...`;
+      const mediaUrls = JSON.stringify([coverImageUrl]);
+
+      const stmt = db.prepare(`
+        INSERT INTO social_posts (
+          content, media_urls, 
+          content_fb, content_ig, content_x, content_li, content_threads,
+          platform_fb_status, platform_ig_status, platform_x_status, platform_li_status, platform_threads_status
+        ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+      `);
+
+      stmt.run(
+        structuredContent,
+        mediaUrls,
+        socialCopies.fb,
+        socialCopies.ig,
+        socialCopies.x,
+        socialCopies.li,
+        socialCopies.threads,
+        'pending',
+        'pending',
+        'pending',
+        'pending',
+        'pending'
+      );
+      db.close();
+      console.log('✅ Successfully queued social post in Dashboard DB!');
+    } catch (dbErr) {
+      console.error('❌ Database insertion failed:', dbErr.message);
+    }
+  } else {
+    console.log('⚠️ Skipping dashboard DB queue (SQLite DB file not found).');
+  }
+
+  console.log('🎉 Execution complete!');
+}
+
+main().catch(err => {
+  console.error('Script failure:', err);
+});
