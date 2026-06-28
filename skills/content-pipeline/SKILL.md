@@ -47,6 +47,28 @@ Draft TWO articles in the `output/` folder:
 - Language: English (with Vietnamese touches)
 - Tone: Reflective, like talking to a smart friend over coffee
 
+### Phase 2.5: Cover Image Generation (MANDATORY)
+**Every article and social post MUST have a cover image.** No exceptions.
+
+1. **Generate cover** (1200×630) using `generate_image` tool with a cinematic, premium tech aesthetic prompt
+2. **Save locally** to `openclaw-dashboard/public/covers/{topic-name}.png`
+3. **Upload to Supabase Storage** `covers` bucket via service role key (bypasses RLS):
+   ```bash
+   curl -X POST "${SUPABASE_URL}/storage/v1/object/covers/${filename}" \
+     -H "Authorization: Bearer ${SUPABASE_SERVICE_ROLE_KEY}" \
+     -H "Content-Type: image/png" \
+     -H "x-upsert: true" \
+     --data-binary @path/to/cover.png
+   ```
+4. **Update `media_urls`** in the social_posts SQLite record:
+   ```sql
+   UPDATE social_posts SET media_urls = '["/covers/{filename}"]' WHERE id = {post_id};
+   ```
+5. **Add keyword mapping** in `getDynamicAIImage()` in `src/app/posts/actions.ts` so future posts with similar topics auto-select this cover.
+
+> **CRITICAL**: If `media_urls` is empty, the dashboard will try to auto-generate via `getDynamicAIImage()` fallback — but explicit cover generation produces significantly better results.
+
+
 ### Phase 3: Submit to Website (2 min)
 For each article, call the Automation API:
 
