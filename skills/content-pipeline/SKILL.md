@@ -105,6 +105,7 @@ Include ALL of the following sections:
 ```
 output/
 ├── YYYY-MM-DD-trending-briefing.md  ← Input (from trending-news cron)
+├── YYYY-MM-DD-ai-tech-briefing.md   ← Daily AI/Tech Brief (v3 format)
 ├── YYYY-MM-DD-ai-news.md            ← Pillar 1
 ├── YYYY-MM-DD-journal.md            ← Pillar 2
 └── YYYY-MM-DD-social.md             ← All social variants
@@ -114,3 +115,43 @@ output/
 - If Automation API returns non-200: log error, save draft locally, notify Bear via Telegram
 - If Tavily unavailable: fall back to wiki sources for research
 - If jq not installed: use Node.js fetch pattern instead
+
+---
+
+## AI & Tech Daily Briefing — Format Specification (v3)
+
+> **CRITICAL**: When generating the daily `ai-tech-briefing.md`, you MUST follow the template at:
+> `skills/content-pipeline/templates/ai-tech-briefing-template.md`
+
+### Structure: 5 categories × 5 items = 25 items
+| Category | Icon | Focus | Score Label |
+|---|---|---|---|
+| Hot Tools & Apps | 🔥 | AI models, SaaS, commercial platforms | Hype |
+| Viral Projects & Repos | 🚀 | GitHub trending, open-source, Product Hunt | Hype |
+| AI Tips & Workflows | 💡 | Prompting, automation, methodology | Usefulness |
+| Dev Tools & Frameworks | 🛠️ | SDKs, framework releases, language features | Impact |
+| Big Moves & Funding | 📊 | VC rounds, M&A, IPOs, earnings | Significance |
+
+### Mandatory Metadata Per Item
+Each item MUST include:
+1. **English title** (not Vietnamese — preserves searchability)
+2. **Score: X/10 + color emoji** (🔴 9-10, 🟠 7-8, 🟡 5-6, 🟢 3-4, ⚪ 1-2)
+3. **Tags**: backtick-wrapped, English, lowercase
+4. **Summary**: 2-3 sentences in Vietnamese only
+5. **Link/Repo/Release**: clickable URL
+6. **Source**: clickable URL with source name
+7. **Pricing** (for tools/apps) or **Amount** (for funding) or **Tech Stack** (for repos)
+8. **Content potential** (optional): star rating + one-line pitch
+
+### Content Scope Rules
+- **ONLY AI/Tech/Dev/Funding content** — no pure geopolitics, natural disasters, or sports
+- Exception: geopolitical events that directly impact tech (e.g., chip export sanctions)
+- Deduplicate aggressively across categories
+
+### Footer: TOP 3 CONTENT PICKS
+Each pick MUST include: Từ danh mục, Góc viết, Platforms phù hợp, Tại sao nên viết.
+
+### Reference Implementation
+See: `output/2026-06-11-ai-tech-briefing.md` (original v1)
+See: `output/2026-06-28-ai-tech-briefing.md` (v3 standardized)
+
